@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAREX ENGENHARIA | Pré-Auditoria do Almoxarifado & Matriz de Treinamentos (ISO 9001:2015)</title>
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Outfit:wght@300;400;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== TOP BRAND HEADER (PAREX BRANDBOOK 2024) ==================== -->
+  <header class="brand-header">
+    <div class="header-inner">
+      <div class="brand-identity">
+        <div class="brand-logo-wrap">
+          <img src="assets/parex-logo-negativa.png" alt="Parex Engenharia S/A" class="brand-logo" />
+          <div class="parex-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="brand-titles">
+          <div class="doc-badge-row">
+            <span class="badge-pill badge-orange">FO-08-031 REV. 2 • PRÉ-AUDITORIA ALMOXARIFADO</span>
+            <span class="badge-pill badge-cyan">PIT PI-1000KN-Q-500004 • BOOK REV. 10</span>
+            <span class="badge-pill badge-iso">ABNT NBR ISO 9001:2015</span>
+          </div>
+          <h1>Portal de Pré-Auditoria SGI do Almoxarifado &amp; Matriz de Treinamentos (MR-03-001)</h1>
+          <p>PABH 041 22 • Vale — Projeto de Adequação da Usina 1 — Parauapebas-PA (Contrato 5900110079 / Obra N1341)</p>
+        </div>
+      </div>
+
+      <div class="header-actions no-print">
+        <button type="button" class="btn btn-primary" onclick="window.PAREX_PDF.exportFullAuditPDF()">
+          <span>📄 Exportar Relatório ISO 9001 (PDF Assinado)</span>
+        </button>
+        <button type="button" class="btn btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">
+          <span>🎓 Exportar PDF Matriz Treinamentos</span>
+        </button>
+        <button type="button" class="btn btn-outline-light" onclick="window.PAREX_APP.switchTab('relatorio'); setTimeout(() => window.print(), 250);">
+          <span>🖨️ Imprimir / PDF A4</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- ==================== ISO 9001 IDENTIFICATION FORM HEADER ==================== -->
+    <section class="iso-header-card" aria-label="Dados de Identificação da Auditoria ISO 9001">
+      <div class="iso-card-top">
+        <div class="iso-card-title">
+          <div class="parex-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+          <h2>Formulário de Identificação da Pré-Auditoria — Padrão ABNT NBR ISO 9001:2015 (FO-08-031 / PG-03-002 R10)</h2>
+        </div>
+        <div class="iso-meta-badges">
+          <span class="meta-tag">Auditoria Oficial SGI: 07 a 09/12/2026 (08:30–16:30)</span>
+          <span class="meta-tag">Auditores Líderes SGI: Rodson Barbosa / Pedro Mundim</span>
+          <span class="meta-tag" id="liveTimestampBadge">Data/Hora: --/--/---- --:--:--</span>
+        </div>
+      </div>
+
+      <div class="iso-form-grid">
+        <div class="form-group col-4">
+          <label for="metaAuditor">Nome do Auditor <span class="req-star">*</span></label>
+          <input type="text" id="metaAuditor" class="form-control" value="Gabriel Pereira dos Santos" placeholder="Nome completo do auditor" />
+        </div>
+        <div class="form-group col-3">
+          <label for="metaAuditorRole">Cargo / Registro Profissional (CRT)</label>
+          <input type="text" id="metaAuditorRole" class="form-control" value="Técnico em Qualidade • CRT - 5359772/2024" />
+        </div>
+        <div class="form-group col-5">
+          <label for="metaAuditado">Nome do(s) Auditado(s) <span class="req-star">*</span></label>
+          <input type="text" id="metaAuditado" class="form-control" value="Francisco Adevaldo da Silva / Miqueias de Sousa Monteiro / Maycon Jader P. Muniz" placeholder="Responsáveis pelo Almoxarifado / Suprimentos" />
+        </div>
+
+        <div class="form-group col-4">
+          <label for="metaArea">Área / Processo Auditado <span class="req-star">*</span></label>
+          <input type="text" id="metaArea" class="form-control" value="Operacional — Almoxarifado, Recebimento, Preservação e Metrologia" />
+        </div>
+        <div class="form-group col-4">
+          <label for="metaLocal">Local / Obra / Contrato <span class="req-star">*</span></label>
+          <input type="text" id="metaLocal" class="form-control" value="PABH 041 22 - Vale - Projeto de Adequação da Usina 1 - Parauapebas-PA (N1341)" />
+        </div>
+        <div class="form-group col-2">
+          <label for="metaData">Data <span class="req-star">*</span></label>
+          <input type="date" id="metaData" class="form-control" value="2026-11-24" />
+        </div>
+        <div class="form-group col-2">
+          <label for="metaHora">Horário <span class="req-star">*</span></label>
+          <input type="time" id="metaHora" class="form-control" step="1" value="09:30:00" />
+        </div>
+
+        <div class="form-group col-12">
+          <label for="metaObjetivo">Objetivo &amp; Critérios Normativos da Pré-Auditoria (ISO 9001:2015 / Book PR-1000KN-Q-500012 Rev. 10)</label>
+          <input type="text" id="metaObjetivo" class="form-control" value="Verificação preventiva de conformidade do Almoxarifado frente ao Plano FO-08-031 Rev. 2 (Requisitos ISO 9001: 5.1, 5.2, 7.1.5, 7.2, 7.3, 7.5.3, 8.1, 8.4, 8.5.1 a 8.5.6, 8.6, 8.7 e 10.2), PIT PI-1000KN-Q-500004 (Seções 1.0 e 2.0), Reincidências SGI 2024–2026 e Matriz MR-03-001 Rev. 8." />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXECUTIVE COMPLIANCE SCORECARD ==================== -->
+    <section class="kpi-dashboard" aria-label="Indicadores de Conformidade do Almoxarifado">
+      <div class="kpi-card kpi-hero">
+        <div class="kpi-top">
+          <span class="kpi-label">ÍNDICE GERAL DE CONFORMIDADE DO ALMOXARIFADO</span>
+          <span class="badge-pill badge-orange" id="kpiOverallBadge">ISO 9001:2015</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiOverallPct">0,0%</span>
+          <span class="kpi-sub" id="kpiOverallFormula">(C / [C + NC])</span>
+        </div>
+        <div class="kpi-sub" id="kpiOverallSummaryText">Calculando itens auditados do PIT + Reincidências...</div>
+        <div class="progress-track">
+          <div class="progress-fill" id="kpiOverallBar" style="width: 0%;"></div>
+        </div>
+        <div class="kpi-counts">
+          <span class="count-pill count-c" id="kpiOverallC">0 Conforme</span>
+          <span class="count-pill count-nc" id="kpiOverallNC">0 Não Conforme</span>
+          <span class="count-pill count-na" id="kpiOverallNA">0 N/A</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">1. PLANO DE INSPEÇÃO (PIT &amp; CANÔNICOS)</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiPitPct">0,0%</span>
+        </div>
+        <div class="kpi-sub" id="kpiPitSub">12 pontos do PIT Seções 1.0 e 2.0</div>
+        <div class="progress-track">
+          <div class="progress-fill" id="kpiPitBar" style="width: 0%; background-color: var(--parex-navy);"></div>
+        </div>
+        <div class="kpi-counts">
+          <span class="count-pill count-c" id="kpiPitC">0 C</span>
+          <span class="count-pill count-nc" id="kpiPitNC">0 NC</span>
+          <span class="count-pill count-na" id="kpiPitNA">0 NA</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">2. REINCIDÊNCIAS DO E-MAIL (2024–2026)</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiRecPct">0,0%</span>
+        </div>
+        <div class="kpi-sub" id="kpiRecSub">8 pontos críticos (RNCs &amp; FO-128)</div>
+        <div class="progress-track">
+          <div class="progress-fill" id="kpiRecBar" style="width: 0%; background-color: var(--parex-orange);"></div>
+        </div>
+        <div class="kpi-counts">
+          <span class="count-pill count-c" id="kpiRecC">0 C</span>
+          <span class="count-pill count-nc" id="kpiRecNC">0 NC</span>
+          <span class="count-pill count-na" id="kpiRecNA">0 NA</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">3. ADERÊNCIA TREINAMENTOS ALMOX.</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiAlmoxTrainPct">0,0%</span>
+        </div>
+        <div class="kpi-sub" id="kpiAlmoxTrainSub">20 colaboradores do Almoxarifado</div>
+        <div class="progress-track">
+          <div class="progress-fill" id="kpiAlmoxTrainBar" style="width: 0%; background-color: var(--parex-cyan);"></div>
+        </div>
+        <div class="kpi-counts">
+          <span class="count-pill count-c" id="kpiAlmoxTrainDone">0 Treinamentos OK</span>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">4. MATRIZ EFETIVO GERAL (MR-03-001)</span>
+        </div>
+        <div class="kpi-value-row">
+          <span class="kpi-value" id="kpiGlobalTrainPct">0,0%</span>
+        </div>
+        <div class="kpi-sub" id="kpiGlobalTrainSub">1.110 colaboradores • 140 cargos</div>
+        <div class="progress-track">
+          <div class="progress-fill" id="kpiGlobalTrainBar" style="width: 0%; background-color: var(--status-c);"></div>
+        </div>
+        <div class="kpi-counts">
+          <span class="count-pill count-na" id="kpiGlobalTrainCount">0 Colaboradores Qualificados</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== NAVIGATION TABS ==================== -->
+    <nav class="nav-tabs-bar" aria-label="Navegação de Módulos da Pré-Auditoria">
+      <button type="button" class="nav-tab active" data-tab="pit" onclick="window.PAREX_APP.switchTab('pit')">
+        <span class="nav-tab-left">
+          <span class="tab-num">1</span>
+          <span>Plano de Inspeção (PIT &amp; Procedimentos)</span>
+        </span>
+        <span class="tab-badge" id="badgeTabPit">12 Itens</span>
+      </button>
+
+      <button type="button" class="nav-tab" data-tab="reincidencias" onclick="window.PAREX_APP.switchTab('reincidencias')">
+        <span class="nav-tab-left">
+          <span class="tab-num">2</span>
+          <span>Inspeção Pontual de Reincidências (E-mail)</span>
+        </span>
+        <span class="tab-badge" id="badgeTabRec">8 Críticos</span>
+      </button>
+
+      <button type="button" class="nav-tab" data-tab="treinamentos" onclick="window.PAREX_APP.switchTab('treinamentos')">
+        <span class="nav-tab-left">
+          <span class="tab-num">3</span>
+          <span>Matriz de Treinamentos do Efetivo (1.110)</span>
+        </span>
+        <span class="tab-badge" id="badgeTabTrain">140 Cargos</span>
+      </button>
+
+      <button type="button" class="nav-tab" data-tab="relatorio" onclick="window.PAREX_APP.switchTab('relatorio')">
+        <span class="nav-tab-left">
+          <span class="tab-num">4</span>
+          <span>Relatório Final ISO 9001 &amp; Assinatura Digital</span>
+        </span>
+        <span class="tab-badge" id="badgeTabReport">Carimbo + PDF</span>
+      </button>
+    </nav>
+
+    <!-- ==================== TAB 1: PLANO DE INSPEÇÃO (PIT & PROCEDIMENTOS CANÔNICOS) ==================== -->
+    <section id="panel-pit" class="tab-panel active" aria-label="Pontos do Plano de Inspeção PIT e Procedimentos Canônicos">
+      <div class="section-toolbar">
+        <div class="toolbar-left">
+          <strong class="font-display" style="color: var(--parex-navy);">Filtrar Pontos do PIT:</strong>
+          <button type="button" class="filter-chip active" data-pit-filter="ALL" onclick="window.PAREX_APP.filterPit('ALL')">Todos (12)</button>
+          <button type="button" class="filter-chip" data-pit-filter="C" onclick="window.PAREX_APP.filterPit('C')">✓ Conformes</button>
+          <button type="button" class="filter-chip" data-pit-filter="NC" onclick="window.PAREX_APP.filterPit('NC')">✕ Não Conformes</button>
+          <button type="button" class="filter-chip" data-pit-filter="NA" onclick="window.PAREX_APP.filterPit('NA')">— N/A</button>
+        </div>
+        <div class="toolbar-right">
+          <button type="button" class="btn btn-sm btn-outline" onclick="window.PAREX_APP.markAllSection('pit', 'C')">✓ Marcar Todos Conforme</button>
+          <button type="button" class="btn btn-sm btn-outline" onclick="window.PAREX_APP.resetToBaseline()">↺ Restaurar Diagnóstico Base da Pré-Auditoria</button>
+        </div>
+      </div>
+
+      <div id="pitCardsContainer" class="inspection-grid"></div>
+    </section>
+
+    <!-- ==================== TAB 2: INSPEÇÃO PONTUAL DE REINCIDÊNCIAS DO E-MAIL ==================== -->
+    <section id="panel-reincidencias" class="tab-panel" aria-label="Inspeção Pontual de Reincidências do Almoxarifado">
+      <div class="section-toolbar">
+        <div class="toolbar-left">
+          <strong class="font-display" style="color: var(--parex-navy);">Reincidências SGI (E-mail 23/11/2026 — Gleidson Mesquita &amp; Edson Batista + FO-128):</strong>
+          <button type="button" class="filter-chip active" data-rec-filter="ALL" onclick="window.PAREX_APP.filterRec('ALL')">Todas (8)</button>
+          <button type="button" class="filter-chip" data-rec-filter="NC" onclick="window.PAREX_APP.filterRec('NC')">✕ Pendentes / Não Conformes</button>
+          <button type="button" class="filter-chip" data-rec-filter="C" onclick="window.PAREX_APP.filterRec('C')">✓ Saneadas / Conformes</button>
+        </div>
+        <div class="toolbar-right">
+          <button type="button" class="btn btn-sm btn-primary" onclick="window.PAREX_PDF.exportRecurrencesPDF()">📄 Exportar Relatório Pontual de Reincidências (PDF Assinado)</button>
+        </div>
+      </div>
+
+      <div id="recCardsContainer" class="inspection-grid"></div>
+    </section>
+
+    <!-- ==================== TAB 3: MATRIZ DE TREINAMENTOS DO EFETIVO (MR-03-001 × 1.110) ==================== -->
+    <section id="panel-treinamentos" class="tab-panel" aria-label="Matriz de Treinamentos do Efetivo MR-03-001">
+      <div class="section-toolbar">
+        <div class="toolbar-left">
+          <strong class="font-display" style="color: var(--parex-navy);">Atalhos de Setor (MR-03-001 R8):</strong>
+          <button type="button" class="filter-chip active" data-sector-chip="ADM::Almoxarifado" onclick="window.PAREX_APP.setMatrixSectorFilter('ADM::Almoxarifado')">📦 Só Almoxarifado (20)</button>
+          <button type="button" class="filter-chip" data-sector-chip="ALL" onclick="window.PAREX_APP.setMatrixSectorFilter('ALL')">👥 Todo o Efetivo (1.110)</button>
+          <button type="button" class="filter-chip" data-sector-chip="ADM::Controle da qualidade" onclick="window.PAREX_APP.setMatrixSectorFilter('ADM::Controle da qualidade')">🔍 Controle da Qualidade (34)</button>
+          <button type="button" class="filter-chip" data-sector-chip="OP::Solda" onclick="window.PAREX_APP.setMatrixSectorFilter('OP::Solda')">🔥 Solda (99)</button>
+          <button type="button" class="filter-chip" data-sector-chip="ADM::Compras" onclick="window.PAREX_APP.setMatrixSectorFilter('ADM::Compras')">🛒 Suprimentos / Compras</button>
+          <button type="button" class="filter-chip" data-sector-chip="AUDIT_HIGHLIGHTS" onclick="window.PAREX_APP.setMatrixSectorFilter('AUDIT_HIGHLIGHTS')">⚠️ Citados no E-mail / Auditoria</button>
+        </div>
+        <div class="toolbar-right">
+          <button type="button" class="btn btn-sm btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">📄 Exportar Relatório PDF da Matriz (Com Carimbo e Rubrica)</button>
+        </div>
+      </div>
+
+      <div class="matrix-layout">
+        <!-- Left Column: Filterable Roster of 1,110 Employees -->
+        <aside class="employee-roster-card">
+          <div class="roster-header">
+            <h3>Efetivo Presente (23/11/2026)</h3>
+            <span class="badge-pill badge-orange" id="rosterCountBadge">20 Colaboradores</span>
+          </div>
+
+          <div class="roster-filters">
+            <div class="form-group">
+              <label for="matrixSectorSelect">1. Filtrar por Área / Disciplina da Matriz (MR-03-001)</label>
+              <select id="matrixSectorSelect" class="form-control" onchange="window.PAREX_APP.onMatrixFilterChange()"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="matrixCargoSelect">2. Filtrar por Cargo / Função (140 Cargos)</label>
+              <select id="matrixCargoSelect" class="form-control" onchange="window.PAREX_APP.onMatrixFilterChange()"></select>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+              <div class="form-group">
+                <label for="matrixStatusSelect">3. Status Ponto</label>
+                <select id="matrixStatusSelect" class="form-control" onchange="window.PAREX_APP.onMatrixFilterChange()">
+                  <option value="ALL">Todos os Status</option>
+                  <option value="PRESENTE">PRESENTE (Dia/Turno)</option>
+                  <option value="FALTA">FALTA</option>
+                  <option value="FÉRIAS">FÉRIAS</option>
+                  <option value="FOLGA">FOLGA DE CAMPO</option>
+                  <option value="ATESTADO">ATESTADO</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="matrixSearchInput">4. Buscar Nome / Chapa</label>
+                <input type="search" id="matrixSearchInput" class="form-control" placeholder="Ex: Miqueias, 030282..." oninput="window.PAREX_APP.onMatrixFilterChange()" />
+              </div>
+            </div>
+          </div>
+
+          <div id="employeeRosterList" class="roster-list"></div>
+        </aside>
+
+        <!-- Right Column: Selected Employee Qualification Matrix -->
+        <div class="employee-detail-card" id="employeeDetailPanel">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 4: RELATÓRIO FINAL ISO 9001 & ASSINATURA DIGITAL ==================== -->
+    <section id="panel-relatorio" class="tab-panel" aria-label="Relatório Consolidado de Pré-Auditoria e Assinatura Digital">
+      <div class="section-toolbar no-print">
+        <div class="toolbar-left">
+          <strong class="font-display" style="color: var(--parex-navy);">Exportação Oficial com Assinatura Digital, Carimbo, Rubrica, Data e Horário:</strong>
+        </div>
+        <div class="toolbar-right">
+          <button type="button" class="btn btn-primary" onclick="window.PAREX_PDF.exportFullAuditPDF()">📄 Baixar PDF Completo ISO 9001</button>
+          <button type="button" class="btn btn-navy" onclick="window.PAREX_PDF.exportRecurrencesPDF()">🎯 Baixar PDF Reincidências</button>
+          <button type="button" class="btn btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">🎓 Baixar PDF Matriz Treinamentos</button>
+          <button type="button" class="btn btn-outline" onclick="window.print()">🖨️ Imprimir A4</button>
+          <button type="button" class="btn btn-outline" onclick="window.PAREX_APP.exportBackupJSON()">💾 Exportar JSON</button>
+          <button type="button" class="btn btn-outline" onclick="window.PAREX_APP.shareWhatsAppSummary()">📲 Resumo WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="report-sheet" id="printableReportSheet">
+        <div class="report-sheet-header">
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <img src="assets/parex-logo-positiva.png" alt="Parex Engenharia S/A" class="report-logo-pos" />
+            <div>
+              <div style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: var(--parex-orange); text-transform: uppercase; letter-spacing: 0.05em;">
+                SISTEMA DE GESTÃO INTEGRADO — QUALIDADE (ABNT NBR ISO 9001:2015)
+              </div>
+              <h2 style="font-size: 20px; font-weight: 800; color: var(--parex-navy);">
+                RELATÓRIO DE PRÉ-AUDITORIA DO ALMOXARIFADO &amp; MATRIZ DE TREINAMENTOS
+              </h2>
+              <div style="font-size: 12.5px; color: var(--parex-text-muted);">
+                Baseado no Plano da Auditoria FO-08-031 Rev. 2 • PIT PI-1000KN-Q-500004 • Book PR-1000KN-Q-500012 Rev. 10 • MR-03-001 Rev. 8
+              </div>
+            </div>
+          </div>
+
+          <div class="report-doc-box">
+            <div><strong>Código: FO-08-031 / PG-03-002 R10</strong></div>
+            <div>Contrato Vale: 5900110079 (Obra N1341)</div>
+            <div>Escopo: PABH 041 22 — Adequação da Usina 1</div>
+            <div id="reportHeaderTimestamp">Emissão: 24/11/2026 09:30:00</div>
+          </div>
+        </div>
+
+        <!-- Identification Table -->
+        <table class="report-meta-table">
+          <tbody>
+            <tr>
+              <th>Auditor Responsável</th>
+              <td id="repAuditor">Gabriel Pereira dos Santos (Técnico em Qualidade • CRT - 5359772/2024)</td>
+              <th>Data e Horário</th>
+              <td id="repDataHora">24/11/2026 às 09:30:00</td>
+            </tr>
+            <tr>
+              <th>Auditado(s)</th>
+              <td id="repAuditado">Francisco Adevaldo da Silva / Miqueias de Sousa Monteiro / Maycon Jader P. Muniz</td>
+              <th>Área / Setor</th>
+              <td id="repArea">Operacional — Almoxarifado, Recebimento, Preservação e Metrologia</td>
+            </tr>
+            <tr>
+              <th>Local / Escopo</th>
+              <td colspan="3" id="repLocal">PABH 041 22 - Vale - Projeto de Adequação da Usina 1 - Parauapebas-PA (N1341)</td>
+            </tr>
+            <tr>
+              <th>Critérios ISO 9001</th>
+              <td colspan="3" id="repObjetivo">Requisitos ISO 9001:2015 aplicáveis ao Almoxarifado: 5.1, 5.2, 7.1.5, 7.2, 7.3, 7.5.3, 8.1, 8.4, 8.5.1, 8.5.2, 8.5.3, 8.5.4, 8.5.6, 8.6, 8.7 e 10.2.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Executive Scorecard Boxes -->
+        <div class="report-summary-grid">
+          <div class="report-summary-box" style="border-color: var(--parex-navy); background: #F0F5FC;">
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--parex-navy);">CONFORMIDADE GERAL ALMOXARIFADO</div>
+            <div class="big-num" id="repOverallPct">0,0%</div>
+            <div style="font-size: 11.5px; color: var(--parex-text-muted);" id="repOverallCounts">0 C / 0 NC / 0 NA</div>
+          </div>
+          <div class="report-summary-box">
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--parex-cool-gray-9);">PLANO DE INSPEÇÃO (PIT)</div>
+            <div class="big-num" id="repPitPct">0,0%</div>
+            <div style="font-size: 11.5px; color: var(--parex-text-muted);" id="repPitCounts">0 C / 0 NC</div>
+          </div>
+          <div class="report-summary-box">
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--parex-orange-dark);">REINCIDÊNCIAS (E-MAIL SGI)</div>
+            <div class="big-num" id="repRecPct" style="color: var(--parex-orange-dark);">0,0%</div>
+            <div style="font-size: 11.5px; color: var(--parex-text-muted);" id="repRecCounts">0 C / 0 NC</div>
+          </div>
+          <div class="report-summary-box">
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--status-c);">MATRIZ TREINAMENTOS ALMOX.</div>
+            <div class="big-num" id="repTrainPct" style="color: var(--status-c);">0,0%</div>
+            <div style="font-size: 11.5px; color: var(--parex-text-muted);" id="repTrainCounts">20 Colaboradores Auditados</div>
+          </div>
+        </div>
+
+        <!-- Detailed Tables Rendered Dynamically -->
+        <h3 style="font-size: 15px; color: var(--parex-navy); margin-bottom: 8px; text-transform: uppercase;">
+          1. Resultados do Plano de Inspeção do Almoxarifado (PIT PI-1000KN-Q-500004 &amp; Procedimentos Canônicos)
+        </h3>
+        <table class="report-table" id="repPitTable">
+          <thead>
+            <tr>
+              <th style="width: 11%;">Código / ISO</th>
+              <th style="width: 24%;">Ponto de Inspeção &amp; Procedimento</th>
+              <th style="width: 11%;">Status</th>
+              <th style="width: 29%;">Evidências Objetivas Constatadas</th>
+              <th style="width: 25%;">Tratativa / Ação Corretiva</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <h3 style="font-size: 15px; color: var(--parex-navy); margin-bottom: 8px; text-transform: uppercase;">
+          2. Inspeção Pontual de Reincidências e Pendências Críticas do Almoxarifado (E-mail SGI 23/11/2026 &amp; FO-128)
+        </h3>
+        <table class="report-table" id="repRecTable">
+          <thead>
+            <tr>
+              <th style="width: 13%;">RNC / Histórico</th>
+              <th style="width: 24%;">Reincidência / Escopo Pontual</th>
+              <th style="width: 11%;">Status</th>
+              <th style="width: 27%;">Verificação Física &amp; Documental</th>
+              <th style="width: 25%;">Plano de Ação / Bloqueio</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <h3 style="font-size: 15px; color: var(--parex-navy); margin-bottom: 8px; text-transform: uppercase;">
+          3. Resumo de Conformidade da Matriz de Treinamentos — Equipe do Almoxarifado &amp; Destaques da Auditoria (MR-03-001 Rev. 8)
+        </h3>
+        <table class="report-table" id="repTrainTable">
+          <thead>
+            <tr>
+              <th style="width: 9%;">Chapa</th>
+              <th style="width: 26%;">Colaborador</th>
+              <th style="width: 22%;">Cargo / Função</th>
+              <th style="width: 11%;">Status Ponto</th>
+              <th style="width: 18%;">Obrigatórios (M) Concluídos</th>
+              <th style="width: 14%;">% Aderência</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <!-- ==================== MANDATORY SIGNATURE, STAMP & RUBRIC FOOTER ==================== -->
+        <div class="signature-footer-panel">
+          <div class="signatures-grid">
+            <!-- Auditor Official Stamp + Blue Ink Rubric -->
+            <div class="sig-box sig-box-auditor">
+              <div style="font-family: 'Outfit', sans-serif; font-size: 11.5px; font-weight: 700; color: var(--parex-navy); text-transform: uppercase;">
+                ASSINATURA DIGITAL, CARIMBO E RUBRICA DO AUDITOR
+              </div>
+              <div class="stamp-rubric-container">
+                <img src="assets/carimbo-gabriel.png" alt="Carimbo e Rubrica Gabriel Pereira dos Santos - Técnico em Qualidade CRT 5359772/2024" class="stamp-img" />
+              </div>
+              <div class="sig-line">
+                <div class="sig-name" id="sigAuditorName">Gabriel Pereira dos Santos</div>
+                <div class="sig-role" id="sigAuditorRole">Técnico em Qualidade • CRT - 5359772/2024 • Parex Engenharia S/A</div>
+                <div class="sig-timestamp-bar">
+                  <span>🔏 ASSINADO EM:</span>
+                  <span id="sigTimestampText">24/11/2026 às 09:30:00</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Auditee Digital Signature Pad -->
+            <div class="sig-box">
+              <div style="font-family: 'Outfit', sans-serif; font-size: 11.5px; font-weight: 700; color: var(--parex-cool-gray-9); text-transform: uppercase;">
+                CIÊNCIA DO(S) AUDITADO(S) — ALMOXARIFADO / SUPRIMENTOS
+              </div>
+              <div class="auditee-canvas-wrap">
+                <canvas id="auditeeSigCanvas" width="340" height="115" title="Assine aqui com o mouse ou toque"></canvas>
+                <div class="no-print" style="display: flex; gap: 8px;">
+                  <button type="button" class="btn btn-sm btn-outline" onclick="window.PAREX_APP.clearAuditeeSignature()">Limpar Rubrica do Auditado</button>
+                  <button type="button" class="btn btn-sm btn-outline" onclick="window.PAREX_APP.stampAuditeeAck()">Gerar Rubrica Digital de Ciência</button>
+                </div>
+              </div>
+              <div class="sig-line">
+                <div class="sig-name" id="sigAuditadoName">Francisco Adevaldo da Silva / Miqueias de Sousa Monteiro</div>
+                <div class="sig-role" id="sigAuditadoArea">Responsável pela Área Auditada — Almoxarifado Usina 1 (N1341)</div>
+                <div class="sig-timestamp-bar" style="background: var(--parex-cool-gray-9);">
+                  <span>📅 DATA / HORA:</span>
+                  <span id="sigAuditadoTimestampText">24/11/2026 às 09:30:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="assets/vendor/jspdf.umd.min.js"></script>
+  <script src="assets-b64.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="pdf-export.js"></script>
+</body>
+</html>
