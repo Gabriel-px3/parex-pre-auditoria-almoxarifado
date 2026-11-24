@@ -10,78 +10,78 @@ window.PAREX_DATA = {
       "name": "RH / DP",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "13",
-          "title": "PG-09-001",
+          "code": "PG-09-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE RECURSOS HUMANOS",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "21",
-          "title": "IT-09-001",
+          "code": "IT-09-001",
+          "title": "INSTRUÇÃO DE TRABALHO PARA ADMINISTRAÇÃO DE PESSOAL",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -92,88 +92,88 @@ window.PAREX_DATA = {
       "name": "Transporte / Manutenção",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "D"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "15",
-          "title": "PG-12-001",
+          "code": "PG-12-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "20",
-          "title": "IT-08-036",
+          "code": "IT-08-036",
+          "title": "CONTROLE E MANUTENÇÃO DE EQUIPAMENTOS",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "27",
-          "title": "IT-12-002",
+          "code": "IT-12-002",
+          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
           "req": "M"
         },
         {
-          "code": "28",
-          "title": "IT-12-003",
+          "code": "IT-12-003",
+          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
           "req": "M"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         },
         {
-          "code": "54",
-          "title": "IT-13-036",
+          "code": "IT-13-036",
+          "title": "TRANSPORTE DE PESSOAS EM VEICULOS LEVES E COLETIVOS",
           "req": "M"
         }
       ]
@@ -184,88 +184,88 @@ window.PAREX_DATA = {
       "name": "Compras",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "M"
         },
         {
-          "code": "15",
-          "title": "PG-12-001",
+          "code": "PG-12-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "26",
-          "title": "IT-12-001",
+          "code": "IT-12-001",
+          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
           "req": "D"
         },
         {
-          "code": "27",
-          "title": "IT-12-002",
+          "code": "IT-12-002",
+          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
           "req": "M"
         },
         {
-          "code": "28",
-          "title": "IT-12-003",
+          "code": "IT-12-003",
+          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
           "req": "M"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -276,68 +276,68 @@ window.PAREX_DATA = {
       "name": "Expedição",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "26",
-          "title": "IT-12-001",
+          "code": "IT-12-001",
+          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
           "req": "M"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         },
         {
@@ -366,93 +366,93 @@ window.PAREX_DATA = {
       "name": "Almoxarifado",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "15",
-          "title": "PG-12-001",
+          "code": "PG-12-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
           "req": "M"
         },
         {
-          "code": "16",
-          "title": "IT-03-001",
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "18",
-          "title": "IT-08-002",
+          "code": "IT-08-002",
+          "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "26",
-          "title": "IT-12-001",
+          "code": "IT-12-001",
+          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
           "req": "M"
         },
         {
-          "code": "28",
-          "title": "IT-12-003",
+          "code": "IT-12-003",
+          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "42",
-          "title": "IT-13-017",
+          "code": "IT-13-017",
+          "title": "ARMAZENAMENTO DE LÍQUIDO INFLAMÁVEL",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         },
         {
@@ -481,88 +481,88 @@ window.PAREX_DATA = {
       "name": "Planejamento",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "9",
-          "title": "PG-05-001",
+          "code": "PG-05-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
           "req": "M"
         },
         {
-          "code": "10",
-          "title": "PG-06-001",
+          "code": "PG-06-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
           "req": "M"
         },
         {
-          "code": "11",
-          "title": "PG-07-001",
+          "code": "PG-07-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "23",
-          "title": "IT-10-002",
+          "code": "IT-10-002",
+          "title": "CONTROLE DE DOCUMENTOS TÉCNICOS NO PROJETO",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "M"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -573,83 +573,83 @@ window.PAREX_DATA = {
       "name": "Controle da qualidade",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "16",
-          "title": "IT-03-001",
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "18",
-          "title": "IT-08-002",
+          "code": "IT-08-002",
+          "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
           "req": "D"
         },
         {
-          "code": "19",
-          "title": "IT-08-009",
+          "code": "IT-08-009",
+          "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
           "req": "M"
         },
         {
-          "code": "22",
-          "title": "IT-08-005",
+          "code": "IT-08-005",
+          "title": "QUALIFICAÇÃO DE SOLDADORES",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         },
         {
@@ -657,12 +657,6 @@ window.PAREX_DATA = {
           "title": "Armazenamento e Preservação de Materiais Fornecidos pelo Cliente (PR-1000KN-Q-500018 R03 / FO-08-109 PP)",
           "req": "M",
           "note": "Inspeção de Preservação e RPE"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "Calibração de Máquinas de Solda e Estufas Portáteis (R05 / FO-08-018 RCI)",
-          "req": "M",
-          "note": "Emissão de RCI no Parex Hub (RNC-00807/26)"
         }
       ]
     },
@@ -672,108 +666,108 @@ window.PAREX_DATA = {
       "name": "Gestão da Qualidade",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "4",
-          "title": "PG-03-004",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRITICA DO SGI",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "12",
-          "title": "PG-08-001",
+          "code": "PG-08-001",
+          "title": "PROCEDIMENTO GERAL DE QUALIDADE",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "M"
         },
         {
-          "code": "16",
-          "title": "IT-03-001",
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "22",
-          "title": "IT-08-005",
+          "code": "IT-08-005",
+          "title": "QUALIFICAÇÃO DE SOLDADORES",
           "req": "D"
         },
         {
-          "code": "23",
-          "title": "IT-10-002",
+          "code": "IT-10-002",
+          "title": "CONTROLE DE DOCUMENTOS TÉCNICOS NO PROJETO",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "26",
-          "title": "IT-12-001",
+          "code": "IT-12-001",
+          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
           "req": "M"
         },
         {
-          "code": "27",
-          "title": "IT-12-002",
+          "code": "IT-12-002",
+          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
           "req": "D"
         },
         {
-          "code": "28",
-          "title": "IT-12-003",
+          "code": "IT-12-003",
+          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -784,208 +778,208 @@ window.PAREX_DATA = {
       "name": "SSMA",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "4",
-          "title": "PG-03-004",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRITICA DO SGI",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "M"
         },
         {
-          "code": "16",
-          "title": "IT-03-001",
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
           "req": "M"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "27",
-          "title": "IT-12-002",
+          "code": "IT-12-002",
+          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
           "req": "D"
         },
         {
-          "code": "29",
-          "title": "IT-13-001",
+          "code": "IT-13-001",
+          "title": "GESTÃO DE PERIGOS E RISCOS",
           "req": "M"
         },
         {
-          "code": "30",
-          "title": "IT-13-003",
+          "code": "IT-13-003",
+          "title": "INSPEÇÃO DE SSMA",
           "req": "M"
         },
         {
-          "code": "31",
-          "title": "IT-13-004",
+          "code": "IT-13-004",
+          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
           "req": "M"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "33",
-          "title": "IT-13-006",
+          "code": "IT-13-006",
+          "title": "DIÁLOGO DIÁRIO DE SSMA",
           "req": "M"
         },
         {
-          "code": "34",
-          "title": "IT-13-007",
+          "code": "IT-13-007",
+          "title": "SUBSTÂNCIA QUÍMICAS",
           "req": "M"
         },
         {
-          "code": "35",
-          "title": "IT-13-008",
+          "code": "IT-13-008",
+          "title": "ESPAÇO CONFINADO",
           "req": "M"
         },
         {
-          "code": "36",
-          "title": "IT-13-009",
+          "code": "IT-13-009",
+          "title": "MONITORAMENTO DE SAÚDE E SEGURANÇA",
           "req": "M"
         },
         {
-          "code": "37",
-          "title": "IT-13-010",
+          "code": "IT-13-010",
+          "title": "TRABALHO A QUENTE",
           "req": "M"
         },
         {
-          "code": "38",
-          "title": "IT-13-012",
+          "code": "IT-13-012",
+          "title": "MANUTENÇÕES E LIMPEZAS",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "40",
-          "title": "IT-13-014",
+          "code": "IT-13-014",
+          "title": "CONTROLE DE RISCO DE POLUIÇÃO",
           "req": "M"
         },
         {
-          "code": "41",
-          "title": "IT-13-016",
+          "code": "IT-13-016",
+          "title": "EQUIPAMENTO DE COMBATE A INCÊNDIO",
           "req": "M"
         },
         {
-          "code": "42",
-          "title": "IT-13-017",
+          "code": "IT-13-017",
+          "title": "ARMAZENAMENTO DE LÍQUIDO INFLAMÁVEL",
           "req": "M"
         },
         {
-          "code": "43",
-          "title": "IT-13-018",
+          "code": "IT-13-018",
+          "title": "MÁQUINA E EQUIPAMENTO DE IÇAMENTO",
           "req": "M"
         },
         {
-          "code": "44",
-          "title": "IT-13-019",
+          "code": "IT-13-019",
+          "title": "INVESTIGAÇÃO DE INCIDENTES",
           "req": "M"
         },
         {
-          "code": "45",
-          "title": "IT-13-020",
+          "code": "IT-13-020",
+          "title": "TRABALHO EM ALTURA",
           "req": "M"
         },
         {
-          "code": "46",
-          "title": "IT-13-021",
+          "code": "IT-13-021",
+          "title": "MONITORAMENTO AMBIENTAL",
           "req": "M"
         },
         {
-          "code": "47",
-          "title": "IT-13-023",
+          "code": "IT-13-023",
+          "title": "INSTALAÇAO ELÉTRICA EM GERAL",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         },
         {
-          "code": "49",
-          "title": "IT-13-026",
+          "code": "IT-13-026",
+          "title": "AVISOS E SINAIS",
           "req": "M"
         },
         {
-          "code": "50",
-          "title": "IT-13-031",
+          "code": "IT-13-031",
+          "title": "TRANSPORTE DE CARGA",
           "req": "M"
         },
         {
-          "code": "51",
-          "title": "IT-13-033",
+          "code": "IT-13-033",
+          "title": "ENERGIA ZERO",
           "req": "M"
         },
         {
-          "code": "52",
-          "title": "IT-13-034",
+          "code": "IT-13-034",
+          "title": "PROTEÇÃO DE MÁQUINA",
           "req": "M"
         },
         {
-          "code": "53",
-          "title": "IT-13-035",
+          "code": "IT-13-035",
+          "title": "EQUIPAMENTO PORTÁTIL",
           "req": "M"
         },
         {
-          "code": "54",
-          "title": "IT-13-036",
+          "code": "IT-13-036",
+          "title": "TRANSPORTE DE PESSOAS EM VEICULOS LEVES E COLETIVOS",
           "req": "M"
         },
         {
-          "code": "55",
-          "title": "IT-13-039",
+          "code": "IT-13-039",
+          "title": "REQUISITOS LEGAIS",
           "req": "M"
         },
         {
-          "code": "56",
-          "title": "IT-13-040",
+          "code": "IT-13-040",
+          "title": "GERENCIAMENTO DE ASPECTOS E IMPACTOS AMBIENTAIS",
           "req": "M"
         }
       ]
@@ -996,93 +990,93 @@ window.PAREX_DATA = {
       "name": "Gerenciamento Projeto",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "D"
         },
         {
-          "code": "4",
-          "title": "PG-03-004",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRITICA DO SGI",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "8",
-          "title": "PG-04-001",
+          "code": "PG-04-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DA INTEGRAÇÃO",
           "req": "M"
         },
         {
-          "code": "9",
-          "title": "PG-05-001",
+          "code": "PG-05-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
           "req": "M"
         },
         {
-          "code": "10",
-          "title": "PG-06-001",
+          "code": "PG-06-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
           "req": "M"
         },
         {
-          "code": "11",
-          "title": "PG-07-001",
+          "code": "PG-07-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
           "req": "M"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "D"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "27",
-          "title": "IT-12-002",
+          "code": "IT-12-002",
+          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
           "req": "M"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -1093,103 +1087,103 @@ window.PAREX_DATA = {
       "name": "Gerenciamento Produção",
       "trainings": [
         {
-          "code": "1",
-          "title": "AP-09-001",
+          "code": "AP-09-001",
+          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
           "req": "M"
         },
         {
-          "code": "2",
-          "title": "PG-03-001",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "3",
-          "title": "PG-03-003",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "5",
-          "title": "PG-03-005",
+          "code": "PG-03-005",
+          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
         },
         {
-          "code": "6",
-          "title": "PG-03-006",
+          "code": "PG-03-006",
+          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
           "req": "M"
         },
         {
-          "code": "7",
-          "title": "PG-03-007",
+          "code": "PG-03-007",
+          "title": "GESTÃO DE MUDANÇAS",
           "req": "M"
         },
         {
-          "code": "9",
-          "title": "PG-05-001",
+          "code": "PG-05-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
           "req": "D"
         },
         {
-          "code": "10",
-          "title": "PG-06-001",
+          "code": "PG-06-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
           "req": "D"
         },
         {
-          "code": "11",
-          "title": "PG-07-001",
+          "code": "PG-07-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
           "req": "D"
         },
         {
-          "code": "14",
-          "title": "PG-10-001",
+          "code": "PG-10-001",
+          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
           "req": "D"
         },
         {
-          "code": "16",
-          "title": "IT-03-001",
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
           "req": "D"
         },
         {
-          "code": "17",
-          "title": "IT-03-002",
+          "code": "IT-03-002",
+          "title": "TREINAMENTO",
           "req": "M"
         },
         {
-          "code": "19",
-          "title": "IT-08-009",
+          "code": "IT-08-009",
+          "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
           "req": "D"
         },
         {
-          "code": "24",
-          "title": "IT-10-003",
+          "code": "IT-10-003",
+          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
           "req": "D"
         },
         {
-          "code": "25",
-          "title": "IT-10-004",
+          "code": "IT-10-004",
+          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
           "req": "D"
         },
         {
-          "code": "29",
-          "title": "IT-13-001",
+          "code": "IT-13-001",
+          "title": "GESTÃO DE PERIGOS E RISCOS",
           "req": "D"
         },
         {
-          "code": "32",
-          "title": "IT-13-005",
+          "code": "IT-13-005",
+          "title": "DIREITO DE RECUSA",
           "req": "M"
         },
         {
-          "code": "33",
-          "title": "IT-13-006",
+          "code": "IT-13-006",
+          "title": "DIÁLOGO DIÁRIO DE SSMA",
           "req": "D"
         },
         {
-          "code": "39",
-          "title": "IT-13-013",
+          "code": "IT-13-013",
+          "title": "COLETA SELETIVA",
           "req": "M"
         },
         {
-          "code": "48",
-          "title": "IT-13-025",
+          "code": "IT-13-025",
+          "title": "EPI",
           "req": "M"
         }
       ]
@@ -1363,6 +1357,24 @@ window.PAREX_DATA = {
           "code": "PG-03-005",
           "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
           "req": "M"
+        },
+        {
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
+          "req": "M",
+          "note": "Obrigatório para Inspetores CQ (RNC-03634/26)"
+        },
+        {
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
+          "req": "M",
+          "note": "Controle da Qualidade"
+        },
+        {
+          "code": "PG-03-003",
+          "title": "CONTROLE DE PRODUTO NÃO CONFORME, AÇÃO CORRETIVA E PREVENTIVA",
+          "req": "M",
+          "note": "Controle da Qualidade"
         }
       ]
     },
@@ -2843,14 +2855,14 @@ window.PAREX_DATA = {
     {
       "cargo": "ELETRICISTA FORCA E CONTROLE MANUTENCAO",
       "count": 30,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "OP::Elétrica",
+      "profileName": "Elétrica"
     },
     {
       "cargo": "ELETRICISTA MANUTENCAO",
       "count": 4,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "OP::Elétrica",
+      "profileName": "Elétrica"
     },
     {
       "cargo": "ELETRICISTA MONTADOR",
@@ -3011,32 +3023,32 @@ window.PAREX_DATA = {
     {
       "cargo": "INSPETOR DIMENSIONAL",
       "count": 1,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR ELETRICA II",
       "count": 2,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR PINTURA",
       "count": 1,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR QUALIDADE II",
       "count": 2,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR SOLDA N1",
       "count": 2,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSTRUMENTISTA",
@@ -3972,7 +3984,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5492982311,
@@ -4588,7 +4600,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 70298812223,
@@ -4728,7 +4740,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 92822517215,
@@ -4854,7 +4866,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 3977022300,
@@ -5582,7 +5594,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 60174546335,
@@ -5876,7 +5888,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 86877753500,
@@ -5904,7 +5916,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 70416139256,
@@ -6016,7 +6028,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 93960158220,
@@ -6492,7 +6504,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 4498199570,
@@ -6856,7 +6868,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5059412288,
@@ -7430,7 +7442,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 61714210308,
@@ -7906,7 +7918,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 85482137287,
@@ -8284,7 +8296,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 11307452604,
@@ -8424,7 +8436,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 43423299304,
@@ -8760,7 +8772,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 3830803206,
@@ -8830,7 +8842,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 67081088287,
@@ -9096,7 +9108,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 2957846284,
@@ -9418,7 +9430,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5652585242,
@@ -9446,7 +9458,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5598536293,
@@ -9824,7 +9836,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 61868809234,
@@ -10734,7 +10746,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5393694385,
@@ -11154,7 +11166,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 6845892652,
@@ -11252,7 +11264,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 98286013204,
@@ -11630,7 +11642,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 8134783244,
@@ -11994,7 +12006,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 697157342,
@@ -12036,7 +12048,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 61084387204,
@@ -12232,7 +12244,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 1948992337,
@@ -13436,7 +13448,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 1564446158,
@@ -13520,7 +13532,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 70082240280,
@@ -14738,7 +14750,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 96814284200,
@@ -14850,7 +14862,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 61054365300,
@@ -15060,7 +15072,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 87506734249,
@@ -15256,7 +15268,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 91214173349,
@@ -15312,7 +15324,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 4805393246,
@@ -15354,7 +15366,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 7925834269,
@@ -15648,7 +15660,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 2913745229,
@@ -16040,7 +16052,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 1060675242,
@@ -16124,7 +16136,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 83020667291,
@@ -16936,7 +16948,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "OP::Controle de qualidade"
     },
     {
       "id": 84344318234,
@@ -17342,7 +17354,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 5744764232,
@@ -17874,7 +17886,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 61860800300,
@@ -18770,7 +18782,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "OP::Elétrica"
     },
     {
       "id": 4804684352,

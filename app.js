@@ -397,6 +397,21 @@
     ];
   }
 
+  const SAMPLE_12_CHAPAS = new Set([
+    "054444", // André Luis Ricardo Antunes (Topógrafo II)
+    "054134", // Dailson Ribeiro Cordeiro (Eletricista Força e Controle Manutenção)
+    "052819", // Erik de Almeida Moura (Técnico Materiais I)
+    "057654", // Evando Prexede Oliveira (Mecânico Montador)
+    "057893", // Guilherme Silva Xavier (Instrumentista)
+    "048439", // João Lucas dos Santos (Encarregado Elétrica)
+    "054623", // Jorge Mauricio Alves Franco (Inspetor Solda N1)
+    "036989", // Miqueias de Sousa Monteiro (Encarregado Almoxarifado)
+    "048134", // Rafael Baral Pereira (Inspetor Pintura)
+    "058851", // Sabrina Silva Costa (Assistente Recebimento Materiais)
+    "047713", // Sandro Gemaque Nascimento (Técnico Qualidade III)
+    "049803"  // Wesley dos Santos Barbosa (Auxiliar Almoxarifado)
+  ]);
+
   // Empty initial manual logs (1 blank row in each discipline table ready for manual typing)
   function getCleanManualLogs() {
     return {
@@ -1321,6 +1336,7 @@
     const profiles = window.PAREX_DATA.profiles;
 
     let html = `<option value="ALL">Todas as Áreas / Disciplinas da Matriz (1.110 Efetivos)</option>`;
+    html += `<option value="SAMPLE_12">🎯 Amostra 12 Colaboradores Selecionados</option>`;
     html += `<option value="AUDITED_ONLY">✅ Colaboradores Verificados nesta Auditoria</option>`;
 
     Object.values(profiles).forEach((p) => {
@@ -1344,7 +1360,7 @@
     const sector = state.matrixSectorFilter;
 
     const cargos = window.PAREX_DATA.cargos.filter((c) => {
-      if (sector === "ALL" || sector === "AUDITED_ONLY") return true;
+      if (sector === "ALL" || sector === "AUDITED_ONLY" || sector === "SAMPLE_12") return true;
       return c.profileKey === sector;
     });
 
@@ -1362,7 +1378,9 @@
     const q = (state.matrixSearch || "").trim().toUpperCase();
 
     return window.PAREX_DATA.employees.filter((e) => {
-      if (sector === "AUDITED_ONLY") {
+      if (sector === "SAMPLE_12") {
+        if (!SAMPLE_12_CHAPAS.has(e.chapa)) return false;
+      } else if (sector === "AUDITED_ONLY") {
         if (!isEmployeeAudited(e.chapa)) return false;
       } else if (sector !== "ALL" && e.profileKey !== sector) {
         return false;
