@@ -1,38 +1,35 @@
 /* ==========================================================================
    PAREX ENGENHARIA S/A — MOTOR DE EXPORTAÇÃO PDF A4 (ABNT NBR ISO 9001:2015)
-   Inclui Carimbo Oficial + Rubrica Azul de Gabriel Pereira dos Santos (CRT 5359772/2024),
-   Assinatura do Auditado, Data e Horário em TODOS os relatórios exportados.
+   - Inclui Carimbo Oficial + Rubrica Azul de Gabriel Pereira dos Santos (CRT 5359772/2024)
+   - Quadro de Assinatura do Auditado EM ABERTO (ou preenchido caso assinado)
+   - Data e Horário em TODOS os relatórios
+   - Tabelas de Registros Manuais (TAGs de Instrumentos, Máquinas de Solda, Lotes de
+     Consumíveis / Estufas e Sinetes de Soldadores) + Disciplinas Selecionadas + Matriz MR-03-001
    ========================================================================== */
 
 (function () {
   const NAVY = [0, 45, 114];       // #002D72 Pantone 288 C
   const ORANGE = [255, 105, 0];    // #FF6900 Pantone 1505 C
-  const CYAN = [60, 203, 218];     // #3CCBDA Pantone 2226 C
   const GREEN = [13, 138, 78];     // Conforme
   const RED = [201, 42, 42];       // Não Conforme
   const GRAY = [117, 120, 123];    // Cool Grey 9 C
-  const LIGHT_BG = [243, 244, 244];
 
   function drawBrandHeader(doc, title, subtitle, codeRef) {
     const state = window.PAREX_APP.getState();
     const dateBR = window.PAREX_APP.formatDateBR(state.meta.data);
     const fullDateTime = `${dateBR} ${state.meta.hora}`;
 
-    // Top Navy Banner
     doc.setFillColor(...NAVY);
     doc.rect(0, 0, 210, 28, "F");
-    // Bottom Orange Stripe
     doc.setFillColor(...ORANGE);
     doc.rect(0, 28, 210, 1.8, "F");
 
-    // Parex Negative Logo
     if (window.PAREX_ASSETS && window.PAREX_ASSETS.logoNegativa) {
       try {
         doc.addImage(window.PAREX_ASSETS.logoNegativa, "PNG", 12, 5.5, 36, 15);
       } catch (e) {}
     }
 
-    // 3x2 Orange Dots Motif
     doc.setFillColor(...ORANGE);
     for (let r = 0; r < 2; r++) {
       for (let c = 0; c < 3; c++) {
@@ -40,10 +37,9 @@
       }
     }
 
-    // Titles
     doc.setTextColor(255, 255, 255);
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(11.5);
+    doc.setFontSize(11);
     doc.text(title, 63, 11.5);
 
     doc.setFont("helvetica", "normal");
@@ -60,13 +56,13 @@
     const state = window.PAREX_APP.getState();
     const dateBR = window.PAREX_APP.formatDateBR(state.meta.data);
     const fullDateTime = `${dateBR} às ${state.meta.hora}`;
+    const auditadoClean = (state.meta.auditado || "").trim();
 
     doc.setFillColor(248, 250, 252);
     doc.setDrawColor(210, 218, 226);
     doc.setLineWidth(0.3);
     doc.roundedRect(12, startY, 186, 28, 2, 2, "FD");
 
-    // Left accent stripe
     doc.setFillColor(...NAVY);
     doc.rect(12, startY, 2.2, 28, "F");
 
@@ -90,7 +86,11 @@
     doc.text("AUDITADO(S):", 17, startY + 11.5);
     doc.setFont("helvetica", "normal");
     doc.setTextColor(20, 30, 45);
-    doc.text(doc.splitTextToSize(state.meta.auditado, 155)[0], 40, startY + 11.5);
+    doc.text(
+      auditadoClean ? doc.splitTextToSize(auditadoClean, 155)[0] : "__________________________________________________________________ (Em aberto)",
+      40,
+      startY + 11.5
+    );
 
     doc.setFont("helvetica", "bold");
     doc.setTextColor(...NAVY);
@@ -109,11 +109,12 @@
     return startY + 32;
   }
 
-  // MANDATORY SIGNATURE, STAMP & RUBRIC BLOCK AT THE BOTTOM OF ALL REPORTS
+  // MANDATORY SIGNATURE BLOCK (GABRIEL'S STAMP + BLUE RUBRIC + OPEN AUDITEE BOX + DATE & TIME)
   function drawMandatorySignatureBlock(doc, y) {
     const state = window.PAREX_APP.getState();
     const dateBR = window.PAREX_APP.formatDateBR(state.meta.data);
     const fullDateTime = `${dateBR} às ${state.meta.hora}`;
+    const auditadoClean = (state.meta.auditado || "").trim();
 
     if (y > 222) {
       doc.addPage();
@@ -126,13 +127,11 @@
       y = 36;
     }
 
-    // Outer Signature Frame
     doc.setDrawColor(...NAVY);
     doc.setLineWidth(0.5);
     doc.setFillColor(255, 255, 255);
     doc.roundedRect(12, y, 186, 54, 2, 2, "FD");
 
-    // Header pill on frame
     doc.setFillColor(...NAVY);
     doc.roundedRect(16, y - 3, 126, 6, 1.5, 1.5, "F");
     doc.setTextColor(255, 255, 255);
@@ -140,14 +139,13 @@
     doc.setFontSize(7.5);
     doc.text("VALIDAÇÃO, CARIMBO E ASSINATURA DIGITAL — PADRÃO ABNT NBR ISO 9001:2015", 20, y + 1);
 
-    // Left Box: Auditor Stamp + Blue Ink Rubric (from IMG_20261124_090047.jpg)
+    // Left Box: Auditor Stamp + Blue Ink Rubric
     doc.setDrawColor(210, 218, 226);
     doc.setLineWidth(0.25);
     doc.roundedRect(16, y + 5, 88, 45, 1.5, 1.5, "S");
 
     if (window.PAREX_ASSETS && window.PAREX_ASSETS.carimboPreview) {
       try {
-        // High-contrast white-backed stamp + blue rubric
         doc.addImage(window.PAREX_ASSETS.carimboPreview, "PNG", 31, y + 6.5, 58, 27);
       } catch (e) {}
     }
@@ -173,7 +171,7 @@
     doc.setFontSize(6.8);
     doc.text(`ASSINADO EM: ${fullDateTime}`, 60, y + 47.3, { align: "center" });
 
-    // Right Box: Auditee Signature + Date & Time
+    // Right Box: Auditee Signature (LEFT OPEN IF NOT SIGNED)
     doc.setDrawColor(210, 218, 226);
     doc.setLineWidth(0.25);
     doc.roundedRect(106, y + 5, 88, 45, 1.5, 1.5, "S");
@@ -191,13 +189,17 @@
     doc.setTextColor(...NAVY);
     doc.setFont("helvetica", "bold");
     doc.setFontSize(8);
-    const shortAuditado = doc.splitTextToSize(state.meta.auditado, 74)[0];
-    doc.text(shortAuditado, 150, y + 39, { align: "center" });
+    doc.text(
+      auditadoClean ? doc.splitTextToSize(auditadoClean, 74)[0] : "Assinatura do Auditado (Em Aberto)",
+      150,
+      y + 39,
+      { align: "center" }
+    );
 
     doc.setFont("helvetica", "normal");
     doc.setFontSize(6.8);
     doc.setTextColor(70, 80, 95);
-    doc.text("Responsável pela Área Auditada (Almoxarifado / Suprimentos)", 150, y + 42.8, { align: "center" });
+    doc.text("Responsável pela Área Auditada (Almoxarifado / Operacional)", 150, y + 42.8, { align: "center" });
 
     doc.setFillColor(...GRAY);
     doc.roundedRect(114, y + 44.2, 72, 4.5, 1, 1, "F");
@@ -221,7 +223,6 @@
       doc.setLineWidth(0.25);
       doc.line(12, 285, 198, 285);
 
-      // Tiny rubric + stamp reference on every page footer
       if (window.PAREX_ASSETS && window.PAREX_ASSETS.rubricaGabriel) {
         try {
           doc.addImage(window.PAREX_ASSETS.rubricaGabriel, "PNG", 12, 285.4, 10, 6);
@@ -253,6 +254,7 @@
     const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
     const state = window.PAREX_APP.getState();
     const m = window.PAREX_APP.getMetrics();
+    const filled = window.PAREX_APP.getFilledManualRows();
 
     drawBrandHeader(
       doc,
@@ -263,12 +265,11 @@
 
     let y = drawIsoMetadataBox(doc, 33);
 
-    // Executive Scorecard Bar
     const boxes = [
-      { label: "CONFORMIDADE ALMOX.", val: window.PAREX_APP.formatPct(m.overallPct), sub: `${m.totalC} C / ${m.totalNC} NC / ${m.totalNA} NA`, color: NAVY },
-      { label: "PLANO INSPEÇÃO (PIT)", val: window.PAREX_APP.formatPct(m.pitPct), sub: `${m.pitC} C / ${m.pitNC} NC (12 Itens)`, color: NAVY },
-      { label: "REINCIDÊNCIAS E-MAIL", val: window.PAREX_APP.formatPct(m.recPct), sub: `${m.recC} C / ${m.recNC} NC (8 Itens)`, color: ORANGE },
-      { label: "TREINAMENTOS ALMOX.", val: window.PAREX_APP.formatPct(m.almoxTrainPct), sub: `${m.almoxMDone}/${m.almoxMTotal} Obrigatórios (M)`, color: GREEN }
+      { label: "CONFORMIDADE ALMOX.", val: window.PAREX_APP.formatPct(m.overallPct), sub: `${m.totalC} C / ${m.totalNC} NC / ${m.totalPend} Pend.`, color: NAVY },
+      { label: "CHECKLIST DISCIPLINAS", val: window.PAREX_APP.formatPct(m.pitPct), sub: `${m.pitC} C / ${m.pitNC} NC`, color: NAVY },
+      { label: "REGISTROS MANUAIS", val: window.PAREX_APP.formatPct(m.manPct), sub: `${m.manTotal} TAGs/Lotes/Sinetes`, color: ORANGE },
+      { label: "MATRIZ TREINAMENTOS", val: window.PAREX_APP.formatPct(m.trainPct), sub: `${m.auditedEmpCount} Efetivos Auditados`, color: GREEN }
     ];
 
     boxes.forEach((b, idx) => {
@@ -279,7 +280,7 @@
       doc.roundedRect(bx, y, 44.4, 17, 1.5, 1.5, "FD");
 
       doc.setFont("helvetica", "bold");
-      doc.setFontSize(6.5);
+      doc.setFontSize(6.4);
       doc.setTextColor(...b.color);
       doc.text(b.label, bx + 22.2, y + 4.5, { align: "center" });
 
@@ -287,27 +288,75 @@
       doc.text(b.val, bx + 22.2, y + 11, { align: "center" });
 
       doc.setFont("helvetica", "normal");
-      doc.setFontSize(6.3);
+      doc.setFontSize(6.2);
       doc.setTextColor(90, 100, 110);
       doc.text(b.sub, bx + 22.2, y + 15, { align: "center" });
     });
 
-    y += 22;
+    y += 21;
 
-    // Section 1: PIT Items
+    // Section 1: Manual Field Entries (TAGs, Welding Machines, Consumables Lots, Welder Stamps)
+    if (filled.all.length > 0) {
+      doc.setFillColor(...ORANGE);
+      doc.rect(12, y, 186, 6, "F");
+      doc.setTextColor(255, 255, 255);
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(7.8);
+      doc.text("1. REGISTROS MANUAIS INSPECIONADOS (TAGs DE INSTRUMENTOS, MÁQUINAS DE SOLDA, LOTES E SINETES)", 15, y + 4.2);
+      y += 7.5;
+
+      const manualEntries = [
+        ...filled.inst.map((r) => ({ type: "Instrumento", code: `TAG: ${r.tag}`, details: `${r.description} | Cert: ${r.certRbc} | Val: ${r.validity} | FO-03-022: ${r.inFo03022}`, status: r.status })),
+        ...filled.maq.map((r) => ({ type: "Máq. Solda", code: `TAG: ${r.tag}`, details: `${r.modelLocation} | RCI: ${r.rciNumber} | Val: ${r.validity} | Desvio: ${r.deviationPct}`, status: r.status })),
+        ...filled.cons.map((r) => ({ type: "Lote / Estufa", code: `Lote: ${r.lotNumber} / ${r.ovenTag}`, details: `${r.awsSpec} | Temp/UR: ${r.tempHumidity} | RC/Ficha: ${r.reqFo08014}`, status: r.status })),
+        ...filled.weld.map((r) => ({ type: "Soldador", code: `Sinete: ${r.sinete}`, details: `${r.welderNameChapa} | RQS: ${r.processRqs} | ${r.continuityIt13010}`, status: r.status }))
+      ];
+
+      manualEntries.forEach((mRow, idx) => {
+        if (y > 270) {
+          doc.addPage();
+          drawBrandHeader(doc, "REGISTROS MANUAIS DE CAMPO (CONTINUAÇÃO)", "Obra N1341 — Parauapebas-PA", "FO-08-031 REV. 2");
+          y = 35;
+        }
+        if (idx % 2 === 0) {
+          doc.setFillColor(250, 251, 253);
+          doc.rect(12, y, 186, 5.2, "F");
+        }
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(6.6);
+        doc.setTextColor(...NAVY);
+        doc.text(mRow.type, 14, y + 3.6);
+        doc.text(doc.splitTextToSize(mRow.code, 42)[0], 36, y + 3.6);
+
+        doc.setFont("helvetica", "normal");
+        doc.setTextColor(30, 40, 50);
+        doc.text(doc.splitTextToSize(mRow.details, 92)[0], 80, y + 3.6);
+
+        const stColor = mRow.status === "C" ? GREEN : mRow.status === "NC" ? RED : GRAY;
+        doc.setFont("helvetica", "bold");
+        doc.setTextColor(...stColor);
+        doc.text(mRow.status === "C" ? "CONFORME" : mRow.status === "NC" ? "NÃO CONFORME" : "PENDENTE", 174, y + 3.6);
+        y += 5.2;
+      });
+      y += 4;
+    }
+
+    // Section 2: Checklist Items of Selected Disciplines
     doc.setFillColor(...NAVY);
-    doc.rect(12, y, 186, 6.5, "F");
+    doc.rect(12, y, 186, 6, "F");
     doc.setTextColor(255, 255, 255);
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text("1. PONTOS DO PLANO DE INSPEÇÃO (PIT PI-1000KN-Q-500004 & PROCEDIMENTOS CANÔNICOS PAREX HUB)", 15, y + 4.5);
-    y += 8.5;
+    doc.setFontSize(7.8);
+    doc.text("2. CHECKLIST DE INSPEÇÃO POR DISCIPLINA (PIT PI-1000KN-Q-500004 & PROCEDIMENTOS CANÔNICOS)", 15, y + 4.2);
+    y += 7.5;
 
-    function renderItemsList(items, sectionTitle) {
+    function renderItemsList(items) {
       items.forEach((item) => {
-        const evLines = doc.splitTextToSize(`Evidência: ${item.evidence}`, 152);
-        const acLines = doc.splitTextToSize(`Tratativa: ${item.action}`, 152);
-        const cardH = 12 + (evLines.length + acLines.length) * 3.4;
+        const evText = item.evidence ? `Evidência: ${item.evidence}` : "Evidência: (Em preenchimento)";
+        const acText = item.action ? `Tratativa: ${item.action}` : "";
+        const evLines = doc.splitTextToSize(evText, 152);
+        const acLines = acText ? doc.splitTextToSize(acText, 152) : [];
+        const cardH = 11 + (evLines.length + acLines.length) * 3.3;
 
         if (y + cardH > 272) {
           doc.addPage();
@@ -321,17 +370,15 @@
         }
 
         const stColor = item.status === "C" ? GREEN : item.status === "NC" ? RED : GRAY;
-        const stText = item.status === "C" ? "CONFORME" : item.status === "NC" ? "NÃO CONFORME" : "N/A";
+        const stText = item.status === "C" ? "CONFORME" : item.status === "NC" ? "NÃO CONFORME" : item.status === "NA" ? "N/A" : "PENDENTE";
 
         doc.setDrawColor(215, 222, 230);
         doc.setFillColor(252, 253, 255);
         doc.roundedRect(12, y, 186, cardH, 1.2, 1.2, "FD");
 
-        // Status left bar
         doc.setFillColor(...stColor);
         doc.rect(12, y, 2.2, cardH, "F");
 
-        // Status badge
         doc.setFillColor(...stColor);
         doc.roundedRect(168, y + 2, 28, 5, 1, 1, "F");
         doc.setTextColor(255, 255, 255);
@@ -339,128 +386,103 @@
         doc.setFontSize(6.5);
         doc.text(stText, 182, y + 5.4, { align: "center" });
 
-        // Title & Codes
         doc.setTextColor(...NAVY);
         doc.setFont("helvetica", "bold");
-        doc.setFontSize(8);
+        doc.setFontSize(7.8);
         const codePrefix = item.code || item.rnc;
         doc.text(`${codePrefix} — ${doc.splitTextToSize(item.title, 125)[0]}`, 16, y + 5);
 
         doc.setFont("helvetica", "normal");
-        doc.setFontSize(6.6);
+        doc.setFontSize(6.5);
         doc.setTextColor(...ORANGE);
-        doc.text(`${item.iso}  |  ${item.proc}  |  ${item.forms}`, 16, y + 8.8);
+        doc.text(`${item.iso}  |  ${item.proc}  |  ${item.forms}`, 16, y + 8.6);
 
         doc.setTextColor(30, 40, 55);
-        doc.setFontSize(6.8);
-        let ty = y + 12.6;
+        doc.setFontSize(6.7);
+        let ty = y + 12.2;
         evLines.forEach((l) => {
           doc.text(l, 16, ty);
-          ty += 3.3;
+          ty += 3.2;
         });
         doc.setTextColor(80, 90, 105);
         acLines.forEach((l) => {
           doc.text(l, 16, ty);
-          ty += 3.3;
+          ty += 3.2;
         });
 
-        y += cardH + 2.2;
+        y += cardH + 2;
       });
     }
 
-    renderItemsList(state.pitItems);
+    const activePit = state.pitItems.filter((i) => state.selectedDisciplines[i.discipline]);
+    renderItemsList(activePit);
 
-    // Section 2: Recurrences
-    if (y + 25 > 270) {
+    // Section 3: Recurrences (if any evaluated or all)
+    if (y + 22 > 270) {
       doc.addPage();
-      drawBrandHeader(
-        doc,
-        "INSPEÇÃO PONTUAL DE REINCIDÊNCIAS DO ALMOXARIFADO (E-MAIL SGI 23/11/2026)",
-        "PABH 041 22 • Vale — Projeto de Adequação da Usina 1 — Parauapebas-PA (Obra N1341)",
-        "FO-08-031 REV. 2"
-      );
+      drawBrandHeader(doc, "INSPEÇÃO PONTUAL DE REINCIDÊNCIAS (E-MAIL SGI)", "Obra N1341 — Parauapebas-PA", "FO-08-031 REV. 2");
       y = 35;
     } else {
-      y += 3;
+      y += 2;
     }
 
     doc.setFillColor(...ORANGE);
-    doc.rect(12, y, 186, 6.5, "F");
+    doc.rect(12, y, 186, 6, "F");
     doc.setTextColor(255, 255, 255);
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text("2. INSPEÇÃO PONTUAL DE REINCIDÊNCIAS DO ALMOXARIFADO (E-MAIL SGI 23/11/2026 & FO-128)", 15, y + 4.5);
-    y += 8.5;
+    doc.setFontSize(7.8);
+    doc.text("3. INSPEÇÃO PONTUAL DE REINCIDÊNCIAS DO ALMOXARIFADO (E-MAIL SGI 23/11/2026 & FO-128)", 15, y + 4.2);
+    y += 7.5;
 
     renderItemsList(state.recItems);
 
-    // Section 3: Almoxarifado Training Matrix Summary
-    if (y + 45 > 265) {
-      doc.addPage();
-      drawBrandHeader(
-        doc,
-        "MATRIZ DE TREINAMENTOS DO EFETIVO DO ALMOXARIFADO (MR-03-001 REV. 8)",
-        "PABH 041 22 • Vale — Projeto de Adequação da Usina 1 — Parauapebas-PA (Obra N1341)",
-        "MR-03-001 REV. 8"
-      );
-      y = 35;
-    } else {
-      y += 3;
+    // Section 4: Audited Employees in Training Matrix
+    const auditedEmps = window.PAREX_DATA.employees.filter((e) => window.PAREX_APP.isEmployeeAudited(e.chapa));
+    if (auditedEmps.length > 0) {
+      if (y + 30 > 265) {
+        doc.addPage();
+        drawBrandHeader(doc, "MATRIZ DE TREINAMENTOS — COLABORADORES AUDITADOS", "Obra N1341", "MR-03-001 REV. 8");
+        y = 35;
+      } else {
+        y += 2;
+      }
+
+      doc.setFillColor(...NAVY);
+      doc.rect(12, y, 186, 6, "F");
+      doc.setTextColor(255, 255, 255);
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(7.8);
+      doc.text(`4. COLABORADORES VERIFICADOS NA MATRIZ DE TREINAMENTOS MR-03-001 (${auditedEmps.length} AUDITADOS)`, 15, y + 4.2);
+      y += 7.5;
+
+      auditedEmps.forEach((emp, idx) => {
+        if (y > 268) {
+          doc.addPage();
+          drawBrandHeader(doc, "MATRIZ DE TREINAMENTOS (CONTINUAÇÃO)", "Obra N1341", "MR-03-001 REV. 8");
+          y = 35;
+        }
+        const st = window.PAREX_APP.getEmployeeTrainingStats(emp);
+        if (idx % 2 === 0) {
+          doc.setFillColor(250, 251, 253);
+          doc.rect(12, y, 186, 5, "F");
+        }
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(6.6);
+        doc.setTextColor(25, 35, 45);
+        doc.text(emp.chapa, 14, y + 3.5);
+        doc.text(doc.splitTextToSize(emp.nome, 65)[0], 30, y + 3.5);
+        doc.text(doc.splitTextToSize(emp.cargo, 44)[0], 98, y + 3.5);
+        doc.text(emp.status, 145, y + 3.5);
+        doc.text(`${st.mDone}/${st.mTotal} M`, 168, y + 3.5);
+
+        doc.setFont("helvetica", "bold");
+        doc.setTextColor(...(st.pct >= 100 ? GREEN : ORANGE));
+        doc.text(window.PAREX_APP.formatPct(st.pct), 185, y + 3.5);
+        y += 5;
+      });
     }
 
-    doc.setFillColor(...NAVY);
-    doc.rect(12, y, 186, 6.5, "F");
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text("3. MATRIZ DE TREINAMENTOS — EQUIPE DO ALMOXARIFADO & DESTAQUES DA AUDITORIA (MR-03-001 R8)", 15, y + 4.5);
-    y += 8;
-
-    const almoxEmps = window.PAREX_DATA.employees.filter(
-      (e) => e.profileKey === "ADM::Almoxarifado" || window.PAREX_APP.HIGHLIGHTED_CHAPAS.has(e.chapa)
-    );
-
-    // Table Header
-    doc.setFillColor(235, 240, 248);
-    doc.rect(12, y, 186, 5.5, "F");
-    doc.setTextColor(...NAVY);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(6.8);
-    doc.text("CHAPA", 14, y + 3.8);
-    doc.text("COLABORADOR", 30, y + 3.8);
-    doc.text("CARGO / FUNÇÃO", 98, y + 3.8);
-    doc.text("STATUS", 145, y + 3.8);
-    doc.text("OBRIG. (M)", 165, y + 3.8);
-    doc.text("% ADERÊNCIA", 183, y + 3.8);
-    y += 5.8;
-
-    almoxEmps.forEach((emp, idx) => {
-      if (y > 268) {
-        doc.addPage();
-        drawBrandHeader(doc, "MATRIZ DE TREINAMENTOS (CONTINUAÇÃO)", "Obra N1341 — Parauapebas-PA", "MR-03-001 REV. 8");
-        y = 35;
-      }
-      const st = window.PAREX_APP.getEmployeeTrainingStats(emp);
-      if (idx % 2 === 0) {
-        doc.setFillColor(250, 251, 253);
-        doc.rect(12, y, 186, 5, "F");
-      }
-      doc.setFont("helvetica", "normal");
-      doc.setFontSize(6.6);
-      doc.setTextColor(25, 35, 45);
-      doc.text(emp.chapa, 14, y + 3.5);
-      doc.text(doc.splitTextToSize(emp.nome, 65)[0], 30, y + 3.5);
-      doc.text(doc.splitTextToSize(emp.cargo, 44)[0], 98, y + 3.5);
-      doc.text(emp.status, 145, y + 3.5);
-      doc.text(`${st.mDone}/${st.mTotal}`, 168, y + 3.5);
-
-      doc.setFont("helvetica", "bold");
-      doc.setTextColor(...(st.pct >= 100 ? GREEN : ORANGE));
-      doc.text(window.PAREX_APP.formatPct(st.pct), 185, y + 3.5);
-      y += 5;
-    });
-
-    y += 6;
+    y += 5;
     drawMandatorySignatureBlock(doc, y);
     addPageFooters(doc, "FO-08-031 Pré-Auditoria Almoxarifado");
 
@@ -487,11 +509,11 @@
     let y = drawIsoMetadataBox(doc, 33);
 
     state.recItems.forEach((item) => {
-      const critLines = item.criteria.map((c) => `${c.checked ? "[OK]" : "[PENDENTE]"} ${c.text}`);
+      const critLines = item.criteria.map((c) => `${c.checked ? "[OK]" : "[  ]"} ${c.text}`);
       const wrappedCrit = critLines.flatMap((cl) => doc.splitTextToSize(cl, 178));
-      const evLines = doc.splitTextToSize(`Constatado: ${item.evidence}`, 178);
-      const acLines = doc.splitTextToSize(`Bloqueio/Ação: ${item.action}`, 178);
-      const cardH = 15 + (wrappedCrit.length + evLines.length + acLines.length) * 3.3;
+      const evLines = doc.splitTextToSize(`Evidência: ${item.evidence || "-"}`, 178);
+      const acLines = doc.splitTextToSize(`Ação: ${item.action || "-"}`, 178);
+      const cardH = 15 + (wrappedCrit.length + evLines.length + acLines.length) * 3.2;
 
       if (y + cardH > 268) {
         doc.addPage();
@@ -504,8 +526,8 @@
         y = 35;
       }
 
-      const stColor = item.status === "C" ? GREEN : RED;
-      const stText = item.status === "C" ? "CONFORME" : "NÃO CONFORME";
+      const stColor = item.status === "C" ? GREEN : item.status === "NC" ? RED : GRAY;
+      const stText = item.status === "C" ? "CONFORME" : item.status === "NC" ? "NÃO CONFORME" : "PENDENTE";
 
       doc.setDrawColor(215, 220, 228);
       doc.setFillColor(253, 254, 255);
@@ -535,7 +557,7 @@
       doc.setFontSize(6.7);
       wrappedCrit.forEach((l) => {
         doc.text(l, 16.5, ty);
-        ty += 3.2;
+        ty += 3.1;
       });
 
       ty += 1;
@@ -543,17 +565,17 @@
       doc.setTextColor(...NAVY);
       evLines.forEach((l) => {
         doc.text(l, 16.5, ty);
-        ty += 3.2;
+        ty += 3.1;
       });
 
       doc.setFont("helvetica", "normal");
       doc.setTextColor(...ORANGE);
       acLines.forEach((l) => {
         doc.text(l, 16.5, ty);
-        ty += 3.2;
+        ty += 3.1;
       });
 
-      y += cardH + 3;
+      y += cardH + 2.5;
     });
 
     drawMandatorySignatureBlock(doc, y + 2);
@@ -562,7 +584,7 @@
     doc.save(`PAREX-Reincidencias-Almoxarifado-ISO9001-${state.meta.data}.pdf`);
   }
 
-  // 3. EXPORT TRAINING MATRIX REPORT PDF (SELECTED EMPLOYEE + FILTERED ROSTER)
+  // 3. EXPORT TRAINING MATRIX REPORT PDF
   function exportTrainingMatrixPDF() {
     if (!window.jspdf || !window.jspdf.jsPDF) {
       window.print();
@@ -581,7 +603,6 @@
 
     let y = drawIsoMetadataBox(doc, 33);
 
-    // Part A: Selected Employee Qualification Sheet
     const emp = window.PAREX_DATA.employees.find((e) => e.chapa === state.selectedChapa) || window.PAREX_DATA.employees[0];
     const prof = window.PAREX_DATA.profiles[emp.profileKey];
     const st = window.PAREX_APP.getEmployeeTrainingStats(emp);
@@ -593,7 +614,7 @@
     doc.setFont("helvetica", "bold");
     doc.setFontSize(8);
     doc.text(
-      `1. FICHA INDIVIDUAL AUDITADA: CHAPA ${emp.chapa} — ${emp.nome} (${emp.cargo}) — ADERÊNCIA: ${window.PAREX_APP.formatPct(st.pct)}`,
+      `1. FICHA INDIVIDUAL SELECIONADA: CHAPA ${emp.chapa} — ${emp.nome} (${emp.cargo}) — ADERÊNCIA: ${window.PAREX_APP.formatPct(st.pct)}`,
       15,
       y + 4.5
     );
@@ -643,11 +664,12 @@
 
     y += 5;
 
-    // Part B: Filtered Roster Summary
-    const filtered = window.PAREX_APP.getFilteredEmployees().slice(0, 60);
+    const auditedEmps = window.PAREX_DATA.employees.filter((e) => window.PAREX_APP.isEmployeeAudited(e.chapa));
+    const listToPrint = auditedEmps.length > 0 ? auditedEmps : window.PAREX_APP.getFilteredEmployees().slice(0, 40);
+
     if (y + 30 > 265) {
       doc.addPage();
-      drawBrandHeader(doc, "RESUMO DO EFETIVO FILTRADO NA MATRIZ MR-03-001", "Obra N1341 — Parauapebas-PA", "MR-03-001 REV. 8");
+      drawBrandHeader(doc, "RESUMO DO EFETIVO AUDITADO NA MATRIZ MR-03-001", "Obra N1341 — Parauapebas-PA", "MR-03-001 REV. 8");
       y = 35;
     }
 
@@ -656,10 +678,10 @@
     doc.setTextColor(255, 255, 255);
     doc.setFont("helvetica", "bold");
     doc.setFontSize(8);
-    doc.text(`2. RELATÓRIO DE ADERÊNCIA DO EFETIVO FILTRADO (${filtered.length} COLABORADORES LISTADOS)`, 15, y + 4.5);
+    doc.text(`2. COLABORADORES VERIFICADOS NA AUDITORIA (${listToPrint.length} COLABORADORES)`, 15, y + 4.5);
     y += 8;
 
-    filtered.forEach((e, idx) => {
+    listToPrint.forEach((e, idx) => {
       if (y > 268) {
         doc.addPage();
         drawBrandHeader(doc, "EFETIVO AUDITADO NA MATRIZ MR-03-001 (CONTINUAÇÃO)", "Obra N1341", "MR-03-001 REV. 8");

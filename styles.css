@@ -43,6 +43,8 @@
   --status-na: #5C6773;
   --status-na-bg: #EEF0F2;
   --status-na-border: #C5CCD3;
+  --status-pend: #002D72;
+  --status-pend-bg: #EDF3FA;
   --status-warn: #D95800;
   --status-warn-bg: #FFF3E6;
 
@@ -692,6 +694,190 @@ h1, h2, h3, h4, h5, h6, .font-display {
 .audit-card.status-NA {
   border-left: 7px solid var(--status-na);
   opacity: 0.9;
+}
+
+.audit-card.status-PEND {
+  border-left: 7px solid var(--parex-cool-gray-1);
+}
+
+/* ==================== DISCIPLINE SELECTOR & MANUAL ENTRY TABLES ==================== */
+.discipline-selector-card {
+  background: var(--parex-surface);
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--parex-border);
+  border-left: 6px solid var(--parex-orange);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.discipline-pills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.disc-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--parex-border);
+  background: #F8FAFC;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  user-select: none;
+}
+
+.disc-pill:hover {
+  border-color: var(--parex-navy);
+}
+
+.disc-pill.active {
+  background: #EDF3FA;
+  border-color: var(--parex-navy);
+  box-shadow: 0 2px 8px rgba(0, 45, 114, 0.08);
+}
+
+.disc-pill-left {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--parex-navy);
+}
+
+.disc-pill input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--parex-orange);
+  cursor: pointer;
+}
+
+.disc-step-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--parex-navy);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.disc-pill.active .disc-step-num {
+  background: var(--parex-orange);
+}
+
+.manual-log-box {
+  background: #FFFDFB;
+  border: 1.5px solid #F3D1B8;
+  border-left: 5px solid var(--parex-orange);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+
+.manual-log-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.manual-log-header h4 {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: var(--parex-navy);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.manual-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--parex-border);
+  border-radius: var(--radius-sm);
+  background: #FFFFFF;
+}
+
+.manual-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+}
+
+.manual-table th {
+  background: var(--parex-navy);
+  color: #FFFFFF;
+  font-family: 'Outfit', sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 9px 10px;
+  text-align: left;
+}
+
+.manual-table td {
+  padding: 7px 8px;
+  border-bottom: 1px solid #EEF2F6;
+  vertical-align: middle;
+}
+
+.manual-input {
+  width: 100%;
+  padding: 6px 9px;
+  border: 1px solid var(--parex-border);
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12.5px;
+  color: var(--parex-text);
+}
+
+.manual-input.mono-input {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+}
+
+.manual-input:focus {
+  outline: none;
+  border-color: var(--parex-navy);
+  box-shadow: 0 0 0 2px rgba(0, 45, 114, 0.1);
+}
+
+.autosave-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(13, 138, 78, 0.14);
+  color: #0D8A4E;
+  border: 1px solid rgba(13, 138, 78, 0.35);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.btn-danger-outline {
+  background: #FFF5F5;
+  color: var(--status-nc);
+  border-color: var(--status-nc-border);
+}
+
+.btn-danger-outline:hover {
+  background: var(--status-nc);
+  color: #FFFFFF;
 }
 
 .audit-card.recurrence-card {
