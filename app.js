@@ -14,7 +14,7 @@
    ========================================================================== */
 
 (function () {
-  const STORAGE_KEY = "PAREX_PRE_AUDITORIA_ALMOX_V4_AVALIACAO_PRONTA";
+  const STORAGE_KEY = "PAREX_PRE_AUDITORIA_ALMOX_V5_CONSOLIDADO";
   const AUTOSAVE_INTERVAL_MS = 3 * 60 * 1000; // 3 minutos (180.000 ms)
 
   // Sequential Disciplines matching the auditor's inspection flow
@@ -430,7 +430,33 @@
     ];
   }
 
-  // Empty initial manual logs (1 blank row in each discipline table ready for manual typing)
+  // Consolidated Field Logs from 24/11/2026 Audit (Instruments, Welding Machines, Consumables, Welder Stamps)
+  function getConsolidatedManualLogs() {
+    return {
+      instruments: [
+        { tag: "39170", description: "Esquadro Stanley (Almoxarifado - Lote SDx 19/10)", certRbc: "39170/26", validity: "04/02/2027", inFo03022: "SIM", status: "C", notes: "Válido no sistema (72 dias). Confirmar impressão na FO-03-022 e remover trava quinzenal IT-08-073-PP." },
+        { tag: "35824", description: "Calibre Hi-Lo Zaas (Almoxarifado - Lote 318 05/11)", certRbc: "35824/26", validity: "05/11/2027", inFo03022: "SIM", status: "C", notes: "Válido no sistema (346 dias). Confirmar impressão na FO-03-022." },
+        { tag: "TRN-5499 / 5454", description: "Trena Analógica Lufkin (Área - Lote Setembro)", certRbc: "TRN-5499/26", validity: "28/09/2027", inFo03022: "SIM", status: "C", notes: "Válida em campo (308 dias)." },
+        { tag: "DDT-00051", description: "Detector de Tensão Parex (Em uso na Área / Elétrica)", certRbc: "ILEGÍVEL / VENCIDO", validity: "VENCIDA", inFo03022: "VENC_SEM_OBS", status: "NC", notes: "DESVIO CRÍTICO: Em uso com calibração vencida, identificação ilegível e mau funcionamento. Bloqueado." },
+        { tag: "SEM TAG (02 UN.)", description: "02 Esquadros sem identificação / avariados em Área", certRbc: "SEM CERTIFICADO", validity: "N/A", inFo03022: "NAO_CONSTA", status: "NC", notes: "Marcados manualmente a caneta 'ELÉTRICA'. Solicitada substituição imediata." },
+        { tag: "PARTICULAR (3m)", description: "Trena pessoal de 3 m utilizada em Área (Interferências)", certRbc: "NÃO CONTROLADO", validity: "N/A", inFo03022: "NAO_CONSTA", status: "NC", notes: "Colaborador orientado imediatamente. Alegou indisponibilidade de trenas no almoxarifado." }
+      ],
+      weldingMachines: [
+        { tag: "24302", modelLocation: "Máquina de Solda Manual (Em uso na Área - FO-03-022)", rciNumber: "RCI-348-26", validity: "03/02/2027", deviationPct: "-2,00% a 6,67%", status: "C", notes: "Calibrada em 03/08/2026 (71 dias restantes). Inspetor Robson Luiz (FBTS IS 4636)." },
+        { tag: "23837", modelLocation: "Máquina de Solda (Rastrear Campo / Almoxarifado)", rciNumber: "VENCIDO NO SISTEMA", validity: "VENCIDA EM 24/11/26", deviationPct: "-", status: "NC", notes: "Consta com calibração vencida hoje no sistema. Exige rastreamento imediato." },
+        { tag: "23843", modelLocation: "Máquina de Solda (Rastrear Campo / Almoxarifado)", rciNumber: "VENCIDO NO SISTEMA", validity: "VENCIDA EM 24/11/26", deviationPct: "-", status: "NC", notes: "Consta com calibração vencida hoje no sistema. Exige rastreamento imediato." },
+        { tag: "23808", modelLocation: "Máquina de Solda (Rastrear Campo / Almoxarifado)", rciNumber: "VENCIDO NO SISTEMA", validity: "VENCIDA EM 24/11/26", deviationPct: "-", status: "NC", notes: "Consta com calibração vencida hoje no sistema. Exige rastreamento imediato." }
+      ],
+      consumablesOvens: [
+        { lotNumber: "SMAW-CAMPO", awsSpec: "Eletrodo Revestido (Processo SMAW em Área)", ovenTag: "VERIFICADO EM ÁREA", tempHumidity: "Conforme", reqFo08014: "FO-08-014", status: "C", notes: "Soldagem em área verificada junto ao soldador PR2-002." }
+      ],
+      welderStamps: [
+        { sinete: "PR2-002", welderNameChapa: "EDMILSON DA SILVA OLIVEIRA", processRqs: "SMAW (Eletrodo Revestido) — Qualificação Vigente", continuityIt13010: "QR Code Qualificação em Tempo Real OK", status: "C", notes: "Verificado executando soldagem em campo com máquina TAG 24302 calibrada." }
+      ]
+    };
+  }
+
+  // Empty initial manual logs (when user clicks "Limpar Tudo e Iniciar do Zero")
   function getCleanManualLogs() {
     return {
       instruments: [
@@ -515,7 +541,7 @@
     },
     pitItems: getCleanPitItems(),
     recItems: getCleanRecItems(),
-    manualLogs: getCleanManualLogs(),
+    manualLogs: getConsolidatedManualLogs(),
     sheet12Rows: getDefaultSheet12Rows(),
     trainingRecords: getDefaultTrainingRecordsFromControle(),
     auditeeSignatureDataUrl: null,
