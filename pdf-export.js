@@ -743,9 +743,151 @@
     doc.save(`PAREX-Matriz-Treinamentos-MR-03-001-${emp.chapa}-${state.meta.data}.pdf`);
   }
 
+  // 4. EXPORT SINGLE-PAGE A4 SPREADSHEET FOR MARKING CONFORME / NÃO CONFORME (12 EMPLOYEES)
+  function exportA4ChecklistSheetPDF() {
+    if (!window.jspdf || !window.jspdf.jsPDF) {
+      window.print();
+      return;
+    }
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+    const state = window.PAREX_APP.getState();
+    const rows = state.sheet12Rows || [];
+
+    const cCount = rows.filter((r) => r.status === "C").length;
+    const ncCount = rows.filter((r) => r.status === "NC").length;
+    const valid = cCount + ncCount;
+    const pct = valid > 0 ? (cCount / valid) * 100 : 0;
+
+    drawBrandHeader(
+      doc,
+      "PLANILHA A4 DE VERIFICAÇÃO — MATRIZ DE TREINAMENTOS (MR-03-001 R8)",
+      "Inspeção de Qualificação e Treinamentos por Cargo/Função (Conforme / Não Conforme) • Obra N1341",
+      "FO-08-031 / MR-03-001 REV. 8"
+    );
+
+    let y = drawIsoMetadataBox(doc, 31);
+
+    // Compact KPI strip
+    doc.setFillColor(240, 245, 252);
+    doc.setDrawColor(...NAVY);
+    doc.setLineWidth(0.35);
+    doc.roundedRect(12, y - 1, 186, 8, 1.2, 1.2, "FD");
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(7.5);
+    doc.setTextColor(...NAVY);
+    doc.text(`AMOSTRA AUDITADA: 12 COLABORADORES`, 16, y + 4.2);
+    doc.setTextColor(...GREEN);
+    doc.text(`CONFORMES (C): ${cCount}`, 80, y + 4.2);
+    doc.setTextColor(...RED);
+    doc.text(`NÃO CONFORMES (NC): ${ncCount}`, 118, y + 4.2);
+    doc.setTextColor(...ORANGE);
+    doc.text(`% CONFORMIDADE: ${window.PAREX_APP.formatPct(pct)}`, 160, y + 4.2);
+
+    y += 9;
+
+    // Spreadsheet Table Header (Fits all 12 employees + Signature on a SINGLE A4 Page!)
+    doc.setFillColor(...NAVY);
+    doc.rect(12, y, 186, 6.5, "F");
+    doc.setTextColor(255, 255, 255);
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(6.6);
+    doc.text("CHAPA", 13.5, y + 4.3);
+    doc.text("COLABORADOR / CARGO", 26, y + 4.3);
+    doc.text("TREINAMENTOS OBRIGATÓRIOS EXIGIDOS NA MATRIZ (MR-03-001 R8)", 69, y + 4.3);
+    doc.text("[ C ]", 153, y + 4.3);
+    doc.text("[ NC ]", 163, y + 4.3);
+    doc.text("Nº LISTA / OBS.", 174, y + 4.3);
+    y += 6.5;
+
+    rows.forEach((r, idx) => {
+      const rowH = 12.2;
+      if (idx % 2 === 0) {
+        doc.setFillColor(250, 252, 255);
+        doc.rect(12, y, 186, rowH, "F");
+      }
+      doc.setDrawColor(200, 208, 218);
+      doc.setLineWidth(0.2);
+      doc.rect(12, y, 186, rowH, "S");
+
+      // Vertical column dividers
+      [24.5, 67.5, 151, 161, 172.5].forEach((vx) => {
+        doc.line(vx, y, vx, y + rowH);
+      });
+
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(6.8);
+      doc.setTextColor(...NAVY);
+      doc.text(r.chapa, 13.5, y + 5);
+
+      doc.setFontSize(6.7);
+      doc.text(doc.splitTextToSize(r.nome, 41)[0], 26, y + 4.2);
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(5.8);
+      doc.setTextColor(80, 90, 105);
+      doc.text(doc.splitTextToSize(r.cargo, 41)[0], 26, y + 7.6);
+      doc.text(doc.splitTextToSize(r.area, 41)[0], 26, y + 10.6);
+
+      // Required trainings wrapped to 3 compact lines
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(5.6);
+      doc.setTextColor(20, 30, 45);
+      const tLines = doc.splitTextToSize(r.reqTrainings, 81.5).slice(0, 3);
+      tLines.forEach((tl, lIdx) => {
+        doc.text(tl, 69, y + 3.6 + lIdx * 3.1);
+      });
+
+      // Checkbox [ C ]
+      doc.setDrawColor(...NAVY);
+      doc.setLineWidth(0.35);
+      if (r.status === "C") {
+        doc.setFillColor(...GREEN);
+        doc.rect(153.5, y + 3.6, 5, 5, "FD");
+        doc.setTextColor(255, 255, 255);
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(7.5);
+        doc.text("X", 156, y + 7.2, { align: "center" });
+      } else {
+        doc.rect(153.5, y + 3.6, 5, 5, "S");
+      }
+
+      // Checkbox [ NC ]
+      if (r.status === "NC") {
+        doc.setFillColor(...RED);
+        doc.rect(164.2, y + 3.6, 5, 5, "FD");
+        doc.setTextColor(255, 255, 255);
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(7.5);
+        doc.text("X", 166.7, y + 7.2, { align: "center" });
+      } else {
+        doc.rect(164.2, y + 3.6, 5, 5, "S");
+      }
+
+      // Obs
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(5.8);
+      doc.setTextColor(30, 40, 55);
+      if (r.obs) {
+        const obsLines = doc.splitTextToSize(r.obs, 23.5).slice(0, 3);
+        obsLines.forEach((ol, oIdx) => {
+          doc.text(ol, 173.8, y + 4 + oIdx * 3.1);
+        });
+      }
+
+      y += rowH;
+    });
+
+    y += 4;
+    drawMandatorySignatureBlock(doc, y);
+    addPageFooters(doc, "Planilha A4 de Verificação — Matriz MR-03-001 Rev. 8");
+
+    doc.save(`PAREX-Planilha-A4-Treinamentos-12-Colaboradores-${state.meta.data}.pdf`);
+  }
+
   window.PAREX_PDF = {
     exportFullAuditPDF,
     exportRecurrencesPDF,
-    exportTrainingMatrixPDF
+    exportTrainingMatrixPDF,
+    exportA4ChecklistSheetPDF
   };
 })();

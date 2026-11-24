@@ -412,6 +412,24 @@
     "049803"  // Wesley dos Santos Barbosa (Auxiliar Almoxarifado)
   ]);
 
+  // Interactive A4 Spreadsheet Rows for the 12 Employees (Conforme / Não Conforme)
+  function getDefaultSheet12Rows() {
+    return [
+      { id: "S12-01", chapa: "054444", nome: "André Luis Ricardo Antunes", cargo: "Topógrafo II", area: "Topografia", reqTrainings: "AP-09-001 (Integração) • PG-03-005 (Comunicação SGI) • IT-08-16 / IT-08-014 (Execução de Topografia) • IT-08-057 (Tubulação Enterrada) • IT-13-001 (Perigos/Riscos) • IT-13-005 (Direito Recusa) • IT-13-013 (Coleta) • IT-13-025 (EPI) • IT-13-035 (Eq. Portátil)", status: "PEND", obs: "" },
+      { id: "S12-02", chapa: "054134", nome: "Dailson Ribeiro Cordeiro", cargo: "Eletricista Força e Controle Manutenção", area: "Elétrica / Manutenção", reqTrainings: "AP-09-001 • PG-03-005 • IT-08-20 (Redes Elétricas) • IT-08-28 (Ensaio Elétrica) • IT-08-046 (Malha Aterramento) • IT-08-053 (Solda Exotérmica) • IT-08-055 (Comissionamento) • IT-08-056 (Instrumentação) • IT-08-058 (SDAI) • IT-13-023 (Inst. Elétrica) • IT-13-033 (Energia Zero) • IT-13-001/005/013/025/035", status: "PEND", obs: "" },
+      { id: "S12-03", chapa: "052819", nome: "Erik de Almeida Moura", cargo: "Técnico Materiais I", area: "Almoxarifado", reqTrainings: "IT-12-001 R11 (Recebimento/Armazenamento/Expedição) • IT-08-068 R03 (Preservação Cliente FO-08-109 PP) • IT-03-001 R04 (Metrologia FO-03-022) • IT-08-002-PP (Consumíveis Solda) • IT-13-048 / IT-13-017 (Químicos e Inflamáveis) • PG-03-001/003/005/006/007 • PG-12-001 • AP-09-001 • IT-03-002 • IT-13-005/013/025", status: "PEND", obs: "" },
+      { id: "S12-04", chapa: "057654", nome: "Evando Prexede Oliveira", cargo: "Mecânico Montador", area: "Montagem de Equipamentos", reqTrainings: "AP-09-001 • PG-03-005 • IT-08-13 / IT-08-011 (Montagem e Inspeção de Equipamentos) • IT-08-18 / IT-08-003-PP (Torqueamento FO-08-100) • IT-08-24 / IT-08-020 (Teste Hidrostático) • IT-13-001 (Perigos/Riscos) • IT-13-005 (Direito Recusa) • IT-13-013 (Coleta) • IT-13-025 (EPI) • IT-13-035 (Eq. Portátil)", status: "PEND", obs: "" },
+      { id: "S12-05", chapa: "057893", nome: "Guilherme Silva Xavier", cargo: "Instrumentista", area: "Instrumentação", reqTrainings: "AP-09-001 • PG-03-005 • IT-08-055 (Comissionamento) • IT-08-056 (Montagem de Instrumentação) • IT-08-058 (Montagem de SDAI) • IT-13-001 (Perigos/Riscos) • IT-13-005 (Direito Recusa) • IT-13-013 (Coleta) • IT-13-025 (EPI) • IT-13-035 (Eq. Portátil)", status: "PEND", obs: "" },
+      { id: "S12-06", chapa: "048439", nome: "João Lucas dos Santos", cargo: "Encarregado Elétrica", area: "Elétrica", reqTrainings: "AP-09-001 • PG-03-005 • IT-08-20 (Redes Elétricas) • IT-08-28 (Ensaio Elétrica) • IT-08-046 (Aterramento) • IT-08-053 (Solda Exotérmica) • IT-08-055 (Comissionamento) • IT-08-056 (Instrumentação) • IT-08-058 (SDAI) • IT-13-023 (Inst. Elétrica) • IT-13-033 (Energia Zero) • IT-13-001/005/013/025/035", status: "PEND", obs: "" },
+      { id: "S12-07", chapa: "054623", nome: "Jorge Mauricio Alves Franco", cargo: "Inspetor Solda N1", area: "Controle de Qualidade (RNC-03634/26)", reqTrainings: "IT-08-005 / IT-08-06 (Qualificação de Soldadores e Ensaio Visual de Solda — RNC-03634/26) • IT-03-001 R04 (Dispositivos de Medição — RNC-03634/26) • IT-08-002-PP (Consumíveis) • IT-08-001 / IT-08-04 (Soldagem) • IT-08-007 (LP) • IT-08-008 (US) • IT-08-009 (Máq. Solda/Estufas) • IT-08-11 (Tipagem) • PG-03-001/003/005 • AP-09-001 • IT-13-001/005/013/025/035", status: "PEND", obs: "" },
+      { id: "S12-08", chapa: "036989", nome: "Miqueias de Sousa Monteiro", cargo: "Encarregado Almoxarifado", area: "Almoxarifado (RNC-03630/26)", reqTrainings: "IT-12-001 R11 (Recebimento/Armazenamento/Expedição — RNC-03630/26) • IT-08-068 R03 (Preservação Cliente FO-08-109 PP) • IT-03-001 R04 (Metrologia FO-03-022) • IT-08-002-PP (Consumíveis Solda) • IT-13-048 / IT-13-017 (Químicos e Inflamáveis) • PG-03-001/003/005/006/007 • PG-12-001 • AP-09-001 • IT-03-002 • IT-13-005/013/025", status: "PEND", obs: "" },
+      { id: "S12-09", chapa: "048134", nome: "Rafael Baral Pereira", cargo: "Inspetor Pintura", area: "Controle de Qualidade — Pintura", reqTrainings: "IT-08-03 / IT-08-004 (Execução e Inspeção de Pintura e Jateamento) • IT-03-001 R04 (Controle de Dispositivos de Medição FO-03-022) • IT-08-068 R03 (Preservação FO-08-109 PP) • PG-03-001 (Controle Documentos) • PG-03-003 (Tratamento NCs) • PG-03-005 • AP-09-001 • IT-13-001/005/013/025/035", status: "PEND", obs: "" },
+      { id: "S12-10", chapa: "058851", nome: "Sabrina Silva Costa", cargo: "Assistente Recebimento Materiais", area: "Almoxarifado", reqTrainings: "IT-12-001 R11 (Recebimento FO-12-008 RIR / Armazenamento / Romaneio FO-12-003) • IT-08-068 R03 (Preservação Cliente FO-08-109 PP) • IT-03-001 R04 (Metrologia) • IT-08-002-PP (Consumíveis Solda) • IT-13-048 / IT-13-017 (Químicos e Inflamáveis) • PG-03-001/003/005/006/007 • PG-12-001 • AP-09-001 • IT-03-002 • IT-13-005/013/025", status: "PEND", obs: "" },
+      { id: "S12-11", chapa: "047713", nome: "Sandro Gemaque Nascimento", cargo: "Técnico Qualidade III", area: "Controle da Qualidade (Gestão SGI)", reqTrainings: "PG-03-001 R12 (Controle de Documentos/Registros) • PG-03-003 R10 (Tratamento de NCs) • PG-03-005/006/007 (Comunicação, Riscos e Mudanças) • IT-03-001 R04 (Metrologia FO-03-022) • IT-03-002 R04 (Treinamento) • IT-08-005 (Qualif. Soldadores) • IT-08-009 R05 (Calibração Máq. Solda/Estufas) • IT-08-068 R03 (Preservação) • AP-09-001 • IT-13-005/013/025", status: "PEND", obs: "" },
+      { id: "S12-12", chapa: "049803", nome: "Wesley dos Santos Barbosa", cargo: "Auxiliar Almoxarifado", area: "Almoxarifado", reqTrainings: "IT-12-001 R11 (Recebimento/Armazenamento/Expedição FO-12-003 e FO-12-004) • IT-08-068 R03 (Preservação Cliente FO-08-109 PP) • IT-03-001 R04 (Metrologia) • IT-08-002-PP (Consumíveis Solda) • IT-13-048 / IT-13-017 (Químicos e Inflamáveis) • PG-03-001/003/005/006/007 • PG-12-001 • AP-09-001 • IT-03-002 • IT-13-005/013/025", status: "PEND", obs: "" }
+    ];
+  }
+
   // Empty initial manual logs (1 blank row in each discipline table ready for manual typing)
   function getCleanManualLogs() {
     return {
@@ -463,6 +481,7 @@
     pitItems: getCleanPitItems(),
     recItems: getCleanRecItems(),
     manualLogs: getCleanManualLogs(),
+    sheet12Rows: getDefaultSheet12Rows(),
     trainingRecords: {}, // Empty when starting from zero!
     auditeeSignatureDataUrl: null, // Blank canvas when starting from zero!
     lastSavedAt: null
@@ -481,6 +500,7 @@
           state.pitItems = parsed.pitItems;
           state.recItems = parsed.recItems;
           state.manualLogs = Object.assign(getCleanManualLogs(), parsed.manualLogs || {});
+          state.sheet12Rows = Array.isArray(parsed.sheet12Rows) && parsed.sheet12Rows.length === 12 ? parsed.sheet12Rows : getDefaultSheet12Rows();
           state.trainingRecords = parsed.trainingRecords || {};
           state.auditedChapas = Array.isArray(parsed.auditedChapas) ? parsed.auditedChapas : [];
           state.auditeeSignatureDataUrl = parsed.auditeeSignatureDataUrl || null;
@@ -506,6 +526,7 @@
         pitItems: state.pitItems,
         recItems: state.recItems,
         manualLogs: state.manualLogs,
+        sheet12Rows: state.sheet12Rows,
         trainingRecords: state.trainingRecords,
         auditedChapas: state.auditedChapas,
         auditeeSignatureDataUrl: state.auditeeSignatureDataUrl,
@@ -1398,7 +1419,87 @@
     });
   }
 
+  // Render Interactive A4 Spreadsheet for the 12 Employees (Conforme / Não Conforme)
+  function renderSheet12Table() {
+    const container = document.getElementById("a4Sheet12Container");
+    if (!container) return;
+
+    const rows = state.sheet12Rows || [];
+    const cCount = rows.filter((r) => r.status === "C").length;
+    const ncCount = rows.filter((r) => r.status === "NC").length;
+    const pendCount = rows.filter((r) => r.status === "PEND").length;
+    const valid = cCount + ncCount;
+    const pct = valid > 0 ? (cCount / valid) * 100 : 0;
+
+    container.innerHTML = `
+      <div class="manual-log-header" style="border-bottom:2px solid var(--parex-navy);padding-bottom:10px;margin-bottom:12px;">
+        <div>
+          <h4 style="font-size:16px;">📋 PLANILHA A4 — VERIFICAÇÃO DE TREINAMENTOS DOS 12 COLABORADORES (MR-03-001 REV. 8)</h4>
+          <p style="font-size:12px;color:var(--parex-text-muted);margin-top:2px;">
+            Marque <strong>Conforme</strong> ou <strong>Não Conforme</strong> em cada linha (ou clique na linha para abrir os procedimentos individuais abaixo) e exporte direto em formato de Página A4 Assinada:
+          </p>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;">
+          <span class="count-pill count-c">${cCount} Conforme</span>
+          <span class="count-pill count-nc">${ncCount} Não Conforme</span>
+          <span class="count-pill count-na">${pendCount} Pendentes</span>
+          <span class="badge-pill badge-orange" style="font-size:13px;padding:5px 12px;">Conformidade: ${formatPct(pct)}</span>
+          <button type="button" class="btn btn-sm btn-primary" onclick="window.PAREX_PDF.exportA4ChecklistSheetPDF()">
+            🖨️ Gerar PDF Planilha em 1 Página A4 (Com Carimbo e Rubrica)
+          </button>
+        </div>
+      </div>
+
+      <div class="manual-table-wrap">
+        <table class="manual-table">
+          <thead>
+            <tr>
+              <th style="width:7%;">Chapa</th>
+              <th style="width:18%;">Colaborador</th>
+              <th style="width:15%;">Cargo / Função</th>
+              <th style="width:31%;">Treinamentos Obrigatórios Exigidos na Matriz (MR-03-001 R8)</th>
+              <th style="width:15%;text-align:center;">Marcar C / NC</th>
+              <th style="width:14%;">Nº Lista / Observação</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((r, idx) => `
+              <tr style="background:${r.status === 'C' ? 'rgba(13,138,78,0.06)' : r.status === 'NC' ? 'rgba(201,42,42,0.06)' : '#FFFFFF'};">
+                <td class="mono" style="cursor:pointer;" onclick="window.PAREX_APP.selectEmployee('${r.chapa}')"><strong>${r.chapa}</strong></td>
+                <td style="cursor:pointer;" onclick="window.PAREX_APP.selectEmployee('${r.chapa}')">
+                  <strong style="color:var(--parex-navy);text-decoration:underline;">${r.nome}</strong>
+                </td>
+                <td><strong>${r.cargo}</strong><br/><span style="font-size:11px;color:var(--parex-text-muted);">${r.area}</span></td>
+                <td style="font-size:11.5px;line-height:1.35;color:var(--parex-text);">${r.reqTrainings}</td>
+                <td style="text-align:center;">
+                  <div style="display:inline-flex;gap:4px;">
+                    <button type="button" class="btn btn-sm"
+                      style="padding:5px 9px;font-size:11.5px;background:${r.status === 'C' ? 'var(--status-c)' : '#EEF2F6'};color:${r.status === 'C' ? '#FFF' : 'var(--parex-text)'};"
+                      onclick="window.PAREX_APP.setSheet12Status(${idx}, 'C')">
+                      ✓ C
+                    </button>
+                    <button type="button" class="btn btn-sm"
+                      style="padding:5px 9px;font-size:11.5px;background:${r.status === 'NC' ? 'var(--status-nc)' : '#EEF2F6'};color:${r.status === 'NC' ? '#FFF' : 'var(--parex-text)'};"
+                      onclick="window.PAREX_APP.setSheet12Status(${idx}, 'NC')">
+                      ✕ NC
+                    </button>
+                  </div>
+                </td>
+                <td>
+                  <input type="text" class="manual-input" placeholder="Nº Lista / Obs..."
+                    value="${(r.obs || '').replace(/"/g, '&quot;')}"
+                    oninput="window.PAREX_APP.updateSheet12Obs(${idx}, this.value)" />
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
   function renderMatrixRoster() {
+    renderSheet12Table();
     const listEl = document.getElementById("employeeRosterList");
     const filtered = getFilteredEmployees();
     document.getElementById("rosterCountBadge").textContent = `${filtered.length} Colaboradores`;
@@ -1653,6 +1754,7 @@
       state.pitItems = getCleanPitItems();
       state.recItems = getCleanRecItems();
       state.manualLogs = getCleanManualLogs();
+      state.sheet12Rows = getDefaultSheet12Rows();
       state.trainingRecords = {};
       state.auditedChapas = [];
       state.auditeeSignatureDataUrl = null;
@@ -1686,9 +1788,37 @@
     clearAllTrainings() {
       state.trainingRecords = {};
       state.auditedChapas = [];
+      state.sheet12Rows = getDefaultSheet12Rows();
       saveState(false);
       renderMatrixRoster();
       updateDashboardAndReport();
+    },
+
+    setSheet12Status(idx, statusVal) {
+      if (!state.sheet12Rows || !state.sheet12Rows[idx]) return;
+      const row = state.sheet12Rows[idx];
+      row.status = row.status === statusVal ? "PEND" : statusVal;
+
+      // Sync with detailed employee training record in MR-03-001
+      if (row.status === "C") {
+        this.markEmployeeTrainings(row.chapa, "M");
+      } else if (row.status === "NC") {
+        if (!state.auditedChapas.includes(row.chapa)) {
+          state.auditedChapas.push(row.chapa);
+        }
+      } else {
+        this.markEmployeeTrainings(row.chapa, "NONE");
+      }
+      saveState(false);
+      renderSheet12Table();
+      renderMatrixRoster();
+      updateDashboardAndReport();
+    },
+
+    updateSheet12Obs(idx, val) {
+      if (!state.sheet12Rows || !state.sheet12Rows[idx]) return;
+      state.sheet12Rows[idx].obs = val;
+      saveState(false);
     },
 
     toggleDiscipline(discKey, isChecked) {

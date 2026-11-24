@@ -36,16 +36,16 @@
 
       <div class="header-actions no-print">
         <button type="button" class="btn btn-outline-light" style="border-color:#FF8585;color:#FFD6D6;" onclick="window.PAREX_APP.clearAllAndStartFromZero()">
-          <span>🧹 Limpar Tudo e Iniciar do Zero</span>
+          <span>🧹 Limpar Tudo (Zero)</span>
         </button>
-        <button type="button" class="btn btn-primary" onclick="window.PAREX_PDF.exportFullAuditPDF()">
-          <span>📄 Exportar Relatório ISO 9001 (PDF Assinado)</span>
+        <a href="assets/Planilha_A4_Pre_Auditoria_e_Matriz_Treinamentos_PAREX_ISO9001.xlsx" download class="btn btn-cyan">
+          <span>📊 Baixar Planilha Excel A4 (.xlsx)</span>
+        </a>
+        <button type="button" class="btn btn-primary" onclick="window.PAREX_PDF.exportA4ChecklistSheetPDF()">
+          <span>📋 PDF Planilha A4 (12 Colab. C/NC)</span>
         </button>
-        <button type="button" class="btn btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">
-          <span>🎓 Exportar PDF Matriz Treinamentos</span>
-        </button>
-        <button type="button" class="btn btn-outline-light" onclick="window.PAREX_APP.switchTab('relatorio'); setTimeout(() => window.print(), 250);">
-          <span>🖨️ Imprimir / PDF A4</span>
+        <button type="button" class="btn btn-outline-light" onclick="window.PAREX_PDF.exportFullAuditPDF()">
+          <span>📄 Relatório ISO 9001 (PDF)</span>
         </button>
       </div>
     </div>
@@ -296,9 +296,16 @@
           <button type="button" class="filter-chip" data-sector-chip="ADM::Compras" onclick="window.PAREX_APP.setMatrixSectorFilter('ADM::Compras')">🛒 Suprimentos / Compras</button>
         </div>
         <div class="toolbar-right">
-          <button type="button" class="btn btn-sm btn-danger-outline" onclick="window.PAREX_APP.clearAllTrainings()">🧹 Zerar Todos os Treinamentos</button>
-          <button type="button" class="btn btn-sm btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">📄 Exportar Relatório PDF da Matriz</button>
+          <a href="assets/Planilha_A4_Pre_Auditoria_e_Matriz_Treinamentos_PAREX_ISO9001.xlsx" download class="btn btn-sm btn-navy">📊 Baixar Excel A4 (.xlsx)</a>
+          <button type="button" class="btn btn-sm btn-primary" onclick="window.PAREX_PDF.exportA4ChecklistSheetPDF()">📋 Baixar Planilha A4 PDF (12 Colaboradores)</button>
+          <button type="button" class="btn btn-sm btn-danger-outline" onclick="window.PAREX_APP.clearAllTrainings()">🧹 Zerar Treinamentos</button>
+          <button type="button" class="btn btn-sm btn-cyan" onclick="window.PAREX_PDF.exportTrainingMatrixPDF()">📄 PDF Matriz Completa</button>
         </div>
+      </div>
+
+      <!-- PLANILHA INTERATIVA A4 DOS 12 COLABORADORES (MARCAR CONFORME OU NÃO CONFORME) -->
+      <div class="manual-log-box" id="a4Sheet12Container" style="background:#FFFFFF;border-color:var(--parex-navy);border-left:6px solid var(--parex-orange);margin-bottom:20px;">
+        <!-- Populated dynamically by app.js -->
       </div>
 
       <div class="matrix-layout">
