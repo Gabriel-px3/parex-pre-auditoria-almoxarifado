@@ -14,7 +14,7 @@
    ========================================================================== */
 
 (function () {
-  const STORAGE_KEY = "PAREX_PRE_AUDITORIA_ALMOX_V3_MR09001R9";
+  const STORAGE_KEY = "PAREX_PRE_AUDITORIA_ALMOX_V4_AVALIACAO_PRONTA";
   const AUTOSAVE_INTERVAL_MS = 3 * 60 * 1000; // 3 minutos (180.000 ms)
 
   // Sequential Disciplines matching the auditor's inspection flow
@@ -412,21 +412,21 @@
     "049803"  // Wesley dos Santos Barbosa (Auxiliar Almoxarifado)
   ]);
 
-  // Interactive A4 Spreadsheet Rows for the 12 Employees (Conforme / Não Conforme) — REVISADO CONFORME MR-09-001 REV. 09
+  // Interactive A4 Spreadsheet Rows for the 12 Employees (Conforme / Não Conforme) — AVALIAÇÃO PRONTA CRUZADA COM CONTROLE DE TREINAMENTO (1).xlsx E MR-09-001 REV. 09
   function getDefaultSheet12Rows() {
     return [
-      { id: "S12-01", chapa: "054444", nome: "André Luis Ricardo Antunes", cargo: "Topógrafo II", area: "Topografia (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de Não Conformidades) • [M] PG-03-004 (Análise Crítica do SGI) • [D] IT-08-016-PP (Execução de Topografia)", status: "PEND", obs: "" },
-      { id: "S12-02", chapa: "054134", nome: "Dailson Ribeiro Cordeiro", cargo: "Eletricista Força e Controle Manutenção", area: "Elétrica / Manutenção (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-020 (Montagem Redes Elétricas) • [M] IT-08-028-PP (Ensaio Campo Instalações Elétricas) • [M] IT-08-046 (Ensaios Malha Aterramento) • [M] IT-08-055 (Comissionamento) • [M] IT-08-056 (Montagem Instrumentação) • [M] IT-08-058 (Montagem SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004", status: "PEND", obs: "" },
-      { id: "S12-03", chapa: "052819", nome: "Erik de Almeida Moura", cargo: "Técnico Materiais I", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "PEND", obs: "" },
-      { id: "S12-04", chapa: "057654", nome: "Evando Prexede Oliveira", cargo: "Mecânico Montador", area: "Montagem de Equipamentos (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-013-PP (Montagem e Inspeção de Equipamentos) • [M] IT-08-018-PP (Torqueamento) • [M] IT-08-024 (Teste Hidrostático Vaso Pressão, Tubulação e Tanques) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004 • [D] IT-08-012 (Tanque) • [D] IT-08-017 (Rigging) • [D] IT-08-027 (Lavagem Tub.) • [D] IT-08-028-PP", status: "PEND", obs: "" },
-      { id: "S12-05", chapa: "057893", nome: "Guilherme Silva Xavier", cargo: "Instrumentista", area: "Instrumentação (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-055 (Procedimento para Comissionamento) • [M] IT-08-056 (Montagem de Instrumentação) • [M] IT-08-058 (Montagem de SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004 • [D] IT-08-013-PP (Montagem Equipamentos) • [D] IT-08-028-PP (Ensaio Instalações Elétricas)", status: "PEND", obs: "" },
-      { id: "S12-06", chapa: "048439", nome: "João Lucas dos Santos", cargo: "Encarregado Elétrica", area: "Elétrica (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-020 (Montagem Redes Elétricas) • [M] IT-08-028-PP (Ensaio Campo Instalações Elétricas) • [M] IT-08-046 (Ensaios Malha Aterramento) • [M] IT-08-055 (Comissionamento) • [M] IT-08-056 (Montagem Instrumentação) • [M] IT-08-058 (Montagem SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004", status: "PEND", obs: "" },
-      { id: "S12-07", chapa: "054623", nome: "Jorge Mauricio Alves Franco", cargo: "Inspetor Solda N1", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ] IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-08-004-PP (Operações Soldagem) • IT-08-005 (Qualificação Soldadores) • IT-08-006 (EVS) • IT-08-007 (LP) • IT-08-008 e IT-08-049 (Ultrassom ASME V / AWS D1.1) • IT-08-009 (Calibração Máq. Solda/Estufas) • IT-08-011 (Tipagem) • PG-03-001 a 004 (+ demais itens D de CQ na MR-09-001 R9)", status: "PEND", obs: "" },
-      { id: "S12-08", chapa: "036989", nome: "Miqueias de Sousa Monteiro", cargo: "Encarregado Almoxarifado", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "PEND", obs: "" },
-      { id: "S12-09", chapa: "048134", nome: "Rafael Baral Pereira", cargo: "Inspetor Pintura", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ] IT-08-003 (Execução e Inspeção de Pintura e Jateamento) • IT-08-029 (Holiday Detector) • IT-03-001 (Controle Dispositivos Medição e Ensaios) • IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • PG-03-001 (Controle Documentos) • PG-03-002 (Auditorias SGI) • PG-03-003 (Tratamento NCs) • PG-03-004 (Análise Crítica SGI)", status: "PEND", obs: "" },
-      { id: "S12-10", chapa: "058851", nome: "Sabrina Silva Costa", cargo: "Assistente Recebimento Materiais", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "PEND", obs: "" },
-      { id: "S12-11", chapa: "047713", nome: "Sandro Gemaque Nascimento", cargo: "Técnico Qualidade III", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ — 35 itens MR-09-001 R9] PG-03-001, PG-03-002, PG-03-003, PG-03-004 • IT-03-001 • IT-08-002, 003, 004-PP, 005, 006, 007, 008, 009, 010, 011, 012, 013-PP, 015, 016-PP, 018-PP, 022-PP, 024, 025, 027, 028-PP, 029, 030, 046, 049, 055, 056 • IT-08-070-PP (Esclerometria), IT-08-071-PP (Preservação Cliente), IT-08-072-PP (Fibra Óptica), IT-08-073-PP (Protensão)", status: "PEND", obs: "" },
-      { id: "S12-12", chapa: "049803", nome: "Wesley dos Santos Barbosa", cargo: "Auxiliar Almoxarifado", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "PEND", obs: "" }
+      { id: "S12-01", chapa: "054444", nome: "André Luis Ricardo Antunes", cargo: "Topógrafo II", area: "Topografia (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de Não Conformidades) • [M] PG-03-004 (Análise Crítica do SGI) • [D] IT-08-016-PP (Execução de Topografia)", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento (0/4 M e 0/1 D)" },
+      { id: "S12-02", chapa: "054134", nome: "Dailson Ribeiro Cordeiro", cargo: "Eletricista Força e Controle Manutenção", area: "Elétrica / Manutenção (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-020 (Montagem Redes Elétricas) • [M] IT-08-028-PP (Ensaio Campo Instalações Elétricas) • [M] IT-08-046 (Ensaios Malha Aterramento) • [M] IT-08-055 (Comissionamento) • [M] IT-08-056 (Montagem Instrumentação) • [M] IT-08-058 (Montagem SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento (0/10 M)" },
+      { id: "S12-03", chapa: "052819", nome: "Erik de Almeida Moura", cargo: "Técnico Materiais I", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "NC", obs: "NÃO CONSTA no Controle (L.128 é Erick Saúde Vieira)" },
+      { id: "S12-04", chapa: "057654", nome: "Evando Prexede Oliveira", cargo: "Mecânico Montador", area: "Montagem de Equipamentos (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-013-PP (Montagem e Inspeção de Equipamentos) • [M] IT-08-018-PP (Torqueamento) • [M] IT-08-024 (Teste Hidrostático Vaso Pressão, Tubulação e Tanques) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004 • [D] IT-08-012 (Tanque) • [D] IT-08-017 (Rigging) • [D] IT-08-027 (Lavagem Tub.) • [D] IT-08-028-PP", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento (0/7 M)" },
+      { id: "S12-05", chapa: "057893", nome: "Guilherme Silva Xavier", cargo: "Instrumentista", area: "Instrumentação (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-055 (Procedimento para Comissionamento) • [M] IT-08-056 (Montagem de Instrumentação) • [M] IT-08-058 (Montagem de SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004 • [D] IT-08-013-PP (Montagem Equipamentos) • [D] IT-08-028-PP (Ensaio Instalações Elétricas)", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento (0/7 M)" },
+      { id: "S12-06", chapa: "048439", nome: "João Lucas dos Santos", cargo: "Encarregado Elétrica", area: "Elétrica (MR-09-001 Rev. 09)", reqTrainings: "[M] IT-08-020 (Montagem Redes Elétricas) • [M] IT-08-028-PP (Ensaio Campo Instalações Elétricas) • [M] IT-08-046 (Ensaios Malha Aterramento) • [M] IT-08-055 (Comissionamento) • [M] IT-08-056 (Montagem Instrumentação) • [M] IT-08-058 (Montagem SDAI) • [M] PG-03-001 • [M] PG-03-002 • [M] PG-03-003 • [M] PG-03-004", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento (0/10 M)" },
+      { id: "S12-07", chapa: "054623", nome: "Jorge Mauricio Alves Franco", cargo: "Inspetor Solda N1", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ] IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-08-004-PP (Operações Soldagem) • IT-08-005 (Qualificação Soldadores) • IT-08-006 (EVS) • IT-08-007 (LP) • IT-08-008 e IT-08-049 (Ultrassom ASME V / AWS D1.1) • IT-08-009 (Calibração Máq. Solda/Estufas) • IT-08-011 (Tipagem) • PG-03-001 a 004", status: "NC", obs: "CONSTA L.136 (MR-03-001-PP R0 29/04/26 VÁLIDO), porém RNC-03634/26 apontou falta de lista nominal de IT-08-005 e IT-03-001" },
+      { id: "S12-08", chapa: "036989", nome: "Miqueias de Sousa Monteiro", cargo: "Encarregado Almoxarifado", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "NC", obs: "NÃO CONSTA no Controle (L.20 é Miqueias Sá Soares - Soldador)" },
+      { id: "S12-09", chapa: "048134", nome: "Rafael Baral Pereira", cargo: "Inspetor Pintura", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ] IT-08-003 (Execução e Inspeção de Pintura e Jateamento) • IT-08-029 (Holiday Detector) • IT-03-001 (Controle Dispositivos Medição e Ensaios) • IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • PG-03-001 (Controle Documentos) • PG-03-002 (Auditorias SGI) • PG-03-003 (Tratamento NCs) • PG-03-004 (Análise Crítica SGI)", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento" },
+      { id: "S12-10", chapa: "058851", nome: "Sabrina Silva Costa", cargo: "Assistente Recebimento Materiais", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "NC", obs: "NÃO CONSTA no Controle de Treinamento" },
+      { id: "S12-11", chapa: "047713", nome: "Sandro Gemaque Nascimento", cargo: "Técnico Qualidade III", area: "Controle de Qualidade (MR-09-001 Rev. 09)", reqTrainings: "[D/CQ — 35 itens MR-09-001 R9] PG-03-001, PG-03-002, PG-03-003, PG-03-004 • IT-03-001 • IT-08-002, 003, 004-PP, 005, 006, 007, 008, 009, 010, 011, 012, 013-PP, 015, 016-PP, 018-PP, 022-PP, 024, 025, 027, 028-PP, 029, 030, 046, 049, 055, 056 • IT-08-070-PP (Esclerometria), IT-08-071-PP (Preservação Cliente), IT-08-072-PP (Fibra Óptica), IT-08-073-PP (Protensão)", status: "C", obs: "CONFORME — L.139 (MR-03-001-PP R0 em 03/07/26 VÁLIDO) e L.160 (IT-03-001 R04 / PG-03-001 R12 em 21/09/26 VÁLIDO)" },
+      { id: "S12-12", chapa: "049803", nome: "Wesley dos Santos Barbosa", cargo: "Auxiliar Almoxarifado", area: "Expedição / Almoxarifado (MR-09-001 Rev. 09)", reqTrainings: "[M] PG-03-001 (Controle Documentos e Registros) • [M] PG-03-002 (Auditorias do SGI) • [M] PG-03-003 (Tratamento de NCs) • [M] PG-03-004 (Análise Crítica do SGI) • [D/M] IT-08-071-PP (Armazenamento e Preservação Materiais Cliente) • IT-03-001 (Dispositivos Medição) • IT-08-002 (Consumíveis Solda) • IT-12-001 R11", status: "NC", obs: "NÃO CONSTA no Controle (do Almox. só Pedro Alisson L.9)" }
     ];
   }
 
@@ -448,9 +448,44 @@
     };
   }
 
-  // Application State (Starts from Zero by default!)
+  // Pre-populated training records from CONTROLE DE TREINAMENTO (1).xlsx for the 12 sample employees
+  function getDefaultTrainingRecordsFromControle() {
+    const rec = {};
+    // 047713 - Sandro Gemaque Nascimento (Linha 139: MR-03-001-PP R0 em 03/07/26 VÁLIDO + Linha 160: IT-03-001 R04 / PG-03-001 R12 em 21/09/26 VÁLIDO)
+    rec["047713"] = {};
+    if (window.PAREX_DATA && window.PAREX_DATA.profiles["R9::Controle de qualidade"]) {
+      window.PAREX_DATA.profiles["R9::Controle de qualidade"].trainings.forEach((t) => {
+        rec["047713"][t.code] = {
+          done: true,
+          note: (t.code === "IT-03-001" || t.code === "PG-03-001")
+            ? "Controle Trein. L.160 (21/09/2026 - Venc. 21/09/2027 - VÁLIDO)"
+            : "Controle Trein. L.139 (MR-03-001-PP R0 em 03/07/2026 - Venc. 03/07/2027 - VÁLIDO)"
+        };
+      });
+    }
+    // 054623 - Jorge Mauricio Alves Franco (Linha 136: MR-03-001-PP R0 em 29/04/26 VÁLIDO, exceto IT-08-005 e IT-03-001 apontados na RNC-03634/26)
+    rec["054623"] = {
+      "IT-08-002": { done: true, note: "Controle Trein. L.136 (29/04/2026 - VÁLIDO) + Lista IT-08-002" },
+      "IT-08-004-PP": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-006": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-007": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-008": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-009": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-011": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-08-049": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "PG-03-001": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "PG-03-002": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "PG-03-003": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "PG-03-004": { done: true, note: "Controle Trein. L.136 (MR-03-001-PP R0 em 29/04/2026 - VÁLIDO)" },
+      "IT-03-001": { done: false, note: "PENDENTE LISTA NOMINAL (Apontado na RNC-03634/26)" },
+      "IT-08-005": { done: false, note: "PENDENTE LISTA NOMINAL (Apontado na RNC-03634/26)" }
+    };
+    return rec;
+  }
+
+  // Application State
   let state = {
-    activeTab: "pit",
+    activeTab: "treinamentos",
     disciplineView: "ALL",
     selectedDisciplines: {
       METROLOGIA: true,
@@ -462,12 +497,12 @@
     },
     pitFilter: "ALL",
     recFilter: "ALL",
-    matrixSectorFilter: "ALL",
+    matrixSectorFilter: "SAMPLE_12",
     matrixCargoFilter: "ALL",
     matrixStatusFilter: "ALL",
     matrixSearch: "",
-    selectedChapa: "030282",
-    auditedChapas: [], // Tracks which employees the auditor has inspected/selected in this session
+    selectedChapa: "047713",
+    auditedChapas: Array.from(SAMPLE_12_CHAPAS),
     meta: {
       auditor: "Gabriel Pereira dos Santos",
       auditorRole: "Técnico em Qualidade • CRT - 5359772/2024",
@@ -475,15 +510,15 @@
       area: "Operacional — Almoxarifado, Metrologia, Solda, Consumíveis e Preservação",
       local: "PABH 041 22 - Vale - Projeto de Adequação da Usina 1 - Parauapebas-PA (N1341)",
       data: "2026-11-24",
-      hora: "10:15:00",
-      objetivo: "Verificação preventiva de conformidade do Almoxarifado frente ao Plano FO-08-031 Rev. 2 (Requisitos ISO 9001: 5.1, 5.2, 7.1.5, 7.2, 7.3, 7.5.3, 8.1, 8.4, 8.5.1 a 8.5.6, 8.6, 8.7 e 10.2), PIT PI-1000KN-Q-500004 (Seções 1.0 e 2.0), Reincidências SGI 2024–2026 e Matriz MR-03-001 Rev. 8."
+      hora: "15:45:00",
+      objetivo: "Verificação preventiva de conformidade do Almoxarifado frente ao Plano FO-08-031 Rev. 2, PIT PI-1000KN-Q-500004, Reincidências SGI 2024–2026 e Matriz MR-09-001 Rev. 09 cruzada com o Controle de Treinamento da Obra."
     },
     pitItems: getCleanPitItems(),
     recItems: getCleanRecItems(),
     manualLogs: getCleanManualLogs(),
     sheet12Rows: getDefaultSheet12Rows(),
-    trainingRecords: {}, // Empty when starting from zero!
-    auditeeSignatureDataUrl: null, // Blank canvas when starting from zero!
+    trainingRecords: getDefaultTrainingRecordsFromControle(),
+    auditeeSignatureDataUrl: null,
     lastSavedAt: null
   };
 
