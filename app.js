@@ -868,6 +868,95 @@
     return "";
   }
 
+  // Render 4-Photo Evidence Attachment Widget for any PIT or Recurrence Item
+  function renderPhotoSlotsWidget(section, item) {
+    const photos = Array.isArray(item.photos) ? item.photos : [];
+    const count = photos.filter(Boolean).length;
+    const slots = [0, 1, 2, 3];
+
+    return `
+      <div class="evidence-photos-bar">
+        <div class="evidence-photos-header">
+          <span>📷 Fotos da Evidência (${count}/4 anexadas)</span>
+          <div style="display:flex;gap:6px;">
+            <label class="btn btn-sm btn-outline" style="padding:3px 9px;font-size:11px;cursor:pointer;">
+              + Anexar Fotos (até 4)
+              <input type="file" accept="image/*" multiple style="display:none;"
+                onchange="window.PAREX_APP.handleMultiPhotoUpload('${section}', '${item.id}', this.files); this.value='';" />
+            </label>
+            ${count > 0 ? `<button type="button" class="btn btn-sm btn-danger-outline" style="padding:3px 8px;font-size:11px;" onclick="window.PAREX_APP.clearItemPhotos('${section}', '${item.id}')">Limpar Fotos</button>` : ""}
+          </div>
+        </div>
+        <div class="photo-slots-grid">
+          ${slots.map((slotIdx) => {
+            const p = photos[slotIdx];
+            if (p && p.dataUrl) {
+              return `
+                <div class="photo-slot filled" title="${p.name || 'Foto ' + (slotIdx + 1)}">
+                  <img src="${p.dataUrl}" alt="Foto ${slotIdx + 1}" onclick="window.PAREX_APP.previewPhoto('${section}', '${item.id}', ${slotIdx})" style="cursor:zoom-in;" />
+                  <span class="photo-slot-badge">FOTO ${slotIdx + 1}/4</span>
+                  <button type="button" class="photo-slot-remove" title="Remover Foto ${slotIdx + 1}"
+                    onclick="window.PAREX_APP.removeItemPhoto('${section}', '${item.id}', ${slotIdx})">✕</button>
+                </div>
+              `;
+            }
+            return `
+              <label class="photo-slot" title="Clique para anexar a Foto ${slotIdx + 1} de 4">
+                <input type="file" accept="image/*" style="display:none;"
+                  onchange="window.PAREX_APP.handleSlotPhotoUpload('${section}', '${item.id}', ${slotIdx}, this.files[0]); this.value='';" />
+                <div class="photo-slot-placeholder">
+                  <span style="font-size:16px;">📷</span>
+                  <span>Foto ${slotIdx + 1}/4</span>
+                </div>
+              </label>
+            `;
+          }).join("")}
+        </div>
+      </div>
+    `;
+  }
+
+  // Compress uploaded image via Canvas so 4 photos per item save fast in localStorage and render cleanly in PDF
+  function compressImageFile(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        const img = new Image();
+        img.onload = () => {
+          const MAX_DIM = 960;
+          let w = img.width;
+          let h = img.height;
+          if (w > MAX_DIM || h > MAX_DIM) {
+            if (w >= h) {
+              h = Math.round((h * MAX_DIM) / w);
+              w = MAX_DIM;
+            } else {
+              w = Math.round((w * MAX_DIM) / h);
+              h = MAX_DIM;
+            }
+          }
+          const canvas = document.createElement("canvas");
+          canvas.width = w;
+          canvas.height = h;
+          const ctx = canvas.getContext("2d");
+          ctx.fillStyle = "#FFFFFF";
+          ctx.fillRect(0, 0, w, h);
+          ctx.drawImage(img, 0, 0, w, h);
+          const dataUrl = canvas.toDataURL("image/jpeg", 0.78);
+          resolve({
+            dataUrl,
+            name: file.name || "evidencia.jpg",
+            addedAt: new Date().toLocaleTimeString("pt-BR")
+          });
+        };
+        img.onerror = reject;
+        img.src = ev.target.result;
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
   // Render Tab 1: Grouped by Active Disciplines with Manual Tables + Checklist Cards
   function renderPitCards() {
     const container = document.getElementById("pitCardsContainer");
@@ -954,6 +1043,7 @@
                       <label>Evidências Objetivas / Constatações de Auditoria (ISO 9001)</label>
                       <textarea class="audit-textarea" placeholder="Descreva as evidências constatadas em campo (TAGs, lotes, sinetes, documentos verificados)..."
                         oninput="window.PAREX_APP.updateItemText('pit', '${item.id}', 'evidence', this.value)">${item.evidence}</textarea>
+                      ${renderPhotoSlotsWidget('pit', item)}
                     </div>
                     <div class="audit-input-col">
                       <label>Tratativa / Plano de Ação Corretiva Imediata</label>
@@ -1032,6 +1122,7 @@
               <label>Evidência Física e Documental Constatada na Pré-Auditoria</label>
               <textarea class="audit-textarea" placeholder="Registre a situação encontrada na verificação pontual desta reincidência..."
                 oninput="window.PAREX_APP.updateItemText('rec', '${item.id}', 'evidence', this.value)">${item.evidence}</textarea>
+              ${renderPhotoSlotsWidget('rec', item)}
             </div>
             <div class="audit-input-col">
               <label>Ação de Bloqueio / Saneamento Imediato</label>
@@ -1166,12 +1257,16 @@
     pitTbody.innerHTML = activePit.map((item) => {
       const badgeColor = item.status === "C" ? "var(--status-c)" : item.status === "NC" ? "var(--status-nc)" : "var(--status-na)";
       const statusLabel = item.status === "C" ? "CONFORME" : item.status === "NC" ? "NÃO CONFORME" : item.status === "NA" ? "N/A" : "PENDENTE";
+      const validPhotos = (item.photos || []).filter((p) => p && p.dataUrl);
+      const photosHtml = validPhotos.length > 0
+        ? `<div class="report-photo-strip">${validPhotos.map((p, idx) => `<img src="${p.dataUrl}" class="report-photo-thumb" alt="Foto ${idx + 1}" />`).join("")}</div>`
+        : "";
       return `
         <tr>
           <td><strong>${item.code}</strong><br/><span style="font-size:11px;color:var(--parex-text-muted);">${item.iso}</span></td>
           <td><strong>${item.title}</strong><br/><span style="font-size:11px;color:var(--parex-text-muted);">${item.proc} | ${item.forms}</span></td>
           <td><strong style="color:${badgeColor};">${statusLabel}</strong></td>
-          <td>${item.evidence || "-"}</td>
+          <td>${item.evidence || "-"}${photosHtml}</td>
           <td>${item.action || "-"}</td>
         </tr>
       `;
@@ -1182,12 +1277,16 @@
     recTbody.innerHTML = state.recItems.map((item) => {
       const badgeColor = item.status === "C" ? "var(--status-c)" : item.status === "NC" ? "var(--status-nc)" : "var(--status-na)";
       const statusLabel = item.status === "C" ? "CONFORME" : item.status === "NC" ? "NÃO CONFORME" : item.status === "NA" ? "N/A" : "PENDENTE";
+      const validPhotos = (item.photos || []).filter((p) => p && p.dataUrl);
+      const photosHtml = validPhotos.length > 0
+        ? `<div class="report-photo-strip">${validPhotos.map((p, idx) => `<img src="${p.dataUrl}" class="report-photo-thumb" alt="Foto ${idx + 1}" />`).join("")}</div>`
+        : "";
       return `
         <tr>
           <td><strong style="color:var(--status-nc);">${item.rnc}</strong><br/><span style="font-size:10.5px;color:var(--parex-text-muted);">${item.iso}</span></td>
           <td><strong>${item.title}</strong><br/><span style="font-size:11px;color:var(--parex-text-muted);">${item.proc} | ${item.forms}</span></td>
           <td><strong style="color:${badgeColor};">${statusLabel}</strong></td>
-          <td>${item.evidence || "-"}</td>
+          <td>${item.evidence || "-"}${photosHtml}</td>
           <td>${item.action || "-"}</td>
         </tr>
       `;
@@ -1705,6 +1804,80 @@
       item[field] = value;
       saveState(false);
       renderReportTables();
+    },
+
+    async handleSlotPhotoUpload(section, itemId, slotIdx, file) {
+      if (!file) return;
+      const list = section === "pit" ? state.pitItems : state.recItems;
+      const item = list.find((i) => i.id === itemId);
+      if (!item) return;
+      if (!Array.isArray(item.photos)) item.photos = [null, null, null, null];
+      try {
+        const compressed = await compressImageFile(file);
+        item.photos[slotIdx] = compressed;
+        saveState(false);
+        if (section === "pit") renderPitCards();
+        else renderRecCards();
+        renderReportTables();
+      } catch (e) {
+        console.warn("Erro ao processar foto:", e);
+      }
+    },
+
+    async handleMultiPhotoUpload(section, itemId, fileList) {
+      if (!fileList || !fileList.length) return;
+      const list = section === "pit" ? state.pitItems : state.recItems;
+      const item = list.find((i) => i.id === itemId);
+      if (!item) return;
+      if (!Array.isArray(item.photos)) item.photos = [null, null, null, null];
+
+      const files = Array.from(fileList).slice(0, 4);
+      for (const file of files) {
+        // Find first empty slot (0..3); if all full, overwrite starting at last slot
+        let targetSlot = item.photos.findIndex((p) => !p || !p.dataUrl);
+        if (targetSlot === -1 || targetSlot > 3) targetSlot = 3;
+        try {
+          item.photos[targetSlot] = await compressImageFile(file);
+        } catch (e) {
+          console.warn("Erro ao comprimir foto:", e);
+        }
+      }
+      saveState(false);
+      if (section === "pit") renderPitCards();
+      else renderRecCards();
+      renderReportTables();
+    },
+
+    removeItemPhoto(section, itemId, slotIdx) {
+      const list = section === "pit" ? state.pitItems : state.recItems;
+      const item = list.find((i) => i.id === itemId);
+      if (!item || !Array.isArray(item.photos)) return;
+      item.photos[slotIdx] = null;
+      saveState(false);
+      if (section === "pit") renderPitCards();
+      else renderRecCards();
+      renderReportTables();
+    },
+
+    clearItemPhotos(section, itemId) {
+      const list = section === "pit" ? state.pitItems : state.recItems;
+      const item = list.find((i) => i.id === itemId);
+      if (!item) return;
+      item.photos = [null, null, null, null];
+      saveState(false);
+      if (section === "pit") renderPitCards();
+      else renderRecCards();
+      renderReportTables();
+    },
+
+    previewPhoto(section, itemId, slotIdx) {
+      const list = section === "pit" ? state.pitItems : state.recItems;
+      const item = list.find((i) => i.id === itemId);
+      if (!item || !item.photos || !item.photos[slotIdx]) return;
+      const w = window.open("", "_blank");
+      if (w) {
+        w.document.write(`<html><head><title>Evidência Fotográfica ${slotIdx + 1}/4 — ${item.code || item.rnc}</title></head><body style="margin:0;background:#0F1E36;display:flex;align-items:center;justify-content:center;min-height:100vh;"><img src="${item.photos[slotIdx].dataUrl}" style="max-width:96vw;max-height:94vh;border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,0.5);" /></body></html>`);
+      }
     },
 
     filterRec(filterVal) {

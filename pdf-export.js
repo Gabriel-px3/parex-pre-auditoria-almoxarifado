@@ -356,7 +356,9 @@
         const acText = item.action ? `Tratativa: ${item.action}` : "";
         const evLines = doc.splitTextToSize(evText, 152);
         const acLines = acText ? doc.splitTextToSize(acText, 152) : [];
-        const cardH = 11 + (evLines.length + acLines.length) * 3.3;
+        const validPhotos = (item.photos || []).filter((p) => p && p.dataUrl).slice(0, 4);
+        const photoRowH = validPhotos.length > 0 ? 30 : 0;
+        const cardH = 11 + (evLines.length + acLines.length) * 3.3 + photoRowH;
 
         if (y + cardH > 272) {
           doc.addPage();
@@ -409,6 +411,19 @@
           doc.text(l, 16, ty);
           ty += 3.2;
         });
+
+        // Render up to 4 attached evidence photos side by side inside the PDF item card
+        if (validPhotos.length > 0) {
+          validPhotos.forEach((p, pIdx) => {
+            const px = 16 + pIdx * 44;
+            try {
+              doc.setDrawColor(...NAVY);
+              doc.setLineWidth(0.2);
+              doc.rect(px, ty, 41, 26);
+              doc.addImage(p.dataUrl, "JPEG", px + 0.4, ty + 0.4, 40.2, 25.2);
+            } catch (e) {}
+          });
+        }
 
         y += cardH + 2;
       });
@@ -513,7 +528,9 @@
       const wrappedCrit = critLines.flatMap((cl) => doc.splitTextToSize(cl, 178));
       const evLines = doc.splitTextToSize(`Evidência: ${item.evidence || "-"}`, 178);
       const acLines = doc.splitTextToSize(`Ação: ${item.action || "-"}`, 178);
-      const cardH = 15 + (wrappedCrit.length + evLines.length + acLines.length) * 3.2;
+      const validPhotos = (item.photos || []).filter((p) => p && p.dataUrl).slice(0, 4);
+      const photoRowH = validPhotos.length > 0 ? 30 : 0;
+      const cardH = 15 + (wrappedCrit.length + evLines.length + acLines.length) * 3.2 + photoRowH;
 
       if (y + cardH > 268) {
         doc.addPage();
@@ -574,6 +591,18 @@
         doc.text(l, 16.5, ty);
         ty += 3.1;
       });
+
+      if (validPhotos.length > 0) {
+        validPhotos.forEach((p, pIdx) => {
+          const px = 16.5 + pIdx * 44;
+          try {
+            doc.setDrawColor(...NAVY);
+            doc.setLineWidth(0.2);
+            doc.rect(px, ty + 0.5, 41, 26);
+            doc.addImage(p.dataUrl, "JPEG", px + 0.4, ty + 0.9, 40.2, 25.2);
+          } catch (e) {}
+        });
+      }
 
       y += cardH + 2.5;
     });
