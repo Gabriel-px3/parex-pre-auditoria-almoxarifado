@@ -1,1277 +1,128 @@
-// Base de Dados Canônica Parex Hub — MR-03-001 Rev. 8 × Efetivo Presente 23/11/2026 (1.110 Colaboradores)
+// Base de Dados Canônica Parex Hub — MR-09-001 REV. 09 × Efetivo Presente 23/11/2026 (1.110 Colaboradores)
 window.PAREX_DATA = {
-  "generatedAt": "2026-11-24T09:30:00-03:00",
-  "matrixRevision": "MR-03-001 Rev. 8 (15/06/2023) + Book PR-1000KN-Q-500012 Rev. 10 (16/11/2026)",
+  "generatedAt": "2026-11-24T15:40:00-03:00",
+  "matrixRevision": "MR-09-001 REV. 09 (39 Procedimentos — Operacionais Projeto/Fábrica)",
   "efetivoReference": "2026.11.23 EFETIVO PRESENTE DO PROJETO VALE ADEQUAÇÃO USINA 1 (1.110 Colaboradores)",
   "profiles": {
-    "ADM::RH / DP": {
-      "key": "ADM::RH / DP",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "RH / DP",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-09-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE RECURSOS HUMANOS",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-09-001",
-          "title": "INSTRUÇÃO DE TRABALHO PARA ADMINISTRAÇÃO DE PESSOAL",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Transporte / Manutenção": {
-      "key": "ADM::Transporte / Manutenção",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Transporte / Manutenção",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-12-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-036",
-          "title": "CONTROLE E MANUTENÇÃO DE EQUIPAMENTOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-002",
-          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-12-003",
-          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-036",
-          "title": "TRANSPORTE DE PESSOAS EM VEICULOS LEVES E COLETIVOS",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Compras": {
-      "key": "ADM::Compras",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Compras",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "PG-12-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-001",
-          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-002",
-          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-12-003",
-          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Expedição": {
-      "key": "ADM::Expedição",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Expedição",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-001",
-          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-068",
-          "title": "Armazenamento e Preservação de Materiais Fornecidos pelo Cliente (PR-1000KN-Q-500018 R03 / FO-08-109 PP)",
-          "req": "M",
-          "note": "Crítico Auditoria Vale (RNC-03633/26, 00404/26, 00406/26)"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "Calibração de Máquinas de Solda e Estufas Portáteis (R05 / FO-08-018 RCI)",
-          "req": "D",
-          "note": "Interface Metrologia/Almoxarifado (RNC-00807/26)"
-        },
-        {
-          "code": "IT-13-048",
-          "title": "Gerenciamento de Produtos Químicos e FISPQ / FDS (R02 / FO-13-154)",
-          "req": "M",
-          "note": "Inspeção de Químicos e Kit Mitigação no Almoxarifado"
-        }
-      ]
-    },
-    "ADM::Almoxarifado": {
-      "key": "ADM::Almoxarifado",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Almoxarifado",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-12-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE AQUISIÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-002",
-          "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-001",
-          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-12-003",
-          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-017",
-          "title": "ARMAZENAMENTO DE LÍQUIDO INFLAMÁVEL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-068",
-          "title": "Armazenamento e Preservação de Materiais Fornecidos pelo Cliente (PR-1000KN-Q-500018 R03 / FO-08-109 PP)",
-          "req": "M",
-          "note": "Crítico Auditoria Vale (RNC-03633/26, 00404/26, 00406/26)"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "Calibração de Máquinas de Solda e Estufas Portáteis (R05 / FO-08-018 RCI)",
-          "req": "D",
-          "note": "Interface Metrologia/Almoxarifado (RNC-00807/26)"
-        },
-        {
-          "code": "IT-13-048",
-          "title": "Gerenciamento de Produtos Químicos e FISPQ / FDS (R02 / FO-13-154)",
-          "req": "M",
-          "note": "Inspeção de Químicos e Kit Mitigação no Almoxarifado"
-        }
-      ]
-    },
-    "ADM::Planejamento": {
-      "key": "ADM::Planejamento",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Planejamento",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-05-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
-          "req": "M"
-        },
-        {
-          "code": "PG-06-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
-          "req": "M"
-        },
-        {
-          "code": "PG-07-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-002",
-          "title": "CONTROLE DE DOCUMENTOS TÉCNICOS NO PROJETO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Controle da qualidade": {
-      "key": "ADM::Controle da qualidade",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Controle da qualidade",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-002",
-          "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-005",
-          "title": "QUALIFICAÇÃO DE SOLDADORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-068",
-          "title": "Armazenamento e Preservação de Materiais Fornecidos pelo Cliente (PR-1000KN-Q-500018 R03 / FO-08-109 PP)",
-          "req": "M",
-          "note": "Inspeção de Preservação e RPE"
-        }
-      ]
-    },
-    "ADM::Gestão da Qualidade": {
-      "key": "ADM::Gestão da Qualidade",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Gestão da Qualidade",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-004",
-          "title": "ANÁLISE CRITICA DO SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-08-001",
-          "title": "PROCEDIMENTO GERAL DE QUALIDADE",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-005",
-          "title": "QUALIFICAÇÃO DE SOLDADORES",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-002",
-          "title": "CONTROLE DE DOCUMENTOS TÉCNICOS NO PROJETO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-001",
-          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-12-002",
-          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-003",
-          "title": "QUALIFICAÇÃO E MANUTENÇÃO DE FORNECEDORES",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::SSMA": {
-      "key": "ADM::SSMA",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "SSMA",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-004",
-          "title": "ANÁLISE CRITICA DO SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-002",
-          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-003",
-          "title": "INSPEÇÃO DE SSMA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-006",
-          "title": "DIÁLOGO DIÁRIO DE SSMA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-007",
-          "title": "SUBSTÂNCIA QUÍMICAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-009",
-          "title": "MONITORAMENTO DE SAÚDE E SEGURANÇA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-010",
-          "title": "TRABALHO A QUENTE",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-012",
-          "title": "MANUTENÇÕES E LIMPEZAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-014",
-          "title": "CONTROLE DE RISCO DE POLUIÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-016",
-          "title": "EQUIPAMENTO DE COMBATE A INCÊNDIO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-017",
-          "title": "ARMAZENAMENTO DE LÍQUIDO INFLAMÁVEL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-018",
-          "title": "MÁQUINA E EQUIPAMENTO DE IÇAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-019",
-          "title": "INVESTIGAÇÃO DE INCIDENTES",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-021",
-          "title": "MONITORAMENTO AMBIENTAL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-023",
-          "title": "INSTALAÇAO ELÉTRICA EM GERAL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-031",
-          "title": "TRANSPORTE DE CARGA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-036",
-          "title": "TRANSPORTE DE PESSOAS EM VEICULOS LEVES E COLETIVOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-039",
-          "title": "REQUISITOS LEGAIS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-040",
-          "title": "GERENCIAMENTO DE ASPECTOS E IMPACTOS AMBIENTAIS",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Gerenciamento Projeto": {
-      "key": "ADM::Gerenciamento Projeto",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Gerenciamento Projeto",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-004",
-          "title": "ANÁLISE CRITICA DO SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-04-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DA INTEGRAÇÃO",
-          "req": "M"
-        },
-        {
-          "code": "PG-05-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
-          "req": "M"
-        },
-        {
-          "code": "PG-06-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
-          "req": "M"
-        },
-        {
-          "code": "PG-07-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
-          "req": "M"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-12-002",
-          "title": "GESTÃO DE CONTRATOS COM FORNECEDORES",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "ADM::Gerenciamento Produção": {
-      "key": "ADM::Gerenciamento Produção",
-      "group": "Administrativo / Gestão (MR-03-001 Aba 1)",
-      "name": "Gerenciamento Produção",
-      "trainings": [
-        {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-001",
-          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-003",
-          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, OPORTUNIDADES DE MELHORIA E RECLAMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-006",
-          "title": "GESTÃO DE RISCOS E OPORTUNIDADES",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-007",
-          "title": "GESTÃO DE MUDANÇAS",
-          "req": "M"
-        },
-        {
-          "code": "PG-05-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE ESCOPO",
-          "req": "D"
-        },
-        {
-          "code": "PG-06-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE TEMPO",
-          "req": "D"
-        },
-        {
-          "code": "PG-07-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE CUSTO",
-          "req": "D"
-        },
-        {
-          "code": "PG-10-001",
-          "title": "PROCEDIMENTO DE GERENCIAMENTO DE COMUNICAÇÃO",
-          "req": "D"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "D"
-        },
-        {
-          "code": "IT-03-002",
-          "title": "TREINAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-003",
-          "title": "GUARDA DE INFORMAÇÕES EM MEIO DIGITAL",
-          "req": "D"
-        },
-        {
-          "code": "IT-10-004",
-          "title": "INSTRUÇÕES DE ACESSO AO PORTAL PAREX",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-006",
-          "title": "DIÁLOGO DIÁRIO DE SSMA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        }
-      ]
-    },
-    "OP::Controle de qualidade": {
-      "key": "OP::Controle de qualidade",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Controle de qualidade": {
+      "key": "R9::Controle de qualidade",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Controle de qualidade",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
+          "req": "D"
         },
         {
-          "code": "IT-08-02",
+          "code": "IT-08-002",
           "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-03",
+          "code": "IT-08-003",
           "title": "EXECUÇÃO E INSPEÇÃO DE PINTURA E JATEAMENTO",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-04",
+          "code": "IT-08-004-PP",
           "title": "OPERAÇÕES DE SOLDAGEM EM GERAL",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-05",
+          "code": "IT-08-005",
           "title": "QUALIFICAÇÃO DE SOLDADORES",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-06",
+          "code": "IT-08-006",
           "title": "ENSAIO VISUAL DE SOLDA",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-07",
+          "code": "IT-08-007",
           "title": "ENSAIO POR LÍQUIDO PENETRANTE",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-08",
-          "title": "ENSAIO POR ULTRA SOM",
-          "req": "M"
+          "code": "IT-08-008",
+          "title": "ENSAIO POR ULTRASSOM EM JUNTAS SOLDADAS (NORMA ASME V)",
+          "req": "D"
         },
         {
-          "code": "IT-08-09",
+          "code": "IT-08-009",
           "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-11",
+          "code": "IT-08-010",
+          "title": "PROCESSO DE FABRICAÇÃO",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-011",
           "title": "TIPAGEM DE PEÇAS",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-13",
+          "code": "IT-08-012",
+          "title": "MONTAGEM DE TANQUE",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-013-PP",
           "title": "MONTAGEM E INSPEÇÃO DE EQUIPAMENTOS",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-18",
+          "code": "IT-08-015",
+          "title": "EXECUÇÃO DE GRAUTEAMENTO",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-016-PP",
+          "title": "EXECUÇÃO DE TOPOGRAFIA",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-018-PP",
           "title": "TORQUEAMENTO",
           "req": "D"
         },
         {
-          "code": "IT-08-24",
+          "code": "IT-08-022-PP",
+          "title": "MONTAGEM DE ESTRUTURA METÁLICA",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-024",
           "title": "TESTE HIDROSTÁTICO VASO PRESSÃO, TUBULAÇÃO E TANQUES",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-28",
+          "code": "IT-08-025",
+          "title": "FABRICAÇÃO E MONTAGEM DE TUBULAÇÃO",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-027",
+          "title": "LAVAGEM DE TUBULAÇÃO",
+          "req": "D"
+        },
+        {
+          "code": "IT-08-028-PP",
           "title": "ENSAIO DE CAMPO EM INSTALAÇÕES ELÉTRICAS",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-29",
+          "code": "IT-08-029",
           "title": "HOLIDAY DETECTOR",
           "req": "D"
         },
         {
-          "code": "IT-08-30",
+          "code": "IT-08-030",
           "title": "ENSAIO DE ESTANQUEIDADE",
-          "req": "M"
+          "req": "D"
         },
         {
           "code": "IT-08-046",
@@ -1284,26 +135,6 @@ window.PAREX_DATA = {
           "req": "D"
         },
         {
-          "code": "IT-08-050",
-          "title": "PROCEDIMENTO PARA ENSAIO POR ULTRASSOM (NORMA API 1104)",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-051",
-          "title": "ALVENARIA",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-052",
-          "title": "JUNTAS DE TRABALHO",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-053",
-          "title": "PROCEDIMENTO PARA EXECUÇÃO DE SOLDA EXOTÉRMICA",
-          "req": "D"
-        },
-        {
           "code": "IT-08-055",
           "title": "PROCEDIMENTO PARA COMISSIONAMENTO",
           "req": "D"
@@ -1314,379 +145,190 @@ window.PAREX_DATA = {
           "req": "D"
         },
         {
-          "code": "IT-08-057",
-          "title": "REVESTIMENTO DE TUBULAÇÃO ENTERRADA",
+          "code": "IT-08-070-PP",
+          "title": "ENSAIO DE ESCLEROMETRIA",
           "req": "D"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
+          "code": "IT-08-071-PP",
+          "title": "ARMAZENAMENTO E PRESERVAÇÃO DE MATERIAIS FORNECIDOS PELO CLIENTE",
           "req": "D"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
+          "code": "IT-08-072-PP",
+          "title": "OPERAÇÕES DE FUSÃO E TESTES DE FIBRA ÓPTICA",
           "req": "D"
         },
         {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "IT-03-001",
-          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
-          "req": "M",
-          "note": "Obrigatório para Inspetores CQ (RNC-03634/26)"
+          "code": "IT-08-073-PP",
+          "title": "INSTRUÇÃO DE TRABALHO PARA EXECUÇÃO DE  PROTENSÃO DE PARAFUSOS",
+          "req": "D"
         },
         {
           "code": "PG-03-001",
           "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
-          "req": "M",
-          "note": "Controle da Qualidade"
+          "req": "D"
+        },
+        {
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
+          "req": "D"
         },
         {
           "code": "PG-03-003",
-          "title": "CONTROLE DE PRODUTO NÃO CONFORME, AÇÃO CORRETIVA E PREVENTIVA",
-          "req": "M",
-          "note": "Controle da Qualidade"
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
+          "req": "D"
+        },
+        {
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
+          "req": "D"
         }
       ]
     },
-    "OP::Rigging (Elevação e movimentação de carga)": {
-      "key": "OP::Rigging (Elevação e movimentação de carga)",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Rigging (Elevação e movimentação de carga)": {
+      "key": "R9::Rigging (Elevação e movimentação de carga)",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Rigging (Elevação e movimentação de carga)",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-08-17",
-          "title": "OPERAÇÕES DE RIGGING",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Solda": {
-      "key": "OP::Solda",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Solda": {
+      "key": "R9::Solda",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Solda",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-02",
+          "code": "IT-08-002",
           "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
           "req": "M"
         },
         {
-          "code": "IT-08-04",
+          "code": "IT-08-004-PP",
           "title": "OPERAÇÕES DE SOLDAGEM EM GERAL",
           "req": "M"
         },
         {
-          "code": "IT-08-05",
+          "code": "IT-08-005",
           "title": "QUALIFICAÇÃO DE SOLDADORES",
           "req": "M"
         },
         {
-          "code": "IT-08-06",
+          "code": "IT-08-006",
           "title": "ENSAIO VISUAL DE SOLDA",
           "req": "D"
         },
         {
-          "code": "IT-08-07",
+          "code": "IT-08-007",
           "title": "ENSAIO POR LÍQUIDO PENETRANTE",
           "req": "D"
         },
         {
-          "code": "IT-08-08",
-          "title": "ENSAIO POR ULTRA SOM",
+          "code": "IT-08-008",
+          "title": "ENSAIO POR ULTRASSOM EM JUNTAS SOLDADAS (NORMA ASME V)",
           "req": "D"
         },
         {
-          "code": "IT-08-09",
+          "code": "IT-08-009",
           "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
           "req": "D"
         },
         {
-          "code": "IT-08-31",
-          "title": "SOLDAGEM DE TOPO POR TERMOFUSÃO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
+          "code": "IT-08-049",
+          "title": "PROCEDIMENTO PARA ENSAIO POR ULTRASSOM (NORMA AWS D1.1)",
           "req": "D"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-010",
-          "title": "TRABALHO A QUENTE",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-009",
-          "title": "Calibração de Máquinas de Solda e Estufas Portáteis (R05 / FO-08-018 RCI)",
-          "req": "M",
-          "note": "Verificação de Selo e Validade RCI (RNC-00807/26)"
         }
       ]
     },
-    "OP::Pintura": {
-      "key": "OP::Pintura",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Pintura": {
+      "key": "R9::Pintura",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Pintura",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-03",
+          "code": "IT-08-003",
           "title": "EXECUÇÃO E INSPEÇÃO DE PINTURA E JATEAMENTO",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-29",
+          "code": "IT-08-029",
           "title": "HOLIDAY DETECTOR",
           "req": "D"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-007",
-          "title": "SUBSTÂNCIA QUÍMICAS",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-017",
-          "title": "ARMAZENAMENTO DE LÍQUIDO INFLAMÁVEL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Elétrica": {
-      "key": "OP::Elétrica",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Elétrica": {
+      "key": "R9::Elétrica",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Elétrica",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-20",
+          "code": "IT-08-020",
           "title": "MONTAGEM DE REDES ELÉTRICAS",
           "req": "M"
         },
         {
-          "code": "IT-08-28",
+          "code": "IT-08-028-PP",
           "title": "ENSAIO DE CAMPO EM INSTALAÇÕES ELÉTRICAS",
           "req": "M"
         },
@@ -1696,11 +338,6 @@ window.PAREX_DATA = {
           "req": "M"
         },
         {
-          "code": "IT-08-053",
-          "title": "PROCEDIMENTO PARA EXECUÇÃO DE SOLDA EXOTÉRMICA",
-          "req": "M"
-        },
-        {
           "code": "IT-08-055",
           "title": "PROCEDIMENTO PARA COMISSIONAMENTO",
           "req": "M"
@@ -1716,196 +353,96 @@ window.PAREX_DATA = {
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-023",
-          "title": "INSTALAÇAO ELÉTRICA EM GERAL",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Tubulação": {
-      "key": "OP::Tubulação",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Tubulação": {
+      "key": "R9::Tubulação",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Tubulação",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-24",
+          "code": "IT-08-024",
           "title": "TESTE HIDROSTÁTICO VASO PRESSÃO, TUBULAÇÃO E TANQUES",
           "req": "M"
         },
         {
-          "code": "IT-08-25",
+          "code": "IT-08-025",
           "title": "FABRICAÇÃO E MONTAGEM DE TUBULAÇÃO",
           "req": "M"
         },
         {
-          "code": "IT-08-27",
+          "code": "IT-08-027",
           "title": "LAVAGEM DE TUBULAÇÃO",
           "req": "D"
         },
         {
-          "code": "IT-08-29",
+          "code": "IT-08-029",
           "title": "HOLIDAY DETECTOR",
           "req": "D"
         },
         {
-          "code": "IT-08-30",
+          "code": "IT-08-030",
           "title": "ENSAIO DE ESTANQUEIDADE",
           "req": "D"
         },
         {
-          "code": "IT-08-057",
-          "title": "REVESTIMENTO DE TUBULAÇÃO ENTERRADA",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Fabricação": {
-      "key": "OP::Fabricação",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Fabricação": {
+      "key": "R9::Fabricação",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Fabricação",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-02",
+          "code": "IT-08-002",
           "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
           "req": "D"
         },
         {
-          "code": "IT-08-04",
+          "code": "IT-08-004-PP",
           "title": "OPERAÇÕES DE SOLDAGEM EM GERAL",
           "req": "D"
         },
         {
-          "code": "IT-08-09",
+          "code": "IT-08-009",
           "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E  ESTUFAS DE PORTÁTEIS",
           "req": "D"
         },
@@ -1915,561 +452,261 @@ window.PAREX_DATA = {
           "req": "M"
         },
         {
-          "code": "IT-08-11",
+          "code": "IT-08-011",
           "title": "TIPAGEM DE PEÇAS",
           "req": "M"
         },
         {
-          "code": "IT-08-12",
+          "code": "IT-08-012",
           "title": "MONTAGEM DE TANQUE",
           "req": "M"
         },
         {
-          "code": "IT-08-25",
+          "code": "IT-08-025",
           "title": "FABRICAÇÃO E MONTAGEM DE TUBULAÇÃO",
           "req": "M"
         },
         {
-          "code": "IT-08-30",
-          "title": "ENSAIO DE ESTANQUEIDADE",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-31",
-          "title": "SOLDAGEM DE TOPO POR TERMOFUSÃO",
-          "req": "D"
-        },
-        {
-          "code": "IT-08-33",
-          "title": "VERIFICAÇÃO E APERTO DE PARAFUSOS POR ALONGAMENTO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Montagem de equipamentos": {
-      "key": "OP::Montagem de equipamentos",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Montagem de equipamentos": {
+      "key": "R9::Montagem de equipamentos",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Montagem de equipamentos",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-12",
+          "code": "IT-08-012",
           "title": "MONTAGEM DE TANQUE",
           "req": "D"
         },
         {
-          "code": "IT-08-13",
+          "code": "IT-08-013-PP",
           "title": "MONTAGEM E INSPEÇÃO DE EQUIPAMENTOS",
           "req": "M"
         },
         {
-          "code": "IT-08-17",
+          "code": "IT-08-017",
           "title": "OPERAÇÕES DE RIGGING",
           "req": "D"
         },
         {
-          "code": "IT-08-18",
+          "code": "IT-08-018-PP",
           "title": "TORQUEAMENTO",
           "req": "M"
         },
         {
-          "code": "IT-08-24",
+          "code": "IT-08-024",
           "title": "TESTE HIDROSTÁTICO VASO PRESSÃO, TUBULAÇÃO E TANQUES",
           "req": "M"
         },
         {
-          "code": "IT-08-27",
+          "code": "IT-08-027",
           "title": "LAVAGEM DE TUBULAÇÃO",
           "req": "D"
         },
         {
-          "code": "IT-08-28",
+          "code": "IT-08-028-PP",
           "title": "ENSAIO DE CAMPO EM INSTALAÇÕES ELÉTRICAS",
           "req": "D"
         },
         {
-          "code": "IT-08-33",
-          "title": "VERIFICAÇÃO E APERTO DE PARAFUSOS POR ALONGAMENTO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-010",
-          "title": "TRABALHO A QUENTE",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Topografia": {
-      "key": "OP::Topografia",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Topografia": {
+      "key": "R9::Topografia",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Topografia",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-16",
+          "code": "IT-08-016-PP",
           "title": "EXECUÇÃO DE TOPOGRAFIA",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-057",
-          "title": "REVESTIMENTO DE TUBULAÇÃO ENTERRADA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
           "req": "D"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Serviços gerais": {
-      "key": "OP::Serviços gerais",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Serviços gerais": {
+      "key": "R9::Serviços gerais",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Serviços gerais",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-007",
-          "title": "SUBSTÂNCIA QUÍMICAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Manutenção": {
-      "key": "OP::Manutenção",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Manutenção": {
+      "key": "R9::Manutenção",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Manutenção",
       "trainings": [
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Expedição": {
-      "key": "OP::Expedição",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Expedição": {
+      "key": "R9::Expedição",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Expedição",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Civil": {
-      "key": "OP::Civil",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Civil": {
+      "key": "R9::Civil",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Civil",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-15",
+          "code": "IT-08-015",
           "title": "EXECUÇÃO DE GRAUTEAMENTO",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-040",
-          "title": "DEMOLIÇÕES E REMOÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-041",
-          "title": "ESCAVAÇÃO DE VALAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-042",
-          "title": "REATERRO E COMPACTAÇÃO DE VALAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-043",
-          "title": "FORMAS",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-044",
-          "title": "ARMAÇÕES",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-045",
-          "title": "CONCRETAGEM",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-051",
-          "title": "ALVENARIA",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-052",
-          "title": "JUNTAS DE TRABALHO",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
           "req": "D"
         },
         {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Instrumentação": {
-      "key": "OP::Instrumentação",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Instrumentação": {
+      "key": "R9::Instrumentação",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Instrumentação",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-13",
+          "code": "IT-08-013-PP",
           "title": "MONTAGEM E INSPEÇÃO DE EQUIPAMENTOS",
           "req": "D"
         },
         {
-          "code": "IT-08-28",
+          "code": "IT-08-028-PP",
           "title": "ENSAIO DE CAMPO EM INSTALAÇÕES ELÉTRICAS",
           "req": "D"
         },
@@ -2489,166 +726,127 @@ window.PAREX_DATA = {
           "req": "M"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
-        },
-        {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
-        },
-        {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
         }
       ]
     },
-    "OP::Estrutura metálica": {
-      "key": "OP::Estrutura metálica",
-      "group": "Operacional / Campo (MR-03-001 Aba 2)",
+    "R9::Estrutura metálica": {
+      "key": "R9::Estrutura metálica",
+      "group": "MR-09-001 REV. 09 — Operacionais Projeto/Fábrica",
       "name": "Estrutura metálica",
       "trainings": [
         {
-          "code": "AP-09-001",
-          "title": "TREINAMENTO DE INTEGRAÇÃO PAREX",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-12",
+          "code": "IT-08-012",
           "title": "MONTAGEM DE TANQUE",
           "req": "D"
         },
         {
-          "code": "IT-08-18",
+          "code": "IT-08-018-PP",
           "title": "TORQUEAMENTO",
-          "req": "M"
+          "req": "D"
         },
         {
-          "code": "IT-08-22",
+          "code": "IT-08-022-PP",
           "title": "MONTAGEM DE ESTRUTURA METÁLICA",
-          "req": "M"
-        },
-        {
-          "code": "IT-08-33",
-          "title": "VERIFICAÇÃO E APERTO DE PARAFUSOS POR ALONGAMENTO",
           "req": "D"
         },
         {
-          "code": "IT-13-001",
-          "title": "GESTÃO DE PERIGOS E RISCOS",
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
           "req": "M"
         },
         {
-          "code": "IT-13-004",
-          "title": "PERMISSÃO PARA TRABALHOS ESPECIAIS",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-005",
-          "title": "DIREITO DE RECUSA",
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
           "req": "M"
         },
         {
-          "code": "IT-13-008",
-          "title": "ESPAÇO CONFINADO",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-010",
-          "title": "TRABALHO A QUENTE",
-          "req": "D"
-        },
-        {
-          "code": "IT-13-013",
-          "title": "COLETA SELETIVA",
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
           "req": "M"
         },
         {
-          "code": "IT-13-018",
-          "title": "MÁQUINA E EQUIPAMENTO DE IÇAMENTO",
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
           "req": "M"
+        }
+      ]
+    },
+    "R9::Almoxarifado / Expedição": {
+      "key": "R9::Almoxarifado / Expedição",
+      "group": "MR-09-001 REV. 09 — Expedição / Almoxarifado",
+      "name": "Almoxarifado / Expedição (MR-09-001 Rev. 9)",
+      "trainings": [
+        {
+          "code": "PG-03-001",
+          "title": "CONTROLE DE DOCUMENTOS E REGISTROS",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 36)"
         },
         {
-          "code": "IT-13-020",
-          "title": "TRABALHO EM ALTURA",
-          "req": "D"
+          "code": "PG-03-002",
+          "title": "AUDITORIAS DO SGI",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 37)"
         },
         {
-          "code": "IT-13-025",
-          "title": "EPI",
-          "req": "M"
+          "code": "PG-03-003",
+          "title": "TRATAMENTO DE NÃO CONFORMIDADES, OBSERVAÇÕES, MELHORIAS E RECLAMAÇÕES",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 38)"
         },
         {
-          "code": "IT-13-026",
-          "title": "AVISOS E SINAIS",
-          "req": "D"
+          "code": "PG-03-004",
+          "title": "ANÁLISE CRÍTICA DO SGI",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 39)"
         },
         {
-          "code": "IT-13-033",
-          "title": "ENERGIA ZERO",
-          "req": "D"
+          "code": "IT-08-071-PP",
+          "title": "ARMAZENAMENTO E PRESERVAÇÃO DE MATERIAIS FORNECIDOS PELO CLIENTE",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 33) • Foco RNC-03633/26, 00404/26, 00406/26"
         },
         {
-          "code": "IT-13-034",
-          "title": "PROTEÇÃO DE MÁQUINA",
-          "req": "D"
+          "code": "IT-03-001",
+          "title": "CONTROLE DE DISPOSITIVOS DE MEDIÇÃO E ENSAIOS",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 1) • Foco RNC-03628/26"
         },
         {
-          "code": "IT-13-035",
-          "title": "EQUIPAMENTO PORTÁTIL",
-          "req": "M"
+          "code": "IT-08-002",
+          "title": "TRATAMENTO DE CONSUMÍVEIS DE SOLDA",
+          "req": "M",
+          "note": "MR-09-001 Rev. 09 (Item 2) • Sala de Consumíveis Almoxarifado"
         },
         {
-          "code": "PG-03-005",
-          "title": "COMUNICAÇÃO PARTICIPAÇÃO E CONSULTA - SGI",
-          "req": "M"
+          "code": "IT-08-009",
+          "title": "CALIBRAÇÃO DE MÁQUINAS DE SOLDA E ESTUFAS DE PORTÁTEIS",
+          "req": "D",
+          "note": "MR-09-001 Rev. 09 (Item 9) • Foco RNC-00807/26"
+        },
+        {
+          "code": "IT-12-001",
+          "title": "RECEBIMENTO, ARMAZENAMENTO, MANUSEIO E EXPEDIÇÃO (Rev. 11)",
+          "req": "M",
+          "note": "Complementar MR-03-001 Adm. • Foco RNC-03630/26 e NC 03 GQ"
         }
       ]
     }
@@ -2657,841 +855,841 @@ window.PAREX_DATA = {
     {
       "cargo": "AJUDANTE",
       "count": 68,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "AJUDANTE V",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ALMOXARIFE I",
       "count": 1,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "ANALISTA DE CONTRATO",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ANALISTA DE LOGISTICA I",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ANALISTA DE LOGISTICA III",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ANALISTA DE SISTEMA",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ANALISTA MEIO AMBIENTE",
       "count": 4,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ANALISTA PLANEJAMENTO JR",
       "count": 2,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "APONTADOR",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "APROPRIADOR",
       "count": 4,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ARQUIVISTA",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ASSISTENTE ADMINISTRATIVO I",
       "count": 8,
-      "profileKey": "ADM::RH / DP",
-      "profileName": "RH / DP"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ASSISTENTE ADMINISTRATIVO II",
       "count": 4,
-      "profileKey": "ADM::RH / DP",
-      "profileName": "RH / DP"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ASSISTENTE PLANEJAMENTO",
       "count": 4,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ASSISTENTE QUALIDADE I",
       "count": 5,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "ASSISTENTE RECEBIMENTO MATERIAIS",
       "count": 7,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "AUXILIAR ADMINISTRATIVO",
       "count": 1,
-      "profileKey": "ADM::RH / DP",
-      "profileName": "RH / DP"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "AUXILIAR ALMOXARIFADO",
       "count": 5,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "AUXILIAR DE COMPRAS",
       "count": 1,
-      "profileKey": "ADM::Compras",
-      "profileName": "Compras"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "AUXILIAR DE LOGISTICA",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "AUXILIAR PLANEJAMENTO",
       "count": 2,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "AUXILIAR SERVICOS GERAIS",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "AUXILIAR TOPOGRAFIA",
       "count": 1,
-      "profileKey": "OP::Topografia",
+      "profileKey": "R9::Topografia",
       "profileName": "Topografia"
     },
     {
       "cargo": "CALDEIREIRO - MANUTENCAO",
       "count": 9,
-      "profileKey": "OP::Fabricação",
+      "profileKey": "R9::Fabricação",
       "profileName": "Fabricação"
     },
     {
       "cargo": "CARPINTEIRO",
       "count": 2,
-      "profileKey": "OP::Civil",
+      "profileKey": "R9::Civil",
       "profileName": "Civil"
     },
     {
       "cargo": "CARRETEIRO",
       "count": 5,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "COMPRADOR",
       "count": 1,
-      "profileKey": "ADM::Compras",
-      "profileName": "Compras"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "COORDENADOR PLANEJAMENTO I",
       "count": 1,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "COORDENADOR PLANEJAMENTO II",
       "count": 1,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "COORDENADOR QUALIDADE",
       "count": 1,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "COORDENADOR SEGURANCA SAUDE E MEIO AMBIENTE",
       "count": 1,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ELETRICISTA AUTOMOTIVO",
       "count": 1,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "ELETRICISTA FORCA E CONTROLE MANUTENCAO",
       "count": 30,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "ELETRICISTA MANUTENCAO",
       "count": 4,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "ELETRICISTA MONTADOR",
       "count": 39,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "ENCANADOR INDUSTRIAL I",
       "count": 25,
-      "profileKey": "OP::Tubulação",
+      "profileKey": "R9::Tubulação",
       "profileName": "Tubulação"
     },
     {
       "cargo": "ENCARREGADO ADMINISTRATIVO",
       "count": 2,
-      "profileKey": "ADM::RH / DP",
-      "profileName": "RH / DP"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ENCARREGADO ALMOXARIFADO",
       "count": 2,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "ENCARREGADO ANDAIME",
       "count": 21,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "ENCARREGADO ANDAIME II",
       "count": 1,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "ENCARREGADO CIVIL",
       "count": 1,
-      "profileKey": "OP::Civil",
+      "profileKey": "R9::Civil",
       "profileName": "Civil"
     },
     {
       "cargo": "ENCARREGADO ELETRICA",
       "count": 9,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "ENCARREGADO ELETRICA II",
       "count": 4,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "ENCARREGADO ESTRUTURA",
       "count": 1,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "ENCARREGADO MECANICA",
       "count": 28,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "ENCARREGADO MECANICA II",
       "count": 12,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "ENCARREGADO PINTURA",
       "count": 1,
-      "profileKey": "OP::Pintura",
+      "profileKey": "R9::Pintura",
       "profileName": "Pintura"
     },
     {
       "cargo": "ENCARREGADO SOLDA",
       "count": 3,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "ENCARREGADO TRANSPORTES",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ENCARREGADO TUBULACAO",
       "count": 3,
-      "profileKey": "OP::Tubulação",
+      "profileKey": "R9::Tubulação",
       "profileName": "Tubulação"
     },
     {
       "cargo": "ENGENHEIRO PLANEJAMENTO JR",
       "count": 2,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "ENGENHEIRO PRODUCAO ELETRICA JR",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Produção",
-      "profileName": "Gerenciamento Produção"
+      "profileKey": "R9::Elétrica",
+      "profileName": "Elétrica"
     },
     {
       "cargo": "ENGENHEIRO PRODUCAO MECANICA JR",
       "count": 4,
-      "profileKey": "ADM::Gerenciamento Produção",
-      "profileName": "Gerenciamento Produção"
+      "profileKey": "R9::Montagem de equipamentos",
+      "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "ENGENHEIRO QUALIDADE JR",
       "count": 1,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "ENGENHEIRO QUALIDADE PL",
       "count": 2,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "ENGENHEIRO SEGURANCA TRABALHO JR",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Produção",
-      "profileName": "Gerenciamento Produção"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "FERRAMENTEIRO",
       "count": 1,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "GERENTE PRODUCAO",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Projeto",
-      "profileName": "Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "GERENTE PROJETO I",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Projeto",
-      "profileName": "Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "GERENTE PROJETO II",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Projeto",
-      "profileName": "Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "INSPETOR DIMENSIONAL",
       "count": 1,
-      "profileKey": "OP::Controle de qualidade",
+      "profileKey": "R9::Controle de qualidade",
       "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR ELETRICA II",
       "count": 2,
-      "profileKey": "OP::Controle de qualidade",
+      "profileKey": "R9::Controle de qualidade",
       "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR PINTURA",
       "count": 1,
-      "profileKey": "OP::Controle de qualidade",
+      "profileKey": "R9::Controle de qualidade",
       "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR QUALIDADE II",
       "count": 2,
-      "profileKey": "OP::Controle de qualidade",
+      "profileKey": "R9::Controle de qualidade",
       "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSPETOR SOLDA N1",
       "count": 2,
-      "profileKey": "OP::Controle de qualidade",
+      "profileKey": "R9::Controle de qualidade",
       "profileName": "Controle de qualidade"
     },
     {
       "cargo": "INSTRUMENTISTA",
       "count": 14,
-      "profileKey": "OP::Instrumentação",
+      "profileKey": "R9::Instrumentação",
       "profileName": "Instrumentação"
     },
     {
       "cargo": "LIXADOR",
       "count": 5,
-      "profileKey": "OP::Pintura",
+      "profileKey": "R9::Pintura",
       "profileName": "Pintura"
     },
     {
       "cargo": "LUBRIFICADOR",
       "count": 4,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MASTER DRIVE",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "MECANICO AJUSTADOR",
       "count": 14,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "MECANICO MANUTENCAO DE EQUIPAMENTOS",
       "count": 3,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MECANICO MONTADOR",
       "count": 152,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "MEDICO TRABALHO",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "MESTRE DE ESTRUTURA METALICA",
       "count": 1,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "MONTADOR ANDAIME",
       "count": 129,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "MONTADOR DE CALDEIRARIA",
       "count": 5,
-      "profileKey": "OP::Fabricação",
+      "profileKey": "R9::Fabricação",
       "profileName": "Fabricação"
     },
     {
       "cargo": "MONTADOR EQUIPAMENTOS",
       "count": 23,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "MONTADOR ESTRUTURAS",
       "count": 16,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "MONTADOR TUBULACAO",
       "count": 3,
-      "profileKey": "OP::Tubulação",
+      "profileKey": "R9::Tubulação",
       "profileName": "Tubulação"
     },
     {
       "cargo": "MOTORISTA",
       "count": 10,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MOTORISTA CAMINHAO",
       "count": 1,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MOTORISTA COMBOIO",
       "count": 2,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MOTORISTA IV",
       "count": 1,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "MOTORISTA ONIBUS",
       "count": 70,
-      "profileKey": "ADM::Transporte / Manutenção",
-      "profileName": "Transporte / Manutenção"
+      "profileKey": "R9::Manutenção",
+      "profileName": "Manutenção"
     },
     {
       "cargo": "NIVELADOR",
       "count": 3,
-      "profileKey": "OP::Topografia",
+      "profileKey": "R9::Topografia",
       "profileName": "Topografia"
     },
     {
       "cargo": "OPERADOR DE MAQUINAS",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "OPERADOR DE MAQUINAS II",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "OPERADOR GUINDASTE 25 t",
       "count": 1,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "OPERADOR GUINDASTE 500 t",
       "count": 1,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "OPERADOR GUINDASTE 75 t",
       "count": 2,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "OPERADOR GUINDASTE II",
       "count": 5,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "OPERADOR GUINDASTE III",
       "count": 2,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "OPERADOR GUINDAUTO",
       "count": 19,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "PEDREIRO",
       "count": 4,
-      "profileKey": "OP::Civil",
+      "profileKey": "R9::Civil",
       "profileName": "Civil"
     },
     {
       "cargo": "PINTOR INDUSTRIAL",
       "count": 9,
-      "profileKey": "OP::Pintura",
+      "profileKey": "R9::Pintura",
       "profileName": "Pintura"
     },
     {
       "cargo": "PINTOR LETRISTA",
       "count": 1,
-      "profileKey": "OP::Pintura",
+      "profileKey": "R9::Pintura",
       "profileName": "Pintura"
     },
     {
       "cargo": "PROJETISTA",
       "count": 8,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "RIGGER",
       "count": 9,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "SINALEIRO",
       "count": 25,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "SINALEIRO MONTADOR",
       "count": 3,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "SOLDADOR -  MANUTENCAO",
       "count": 1,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "SOLDADOR CHAPARIA",
       "count": 8,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "SOLDADOR ER",
       "count": 1,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "SOLDADOR MIG",
       "count": 64,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "SOLDADOR TIG",
       "count": 10,
-      "profileKey": "OP::Solda",
+      "profileKey": "R9::Solda",
       "profileName": "Solda"
     },
     {
       "cargo": "SUPERVISOR ADMINISTRATIVO",
       "count": 1,
-      "profileKey": "ADM::RH / DP",
-      "profileName": "RH / DP"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "SUPERVISOR ANDAIMES II",
       "count": 2,
-      "profileKey": "OP::Estrutura metálica",
+      "profileKey": "R9::Estrutura metálica",
       "profileName": "Estrutura metálica"
     },
     {
       "cargo": "SUPERVISOR DE SSMA II",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "SUPERVISOR ELETRICA I",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Produção",
-      "profileName": "Gerenciamento Produção"
+      "profileKey": "R9::Elétrica",
+      "profileName": "Elétrica"
     },
     {
       "cargo": "SUPERVISOR ELETRICA IV",
       "count": 1,
-      "profileKey": "ADM::Gerenciamento Produção",
-      "profileName": "Gerenciamento Produção"
+      "profileKey": "R9::Elétrica",
+      "profileName": "Elétrica"
     },
     {
       "cargo": "SUPERVISOR GERAL DE ELETRICA I",
       "count": 1,
-      "profileKey": "OP::Elétrica",
+      "profileKey": "R9::Elétrica",
       "profileName": "Elétrica"
     },
     {
       "cargo": "SUPERVISOR GERAL DE MECANICA I",
       "count": 2,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR GERAL DE MECANICA II",
       "count": 3,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR LOGISTICA II",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "SUPERVISOR MECANICA I",
       "count": 2,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR MECANICA II",
       "count": 5,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR MECANICA III",
       "count": 1,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR MECANICA IV",
       "count": 2,
-      "profileKey": "OP::Montagem de equipamentos",
+      "profileKey": "R9::Montagem de equipamentos",
       "profileName": "Montagem de equipamentos"
     },
     {
       "cargo": "SUPERVISOR RIGGER I",
       "count": 1,
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)",
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)",
       "profileName": "Rigging (Elevação e movimentação de carga)"
     },
     {
       "cargo": "SUPERVISOR SEGURANCA I",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO ENFERMAGEM TRABALHO I",
       "count": 3,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO MATERIAIS I",
       "count": 4,
-      "profileKey": "ADM::Almoxarifado",
-      "profileName": "Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição",
+      "profileName": "Almoxarifado / Expedição (MR-09-001 Rev. 9)"
     },
     {
       "cargo": "TECNICO MEDICOES I",
       "count": 2,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO MEDICOES IV",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO MEIO AMBIENTE III",
       "count": 4,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO PLANEJAMENTO I",
       "count": 2,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO PLANEJAMENTO III",
       "count": 3,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO PLANEJAMENTO IV",
       "count": 3,
-      "profileKey": "ADM::Planejamento",
-      "profileName": "Planejamento"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO QUALIDADE I",
       "count": 2,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "TECNICO QUALIDADE II",
       "count": 3,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "TECNICO QUALIDADE III",
       "count": 6,
-      "profileKey": "ADM::Controle da qualidade",
-      "profileName": "Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade",
+      "profileName": "Controle de qualidade"
     },
     {
       "cargo": "TECNICO REFRIGERACAO",
       "count": 1,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO SEGURANCA DO TRABALHO I",
       "count": 3,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO SEGURANCA DO TRABALHO II",
       "count": 1,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TECNICO SEGURANCA DO TRABALHO III",
       "count": 16,
-      "profileKey": "ADM::SSMA",
-      "profileName": "SSMA"
+      "profileKey": "R9::Serviços gerais",
+      "profileName": "Serviços gerais"
     },
     {
       "cargo": "TOPOGRAFO I",
       "count": 5,
-      "profileKey": "OP::Topografia",
+      "profileKey": "R9::Topografia",
       "profileName": "Topografia"
     },
     {
       "cargo": "TOPOGRAFO II",
       "count": 1,
-      "profileKey": "OP::Topografia",
+      "profileKey": "R9::Topografia",
       "profileName": "Topografia"
     },
     {
       "cargo": "VIGIA",
       "count": 14,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     },
     {
       "cargo": "ZELADOR",
       "count": 11,
-      "profileKey": "OP::Serviços gerais",
+      "profileKey": "R9::Serviços gerais",
       "profileName": "Serviços gerais"
     }
   ],
@@ -3508,7 +1706,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4158332214,
@@ -3522,7 +1720,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 57788502200,
@@ -3536,7 +1734,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3600330241,
@@ -3550,7 +1748,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 223994294,
@@ -3564,7 +1762,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 80849490391,
@@ -3578,7 +1776,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 70363706291,
@@ -3592,7 +1790,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 11192503236,
@@ -3606,7 +1804,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3472859709,
@@ -3620,7 +1818,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 5475568375,
@@ -3634,7 +1832,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 72120681368,
@@ -3648,7 +1846,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 10572003285,
@@ -3662,7 +1860,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61087583330,
@@ -3676,7 +1874,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 95531556187,
@@ -3690,7 +1888,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 68736924253,
@@ -3704,7 +1902,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 2569925330,
@@ -3718,7 +1916,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7223864273,
@@ -3732,7 +1930,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6194780207,
@@ -3746,7 +1944,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 2694038255,
@@ -3760,7 +1958,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 70172761247,
@@ -3774,7 +1972,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 99584697234,
@@ -3788,7 +1986,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 902637231,
@@ -3802,7 +2000,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 62945695324,
@@ -3816,7 +2014,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 17761069387,
@@ -3830,7 +2028,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6155171530,
@@ -3844,7 +2042,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 13,
@@ -3858,7 +2056,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 48220574372,
@@ -3872,7 +2070,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 60900609338,
@@ -3886,7 +2084,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 69430527215,
@@ -3900,7 +2098,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 4192101645,
@@ -3914,7 +2112,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62868399339,
@@ -3928,7 +2126,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4653133298,
@@ -3942,7 +2140,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 7267421474,
@@ -3956,7 +2154,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3711834302,
@@ -3970,7 +2168,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 74852574200,
@@ -3984,7 +2182,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5492982311,
@@ -3998,7 +2196,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1841118206,
@@ -4012,7 +2210,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 86048734573,
@@ -4026,7 +2224,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 92083170300,
@@ -4040,7 +2238,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 37694561300,
@@ -4054,7 +2252,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 29533406291,
@@ -4068,7 +2266,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 58205640220,
@@ -4082,7 +2280,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62154952399,
@@ -4096,7 +2294,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 88549836249,
@@ -4110,7 +2308,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2385857359,
@@ -4124,7 +2322,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2010743202,
@@ -4138,7 +2336,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6654470435,
@@ -4152,7 +2350,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 64420574291,
@@ -4166,7 +2364,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 6800389226,
@@ -4180,7 +2378,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4128833258,
@@ -4194,7 +2392,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1174508205,
@@ -4208,7 +2406,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 2265811360,
@@ -4222,7 +2420,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 45511977268,
@@ -4236,7 +2434,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62358073253,
@@ -4250,7 +2448,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 7060849262,
@@ -4264,7 +2462,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60076517381,
@@ -4278,7 +2476,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 83203141,
@@ -4292,7 +2490,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61056308249,
@@ -4306,7 +2504,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 36016187534,
@@ -4320,7 +2518,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61589754352,
@@ -4334,7 +2532,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6239363308,
@@ -4348,7 +2546,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 11005048690,
@@ -4362,7 +2560,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 4838077378,
@@ -4376,7 +2574,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1614770204,
@@ -4390,7 +2588,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 12797002628,
@@ -4404,7 +2602,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 68021739215,
@@ -4418,7 +2616,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8660112261,
@@ -4432,7 +2630,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 60390245348,
@@ -4446,7 +2644,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 96004266,
@@ -4460,7 +2658,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1883848393,
@@ -4474,7 +2672,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 902647385,
@@ -4488,7 +2686,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 94231389349,
@@ -4502,7 +2700,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3601526271,
@@ -4516,7 +2714,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 70254341241,
@@ -4530,7 +2728,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 60707567386,
@@ -4544,7 +2742,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2641686317,
@@ -4558,7 +2756,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 73037400234,
@@ -4572,7 +2770,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 28257243,
@@ -4586,7 +2784,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 15269735458,
@@ -4600,7 +2798,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 70298812223,
@@ -4614,7 +2812,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 70158045149,
@@ -4628,7 +2826,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 7317660248,
@@ -4642,7 +2840,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 209904216,
@@ -4656,7 +2854,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 9061535220,
@@ -4670,7 +2868,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1463789203,
@@ -4684,7 +2882,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 76107663215,
@@ -4698,7 +2896,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 4590111209,
@@ -4712,7 +2910,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 44316372220,
@@ -4726,7 +2924,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 3420535406,
@@ -4740,7 +2938,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 92822517215,
@@ -4754,7 +2952,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1213551366,
@@ -4768,7 +2966,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62553860234,
@@ -4782,7 +2980,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 5262455220,
@@ -4796,7 +2994,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 59938390404,
@@ -4810,7 +3008,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 56741804234,
@@ -4824,7 +3022,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 894126300,
@@ -4838,7 +3036,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 61653107375,
@@ -4852,7 +3050,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 476592380,
@@ -4866,7 +3064,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 3977022300,
@@ -4880,7 +3078,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 47486260387,
@@ -4894,7 +3092,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1774019310,
@@ -4908,7 +3106,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 70581908287,
@@ -4922,7 +3120,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61261848314,
@@ -4936,7 +3134,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 56253699334,
@@ -4950,7 +3148,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1402535210,
@@ -4964,7 +3162,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 84636556291,
@@ -4978,7 +3176,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 5956297255,
@@ -4992,7 +3190,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 56743904287,
@@ -5006,7 +3204,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3153852359,
@@ -5020,7 +3218,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5355683207,
@@ -5034,7 +3232,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 2212581327,
@@ -5048,7 +3246,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 94487626587,
@@ -5062,7 +3260,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 63555461389,
@@ -5076,7 +3274,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 558697348,
@@ -5090,7 +3288,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 73242586204,
@@ -5104,7 +3302,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 81962444287,
@@ -5118,7 +3316,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3103556217,
@@ -5132,7 +3330,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 58494936204,
@@ -5146,7 +3344,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 25815628387,
@@ -5160,7 +3358,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 72148683268,
@@ -5174,7 +3372,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 83523405300,
@@ -5188,7 +3386,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 79510914304,
@@ -5202,7 +3400,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 61788691342,
@@ -5216,7 +3414,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6720198254,
@@ -5230,7 +3428,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7387999201,
@@ -5244,7 +3442,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2728835225,
@@ -5258,7 +3456,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 7876186246,
@@ -5272,7 +3470,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2570235342,
@@ -5286,7 +3484,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61488862354,
@@ -5300,7 +3498,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 241848296,
@@ -5314,7 +3512,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 60846046253,
@@ -5328,7 +3526,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 23,
@@ -5342,7 +3540,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 73849995291,
@@ -5356,7 +3554,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 87252899268,
@@ -5370,7 +3568,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4105116258,
@@ -5384,7 +3582,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 22822658234,
@@ -5398,7 +3596,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 1607475200,
@@ -5412,7 +3610,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 64041760259,
@@ -5426,7 +3624,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3747885292,
@@ -5440,7 +3638,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 81953887104,
@@ -5454,7 +3652,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6206340309,
@@ -5468,7 +3666,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5731481202,
@@ -5482,7 +3680,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Compras"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1404852280,
@@ -5496,7 +3694,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 324402279,
@@ -5510,7 +3708,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7312468292,
@@ -5524,7 +3722,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 7037908541,
@@ -5538,7 +3736,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8231758399,
@@ -5552,7 +3750,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 70053819209,
@@ -5566,7 +3764,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 6161412209,
@@ -5580,7 +3778,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 71240241291,
@@ -5594,7 +3792,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 60174546335,
@@ -5608,7 +3806,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 96312556204,
@@ -5622,7 +3820,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 98286544315,
@@ -5636,7 +3834,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1694983366,
@@ -5650,7 +3848,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4828302395,
@@ -5664,7 +3862,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1129608395,
@@ -5678,7 +3876,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 39340279204,
@@ -5692,7 +3890,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 29930219234,
@@ -5706,7 +3904,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61128596377,
@@ -5720,7 +3918,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 71690671106,
@@ -5734,7 +3932,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6634786267,
@@ -5748,7 +3946,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 70231206,
@@ -5762,7 +3960,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4817353210,
@@ -5776,7 +3974,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1268976466,
@@ -5790,7 +3988,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 63396147367,
@@ -5804,7 +4002,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 55765041515,
@@ -5818,7 +4016,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7097297239,
@@ -5832,7 +4030,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 9823257205,
@@ -5846,7 +4044,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 8622382346,
@@ -5860,7 +4058,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6409834217,
@@ -5874,7 +4072,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6519258270,
@@ -5888,7 +4086,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 86877753500,
@@ -5902,7 +4100,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 232809216,
@@ -5916,7 +4114,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 70416139256,
@@ -5930,7 +4128,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 70008758280,
@@ -5944,7 +4142,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 15288697450,
@@ -5958,7 +4156,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 6737206247,
@@ -5972,7 +4170,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6925562225,
@@ -5986,7 +4184,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6719521292,
@@ -6000,7 +4198,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6034347203,
@@ -6014,7 +4212,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 91959470272,
@@ -6028,7 +4226,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 93960158220,
@@ -6042,7 +4240,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 1020741279,
@@ -6056,7 +4254,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1300036206,
@@ -6070,7 +4268,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 12497489688,
@@ -6084,7 +4282,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 12497489688,
@@ -6098,7 +4296,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 70067833217,
@@ -6112,7 +4310,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6523755452,
@@ -6126,7 +4324,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2853225240,
@@ -6140,7 +4338,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3021804357,
@@ -6154,7 +4352,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 74227580234,
@@ -6168,7 +4366,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 70911494243,
@@ -6182,7 +4380,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 64108546253,
@@ -6196,7 +4394,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2770595261,
@@ -6210,7 +4408,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4856654250,
@@ -6224,7 +4422,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 467376263,
@@ -6238,7 +4436,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1887852212,
@@ -6252,7 +4450,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3691436200,
@@ -6266,7 +4464,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 2714436269,
@@ -6280,7 +4478,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 521162122,
@@ -6294,7 +4492,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 306826305,
@@ -6308,7 +4506,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4535874611,
@@ -6322,7 +4520,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5837369392,
@@ -6336,7 +4534,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7957712231,
@@ -6350,7 +4548,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4988113361,
@@ -6364,7 +4562,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4619071277,
@@ -6378,7 +4576,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4468407263,
@@ -6392,7 +4590,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 70081091486,
@@ -6406,7 +4604,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 72618817249,
@@ -6420,7 +4618,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4626477224,
@@ -6434,7 +4632,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61316668304,
@@ -6448,7 +4646,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3922872263,
@@ -6462,7 +4660,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61244209376,
@@ -6476,7 +4674,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61220637386,
@@ -6490,7 +4688,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 86332805234,
@@ -6504,7 +4702,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4498199570,
@@ -6518,7 +4716,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2901768326,
@@ -6532,7 +4730,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 91805724215,
@@ -6546,7 +4744,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4666393250,
@@ -6560,7 +4758,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1083453270,
@@ -6574,7 +4772,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 54414806291,
@@ -6588,7 +4786,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 979984270,
@@ -6602,7 +4800,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 70222852178,
@@ -6616,7 +4814,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 525499253,
@@ -6630,7 +4828,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5485411240,
@@ -6644,7 +4842,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61244473200,
@@ -6658,7 +4856,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 92027431268,
@@ -6672,7 +4870,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5269462290,
@@ -6686,7 +4884,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4017611265,
@@ -6700,7 +4898,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2804907392,
@@ -6714,7 +4912,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8140428302,
@@ -6728,7 +4926,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1942759223,
@@ -6742,7 +4940,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 5485141277,
@@ -6756,7 +4954,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 37841078854,
@@ -6770,7 +4968,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3967868206,
@@ -6784,7 +4982,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 6221256216,
@@ -6798,7 +4996,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7634746223,
@@ -6812,7 +5010,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1325928275,
@@ -6826,7 +5024,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5544953333,
@@ -6840,7 +5038,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1734373466,
@@ -6854,7 +5052,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1598004204,
@@ -6868,7 +5066,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5059412288,
@@ -6882,7 +5080,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9895421303,
@@ -6896,7 +5094,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2684890250,
@@ -6910,7 +5108,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 7626196279,
@@ -6924,7 +5122,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6441256240,
@@ -6938,7 +5136,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 64111679234,
@@ -6952,7 +5150,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61514633310,
@@ -6966,7 +5164,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7287725150,
@@ -6980,7 +5178,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62294000307,
@@ -6994,7 +5192,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4025072238,
@@ -7008,7 +5206,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 75571749253,
@@ -7022,7 +5220,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 94279624291,
@@ -7036,7 +5234,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7339464298,
@@ -7050,7 +5248,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2315014204,
@@ -7064,7 +5262,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 7674115283,
@@ -7078,7 +5276,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2623786208,
@@ -7092,7 +5290,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6279282260,
@@ -7106,7 +5304,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 7526467530,
@@ -7120,7 +5318,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 696074273,
@@ -7134,7 +5332,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4933195579,
@@ -7148,7 +5346,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 5083773317,
@@ -7162,7 +5360,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3322333248,
@@ -7176,7 +5374,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4897184266,
@@ -7190,7 +5388,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2312009277,
@@ -7204,7 +5402,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 934649324,
@@ -7218,7 +5416,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 61557756309,
@@ -7232,7 +5430,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4727591243,
@@ -7246,7 +5444,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3690005361,
@@ -7260,7 +5458,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4102368108,
@@ -7274,7 +5472,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 60279726376,
@@ -7288,7 +5486,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 58851062234,
@@ -7302,7 +5500,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 70273461257,
@@ -7316,7 +5514,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 97221970297,
@@ -7330,7 +5528,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 47262168134,
@@ -7344,7 +5542,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 99601400320,
@@ -7358,7 +5556,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 28851307253,
@@ -7372,7 +5570,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 95602780297,
@@ -7386,7 +5584,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 39409341272,
@@ -7400,7 +5598,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 64113469253,
@@ -7414,7 +5612,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 15036810767,
@@ -7428,7 +5626,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9510070416,
@@ -7442,7 +5640,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61714210308,
@@ -7456,7 +5654,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 4030270204,
@@ -7470,7 +5668,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 13224080680,
@@ -7484,7 +5682,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 2070282228,
@@ -7498,7 +5696,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 2323505238,
@@ -7512,7 +5710,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62420161335,
@@ -7526,7 +5724,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2498043527,
@@ -7540,7 +5738,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 1500441279,
@@ -7554,7 +5752,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 89801440325,
@@ -7568,7 +5766,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61131555287,
@@ -7582,7 +5780,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1812235380,
@@ -7596,7 +5794,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 92040985204,
@@ -7610,7 +5808,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 1137011289,
@@ -7624,7 +5822,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 46078932349,
@@ -7638,7 +5836,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 86563084249,
@@ -7652,7 +5850,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 682266248,
@@ -7666,7 +5864,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1295227240,
@@ -7680,7 +5878,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 37861794253,
@@ -7694,7 +5892,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 78500257504,
@@ -7708,7 +5906,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 72487267291,
@@ -7722,7 +5920,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 82445850304,
@@ -7736,7 +5934,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 26944176807,
@@ -7750,7 +5948,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 602379296,
@@ -7764,7 +5962,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 74448935272,
@@ -7778,7 +5976,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5366137292,
@@ -7792,7 +5990,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8185939209,
@@ -7806,7 +6004,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 12897422866,
@@ -7820,7 +6018,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 65865626353,
@@ -7834,7 +6032,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2443713342,
@@ -7848,7 +6046,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3373123208,
@@ -7862,7 +6060,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 2762539226,
@@ -7876,7 +6074,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 68640250200,
@@ -7890,7 +6088,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4729491289,
@@ -7904,7 +6102,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2150559269,
@@ -7918,7 +6116,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 85482137287,
@@ -7932,7 +6130,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 75124262249,
@@ -7946,7 +6144,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3177737207,
@@ -7960,7 +6158,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2663529362,
@@ -7974,7 +6172,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3030137619,
@@ -7988,7 +6186,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 67393276291,
@@ -8002,7 +6200,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 73053210282,
@@ -8016,7 +6214,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1315091364,
@@ -8030,7 +6228,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 7205000106,
@@ -8044,7 +6242,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 163512230,
@@ -8058,7 +6256,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1281664286,
@@ -8072,7 +6270,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 3203548305,
@@ -8086,7 +6284,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61437513310,
@@ -8100,7 +6298,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 87798727353,
@@ -8114,7 +6312,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3665060303,
@@ -8128,7 +6326,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4471283618,
@@ -8142,7 +6340,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 2710231204,
@@ -8156,7 +6354,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 60006837310,
@@ -8170,7 +6368,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 80989390225,
@@ -8184,7 +6382,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4673704274,
@@ -8198,7 +6396,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 10646262386,
@@ -8212,7 +6410,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 889635358,
@@ -8226,7 +6424,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5632687279,
@@ -8240,7 +6438,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 6430161552,
@@ -8254,7 +6452,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 70221676210,
@@ -8268,7 +6466,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 3084079200,
@@ -8282,7 +6480,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4921926263,
@@ -8296,7 +6494,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 11307452604,
@@ -8310,7 +6508,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 1821233247,
@@ -8324,7 +6522,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 63496555327,
@@ -8338,7 +6536,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4236005247,
@@ -8352,7 +6550,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 514045590,
@@ -8366,7 +6564,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 9128002679,
@@ -8380,7 +6578,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 30116562234,
@@ -8394,7 +6592,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 61917186320,
@@ -8408,7 +6606,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3994918308,
@@ -8422,7 +6620,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 85831213544,
@@ -8436,7 +6634,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 43423299304,
@@ -8450,7 +6648,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4983752269,
@@ -8464,7 +6662,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 7058745323,
@@ -8478,7 +6676,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 6284790260,
@@ -8492,7 +6690,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 6619064264,
@@ -8506,7 +6704,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 72685158391,
@@ -8520,7 +6718,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 3900982309,
@@ -8534,7 +6732,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 66141125549,
@@ -8548,7 +6746,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 73989789287,
@@ -8562,7 +6760,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4332410203,
@@ -8576,7 +6774,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61000678385,
@@ -8590,7 +6788,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5669228359,
@@ -8604,7 +6802,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 433509252,
@@ -8618,7 +6816,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 95578404200,
@@ -8632,7 +6830,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8466587209,
@@ -8646,7 +6844,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6125415503,
@@ -8660,7 +6858,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 3830797214,
@@ -8674,7 +6872,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 84067101368,
@@ -8688,7 +6886,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 8663862202,
@@ -8702,7 +6900,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7078445252,
@@ -8716,7 +6914,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6423727210,
@@ -8730,7 +6928,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 53915917249,
@@ -8744,7 +6942,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1685769292,
@@ -8758,7 +6956,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 99556375287,
@@ -8772,7 +6970,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 3830803206,
@@ -8786,7 +6984,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5979290338,
@@ -8800,7 +6998,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4848967503,
@@ -8814,7 +7012,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 10478766637,
@@ -8828,7 +7026,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4579077202,
@@ -8842,7 +7040,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 67081088287,
@@ -8856,7 +7054,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 6631545293,
@@ -8870,7 +7068,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6477853230,
@@ -8884,7 +7082,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 28850068387,
@@ -8898,7 +7096,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 39652106,
@@ -8912,7 +7110,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 3249666360,
@@ -8926,7 +7124,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2351276396,
@@ -8940,7 +7138,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 28772440244,
@@ -8954,7 +7152,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 5950784359,
@@ -8968,7 +7166,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3824075393,
@@ -8982,7 +7180,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 93654146368,
@@ -8996,7 +7194,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 15003809204,
@@ -9010,7 +7208,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 81761325353,
@@ -9024,7 +7222,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 367096382,
@@ -9038,7 +7236,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61415344302,
@@ -9052,7 +7250,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 60771283253,
@@ -9066,7 +7264,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 94864586268,
@@ -9080,7 +7278,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 72889314200,
@@ -9094,7 +7292,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 63005301320,
@@ -9108,7 +7306,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2957846284,
@@ -9122,7 +7320,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2396558340,
@@ -9136,7 +7334,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 853013373,
@@ -9150,7 +7348,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 76129594291,
@@ -9164,7 +7362,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5609183308,
@@ -9178,7 +7376,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 314574360,
@@ -9192,7 +7390,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2773044231,
@@ -9206,7 +7404,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 87636930382,
@@ -9220,7 +7418,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 21269416120,
@@ -9234,7 +7432,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3825653200,
@@ -9248,7 +7446,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 2039984305,
@@ -9262,7 +7460,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 8468883271,
@@ -9276,7 +7474,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 57035687220,
@@ -9290,7 +7488,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 60828823340,
@@ -9304,7 +7502,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 35372648287,
@@ -9318,7 +7516,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 18896553253,
@@ -9332,7 +7530,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 80139922253,
@@ -9346,7 +7544,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 59717513449,
@@ -9360,7 +7558,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1030557209,
@@ -9374,7 +7572,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1298616263,
@@ -9388,7 +7586,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61929862318,
@@ -9402,7 +7600,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2829323300,
@@ -9416,7 +7614,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 88392465253,
@@ -9430,7 +7628,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5652585242,
@@ -9444,7 +7642,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4531609212,
@@ -9458,7 +7656,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5598536293,
@@ -9472,7 +7670,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 6242328240,
@@ -9486,7 +7684,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1435838246,
@@ -9500,7 +7698,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 7444596212,
@@ -9514,7 +7712,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5294449250,
@@ -9528,7 +7726,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 14067916604,
@@ -9542,7 +7740,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 6701325270,
@@ -9556,7 +7754,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO TRANSPORTE",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7289793307,
@@ -9570,7 +7768,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 70002507200,
@@ -9584,7 +7782,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6340206255,
@@ -9598,7 +7796,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6943275224,
@@ -9612,7 +7810,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 13989060775,
@@ -9626,7 +7824,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 85130303253,
@@ -9640,7 +7838,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 69,
@@ -9654,7 +7852,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 61019728361,
@@ -9668,7 +7866,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 95852212334,
@@ -9682,7 +7880,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 85816167200,
@@ -9696,7 +7894,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 93420978200,
@@ -9710,7 +7908,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 40882632353,
@@ -9724,7 +7922,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 25002210,
@@ -9738,7 +7936,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1130954226,
@@ -9752,7 +7950,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 56173008220,
@@ -9766,7 +7964,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 74192191253,
@@ -9780,7 +7978,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 2489312537,
@@ -9794,7 +7992,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 5257126230,
@@ -9808,7 +8006,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 70976112272,
@@ -9822,7 +8020,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 66560594300,
@@ -9836,7 +8034,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 61868809234,
@@ -9850,7 +8048,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 53136764234,
@@ -9864,7 +8062,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 99555735204,
@@ -9878,7 +8076,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 55683665272,
@@ -9892,7 +8090,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 14405520291,
@@ -9906,7 +8104,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 263248305,
@@ -9920,7 +8118,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 473843285,
@@ -9934,7 +8132,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 81838093320,
@@ -9948,7 +8146,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 40876080344,
@@ -9962,7 +8160,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 71217045287,
@@ -9976,7 +8174,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 87869560278,
@@ -9990,7 +8188,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 92014941220,
@@ -10004,7 +8202,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 2866109228,
@@ -10018,7 +8216,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1917972270,
@@ -10032,7 +8230,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4067272448,
@@ -10046,7 +8244,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 92822576220,
@@ -10060,7 +8258,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6688812240,
@@ -10074,7 +8272,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 91166500268,
@@ -10088,7 +8286,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8349047216,
@@ -10102,7 +8300,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8629405244,
@@ -10116,7 +8314,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9552344255,
@@ -10130,7 +8328,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 14555738683,
@@ -10144,7 +8342,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5764470218,
@@ -10158,7 +8356,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 13725951470,
@@ -10172,7 +8370,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 6618215102,
@@ -10186,7 +8384,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3903716294,
@@ -10200,7 +8398,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5066003274,
@@ -10214,7 +8412,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 8764661105,
@@ -10228,7 +8426,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 72072547253,
@@ -10242,7 +8440,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7334899237,
@@ -10256,7 +8454,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 16174902617,
@@ -10270,7 +8468,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 7216179218,
@@ -10284,7 +8482,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 68761244600,
@@ -10298,7 +8496,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 61663848319,
@@ -10312,7 +8510,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 6536616227,
@@ -10326,7 +8524,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 2013834209,
@@ -10340,7 +8538,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 469921200,
@@ -10354,7 +8552,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61515623300,
@@ -10368,7 +8566,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4102488278,
@@ -10382,7 +8580,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6536696239,
@@ -10396,7 +8594,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7731749312,
@@ -10410,7 +8608,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4798354201,
@@ -10424,7 +8622,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 8052998409,
@@ -10438,7 +8636,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 63684192376,
@@ -10452,7 +8650,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 947138200,
@@ -10466,7 +8664,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 75229510200,
@@ -10480,7 +8678,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 63114456383,
@@ -10494,7 +8692,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 51704617200,
@@ -10508,7 +8706,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3400990116,
@@ -10522,7 +8720,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 728215233,
@@ -10536,7 +8734,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2616110202,
@@ -10550,7 +8748,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 60332619338,
@@ -10564,7 +8762,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 331861208,
@@ -10578,7 +8776,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1771227303,
@@ -10592,7 +8790,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4148396333,
@@ -10606,7 +8804,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 70234362278,
@@ -10620,7 +8818,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4918228208,
@@ -10634,7 +8832,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 154651281,
@@ -10648,7 +8846,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 439404207,
@@ -10662,7 +8860,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 3355531251,
@@ -10676,7 +8874,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 50939238349,
@@ -10690,7 +8888,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 41104005387,
@@ -10704,7 +8902,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1980271330,
@@ -10718,7 +8916,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4517404323,
@@ -10732,7 +8930,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 24762938220,
@@ -10746,7 +8944,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5393694385,
@@ -10760,7 +8958,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 7736422265,
@@ -10774,7 +8972,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4550302275,
@@ -10788,7 +8986,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4522196202,
@@ -10802,7 +9000,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 7347809312,
@@ -10816,7 +9014,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 70281752273,
@@ -10830,7 +9028,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 981711278,
@@ -10844,7 +9042,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 92227910372,
@@ -10858,7 +9056,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 99095580253,
@@ -10872,7 +9070,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4312645469,
@@ -10886,7 +9084,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 4006613229,
@@ -10900,7 +9098,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5783635340,
@@ -10914,7 +9112,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 69676801291,
@@ -10928,7 +9126,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2038247331,
@@ -10942,7 +9140,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3309227260,
@@ -10956,7 +9154,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3805114109,
@@ -10970,7 +9168,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2070277224,
@@ -10984,7 +9182,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 777906260,
@@ -10998,7 +9196,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 6168102370,
@@ -11012,7 +9210,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 692405313,
@@ -11026,7 +9224,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62100753398,
@@ -11040,7 +9238,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8476236379,
@@ -11054,7 +9252,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4161901380,
@@ -11068,7 +9266,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 44,
@@ -11082,7 +9280,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 90081960263,
@@ -11096,7 +9294,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3570830322,
@@ -11110,7 +9308,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1353995992,
@@ -11124,7 +9322,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1103836560,
@@ -11138,7 +9336,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 2433827230,
@@ -11152,7 +9350,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1139407503,
@@ -11166,7 +9364,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 6845892652,
@@ -11180,7 +9378,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 59783273272,
@@ -11194,7 +9392,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 18267007652,
@@ -11208,7 +9406,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 58667750263,
@@ -11222,7 +9420,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7784436203,
@@ -11236,7 +9434,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 7070988230,
@@ -11250,7 +9448,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 15348434426,
@@ -11264,7 +9462,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 98286013204,
@@ -11278,7 +9476,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 586931228,
@@ -11292,7 +9490,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2118970277,
@@ -11306,7 +9504,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4397629285,
@@ -11320,7 +9518,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 5257448270,
@@ -11334,7 +9532,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2958882292,
@@ -11348,7 +9546,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 79662668268,
@@ -11362,7 +9560,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 60192262394,
@@ -11376,7 +9574,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61638192332,
@@ -11390,7 +9588,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5996174111,
@@ -11404,7 +9602,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 995332355,
@@ -11418,7 +9616,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 50920723349,
@@ -11432,7 +9630,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1520893221,
@@ -11446,7 +9644,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 70183819241,
@@ -11460,7 +9658,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 6148237300,
@@ -11474,7 +9672,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 91048737268,
@@ -11488,7 +9686,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 37862413253,
@@ -11502,7 +9700,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 4811345223,
@@ -11516,7 +9714,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61484651324,
@@ -11530,7 +9728,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6411599270,
@@ -11544,7 +9742,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6841846303,
@@ -11558,7 +9756,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 12430974428,
@@ -11572,7 +9770,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 971101400,
@@ -11586,7 +9784,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 1146967217,
@@ -11600,7 +9798,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 4204099203,
@@ -11614,7 +9812,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61010289330,
@@ -11628,7 +9826,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 6216387146,
@@ -11642,7 +9840,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 8134783244,
@@ -11656,7 +9854,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 71595178490,
@@ -11670,7 +9868,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61859675379,
@@ -11684,7 +9882,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62361875330,
@@ -11698,7 +9896,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62240664347,
@@ -11712,7 +9910,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 58611240278,
@@ -11726,7 +9924,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4278098359,
@@ -11740,7 +9938,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 93847335391,
@@ -11754,7 +9952,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 749723246,
@@ -11768,7 +9966,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 97467391234,
@@ -11782,7 +9980,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 86998790325,
@@ -11796,7 +9994,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 76392775234,
@@ -11810,7 +10008,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 974869228,
@@ -11824,7 +10022,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 92732380253,
@@ -11838,7 +10036,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 7261761508,
@@ -11852,7 +10050,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 10441974473,
@@ -11866,7 +10064,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 67045030215,
@@ -11880,7 +10078,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 6085981198,
@@ -11894,7 +10092,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 857445308,
@@ -11908,7 +10106,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 82034443268,
@@ -11922,7 +10120,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2283545366,
@@ -11936,7 +10134,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 84501545291,
@@ -11950,7 +10148,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 1402775288,
@@ -11964,7 +10162,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 28779185215,
@@ -11978,7 +10176,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 6343677658,
@@ -11992,7 +10190,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 493464743,
@@ -12006,7 +10204,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 697157342,
@@ -12020,7 +10218,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 69350825520,
@@ -12034,7 +10232,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 62105864309,
@@ -12048,7 +10246,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61084387204,
@@ -12062,7 +10260,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 63214670301,
@@ -12076,7 +10274,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61749992388,
@@ -12090,7 +10288,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 60183687302,
@@ -12104,7 +10302,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 70911789200,
@@ -12118,7 +10316,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 19793677287,
@@ -12132,7 +10330,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 70911827234,
@@ -12146,7 +10344,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 72668873215,
@@ -12160,7 +10358,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 10078522323,
@@ -12174,7 +10372,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60924728302,
@@ -12188,7 +10386,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 13681740860,
@@ -12202,7 +10400,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 22,
@@ -12216,7 +10414,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 1136449302,
@@ -12230,7 +10428,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 14616923426,
@@ -12244,7 +10442,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1948992337,
@@ -12258,7 +10456,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 73787361200,
@@ -12272,7 +10470,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 71686907443,
@@ -12286,7 +10484,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 44077289220,
@@ -12300,7 +10498,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 48099643534,
@@ -12314,7 +10512,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 84587539287,
@@ -12328,7 +10526,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4781558321,
@@ -12342,7 +10540,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 35428694220,
@@ -12356,7 +10554,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8533916370,
@@ -12370,7 +10568,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2773700198,
@@ -12384,7 +10582,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1510628380,
@@ -12398,7 +10596,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 683315331,
@@ -12412,7 +10610,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 60313624305,
@@ -12426,7 +10624,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 68345763553,
@@ -12440,7 +10638,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1117082300,
@@ -12454,7 +10652,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 60863458300,
@@ -12468,7 +10666,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 31196683549,
@@ -12482,7 +10680,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 60229100309,
@@ -12496,7 +10694,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 40804780382,
@@ -12510,7 +10708,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 24792870259,
@@ -12524,7 +10722,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1359743308,
@@ -12538,7 +10736,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 86829106249,
@@ -12552,7 +10750,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 60873195302,
@@ -12566,7 +10764,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 56827040291,
@@ -12580,7 +10778,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 83207244572,
@@ -12594,7 +10792,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 72204397334,
@@ -12608,7 +10806,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 253997305,
@@ -12622,7 +10820,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 149929226,
@@ -12636,7 +10834,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 44038240215,
@@ -12650,7 +10848,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 8965062233,
@@ -12664,7 +10862,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 60241982308,
@@ -12678,7 +10876,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 72421550297,
@@ -12692,7 +10890,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "MOTORISTA VIGIA",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 92285406215,
@@ -12706,7 +10904,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 26,
@@ -12720,7 +10918,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 6286047930,
@@ -12734,7 +10932,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2366862326,
@@ -12748,7 +10946,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 64761770287,
@@ -12762,7 +10960,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62602315397,
@@ -12776,7 +10974,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 91588014304,
@@ -12790,7 +10988,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 81447841204,
@@ -12804,7 +11002,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 7732703294,
@@ -12818,7 +11016,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 73531960253,
@@ -12832,7 +11030,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 87991977234,
@@ -12846,7 +11044,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 47023082387,
@@ -12860,7 +11058,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 4054107192,
@@ -12874,7 +11072,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1324739339,
@@ -12888,7 +11086,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 88865614234,
@@ -12902,7 +11100,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 97833290220,
@@ -12916,7 +11114,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 27860361,
@@ -12930,7 +11128,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1168864208,
@@ -12944,7 +11142,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 10224881205,
@@ -12958,7 +11156,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 5337344285,
@@ -12972,7 +11170,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9909439689,
@@ -12986,7 +11184,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60869671308,
@@ -13000,7 +11198,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9306429290,
@@ -13014,7 +11212,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4556782279,
@@ -13028,7 +11226,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6695909245,
@@ -13042,7 +11240,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 8593985289,
@@ -13056,7 +11254,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 8005978260,
@@ -13070,7 +11268,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 14577272695,
@@ -13084,7 +11282,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 10025287206,
@@ -13098,7 +11296,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62802022326,
@@ -13112,7 +11310,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62257443390,
@@ -13126,7 +11324,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 80555896315,
@@ -13140,7 +11338,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 84725168220,
@@ -13154,7 +11352,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2641005220,
@@ -13168,7 +11366,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8237475224,
@@ -13182,7 +11380,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 16912208681,
@@ -13196,7 +11394,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 88055043272,
@@ -13210,7 +11408,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 8905562299,
@@ -13224,7 +11422,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61758989319,
@@ -13238,7 +11436,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 69153370244,
@@ -13252,7 +11450,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 96729198249,
@@ -13266,7 +11464,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1813151229,
@@ -13280,7 +11478,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61914608305,
@@ -13294,7 +11492,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7582117247,
@@ -13308,7 +11506,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 98963260372,
@@ -13322,7 +11520,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1389112233,
@@ -13336,7 +11534,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 55237541291,
@@ -13350,7 +11548,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 384738281,
@@ -13364,7 +11562,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7723894201,
@@ -13378,7 +11576,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2267104245,
@@ -13392,7 +11590,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3534582284,
@@ -13406,7 +11604,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 92335870297,
@@ -13420,7 +11618,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 827988265,
@@ -13434,7 +11632,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4864036292,
@@ -13448,7 +11646,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1564446158,
@@ -13462,7 +11660,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4449885309,
@@ -13476,7 +11674,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4111628290,
@@ -13490,7 +11688,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 75438240191,
@@ -13504,7 +11702,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 453917267,
@@ -13518,7 +11716,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7588707364,
@@ -13532,7 +11730,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 70082240280,
@@ -13546,7 +11744,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 60573071357,
@@ -13560,7 +11758,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 48740926320,
@@ -13574,7 +11772,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 10301571627,
@@ -13588,7 +11786,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6032336352,
@@ -13602,7 +11800,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4013359332,
@@ -13616,7 +11814,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 51692317253,
@@ -13630,7 +11828,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 77170997304,
@@ -13644,7 +11842,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 80085075353,
@@ -13658,7 +11856,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4883333264,
@@ -13672,7 +11870,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2291105256,
@@ -13686,7 +11884,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1827335211,
@@ -13700,7 +11898,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 70442516258,
@@ -13714,7 +11912,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 9110098178,
@@ -13728,7 +11926,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4888155178,
@@ -13742,7 +11940,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 5268209264,
@@ -13756,7 +11954,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2092260219,
@@ -13770,7 +11968,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3169436228,
@@ -13784,7 +11982,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Instrumentação"
+      "profileKey": "R9::Instrumentação"
     },
     {
       "id": 9641288296,
@@ -13798,7 +11996,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "FIXO FILIAL/TRANSPORTE",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2464377236,
@@ -13812,7 +12010,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 16958704410,
@@ -13826,7 +12024,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 6099563296,
@@ -13840,7 +12038,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2322539279,
@@ -13854,7 +12052,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3570567281,
@@ -13868,7 +12066,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5162310220,
@@ -13882,7 +12080,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5255794279,
@@ -13896,7 +12094,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6506855207,
@@ -13910,7 +12108,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 6943735241,
@@ -13924,7 +12122,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61898869308,
@@ -13938,7 +12136,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5700475286,
@@ -13952,7 +12150,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 89680367215,
@@ -13966,7 +12164,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9464474203,
@@ -13980,7 +12178,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 31816606200,
@@ -13994,7 +12192,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 4013765241,
@@ -14008,7 +12206,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62151008380,
@@ -14022,7 +12220,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 2972775295,
@@ -14036,7 +12234,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6073241399,
@@ -14050,7 +12248,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 21467426741,
@@ -14064,7 +12262,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 78773512320,
@@ -14078,7 +12276,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7443187262,
@@ -14092,7 +12290,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61259935310,
@@ -14106,7 +12304,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62043660330,
@@ -14120,7 +12318,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6435535507,
@@ -14134,7 +12332,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 5996233223,
@@ -14148,7 +12346,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 22187103234,
@@ -14162,7 +12360,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5862058290,
@@ -14176,7 +12374,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61924575302,
@@ -14190,7 +12388,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3725346518,
@@ -14204,7 +12402,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5614701389,
@@ -14218,7 +12416,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 103506241,
@@ -14232,7 +12430,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 12551416620,
@@ -14246,7 +12444,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 55538983234,
@@ -14260,7 +12458,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 3650214237,
@@ -14274,7 +12472,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1695379357,
@@ -14288,7 +12486,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2550051211,
@@ -14302,7 +12500,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 62603337220,
@@ -14316,7 +12514,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 33581800349,
@@ -14330,7 +12528,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 3041218356,
@@ -14344,7 +12542,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 28560221204,
@@ -14358,7 +12556,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 39402983520,
@@ -14372,7 +12570,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 790284200,
@@ -14386,7 +12584,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 1979683255,
@@ -14400,7 +12598,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3710954258,
@@ -14414,7 +12612,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 45659974104,
@@ -14428,7 +12626,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5199996304,
@@ -14442,7 +12640,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 85397172200,
@@ -14456,7 +12654,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 54762529249,
@@ -14470,7 +12668,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 830781340,
@@ -14484,7 +12682,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 79231462253,
@@ -14498,7 +12696,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 70139818260,
@@ -14512,7 +12710,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7638045688,
@@ -14526,7 +12724,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Projeto"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 66591007253,
@@ -14540,7 +12738,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 66591007253,
@@ -14554,7 +12752,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 46726349300,
@@ -14568,7 +12766,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7019737226,
@@ -14582,7 +12780,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2431212297,
@@ -14596,7 +12794,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 7165969209,
@@ -14610,7 +12808,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 61138083356,
@@ -14624,7 +12822,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3981419324,
@@ -14638,7 +12836,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2986002340,
@@ -14652,7 +12850,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 7444817243,
@@ -14666,7 +12864,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 99273179215,
@@ -14680,7 +12878,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7021398239,
@@ -14694,7 +12892,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 69413819220,
@@ -14708,7 +12906,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8981120285,
@@ -14722,7 +12920,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 481179275,
@@ -14736,7 +12934,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 70922985200,
@@ -14750,7 +12948,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 96814284200,
@@ -14764,7 +12962,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 47671025291,
@@ -14778,7 +12976,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 64522300506,
@@ -14792,7 +12990,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60603038204,
@@ -14806,7 +13004,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1963272293,
@@ -14820,7 +13018,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 420236295,
@@ -14834,7 +13032,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 9124091260,
@@ -14848,7 +13046,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 6515938241,
@@ -14862,7 +13060,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61054365300,
@@ -14876,7 +13074,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 9538446259,
@@ -14890,7 +13088,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6286627260,
@@ -14904,7 +13102,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 12053893427,
@@ -14918,7 +13116,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4272176285,
@@ -14932,7 +13130,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 92942016353,
@@ -14946,7 +13144,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 91178410200,
@@ -14960,7 +13158,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 16572106268,
@@ -14974,7 +13172,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 2082932214,
@@ -14988,7 +13186,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 678749248,
@@ -15002,7 +13200,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1968215255,
@@ -15016,7 +13214,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2343467285,
@@ -15030,7 +13228,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 63130912215,
@@ -15044,7 +13242,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5159521259,
@@ -15058,7 +13256,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5565966337,
@@ -15072,7 +13270,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 87506734249,
@@ -15086,7 +13284,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 1033469297,
@@ -15100,7 +13298,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3119676209,
@@ -15114,7 +13312,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4620993263,
@@ -15128,7 +13326,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3632374376,
@@ -15142,7 +13340,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 15061668650,
@@ -15156,7 +13354,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 7614646207,
@@ -15170,7 +13368,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 8104485300,
@@ -15184,7 +13382,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 60983432333,
@@ -15198,7 +13396,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1034578286,
@@ -15212,7 +13410,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 8976624238,
@@ -15226,7 +13424,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 3662147300,
@@ -15240,7 +13438,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 5227850348,
@@ -15254,7 +13452,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 6161205246,
@@ -15268,7 +13466,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 91214173349,
@@ -15282,7 +13480,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 94741387372,
@@ -15296,7 +13494,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 63954273268,
@@ -15310,7 +13508,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 10957229801,
@@ -15324,7 +13522,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 4805393246,
@@ -15338,7 +13536,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 70072001259,
@@ -15352,7 +13550,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 29679283801,
@@ -15366,7 +13564,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 7925834269,
@@ -15380,7 +13578,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8797240303,
@@ -15394,7 +13592,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6126257294,
@@ -15408,7 +13606,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1538686279,
@@ -15422,7 +13620,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60402774329,
@@ -15436,7 +13634,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 6113588246,
@@ -15450,7 +13648,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61581668392,
@@ -15464,7 +13662,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 7256333366,
@@ -15478,7 +13676,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 59584165291,
@@ -15492,7 +13690,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 90965060225,
@@ -15506,7 +13704,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 63051532215,
@@ -15520,7 +13718,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6329579210,
@@ -15534,7 +13732,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 38016125204,
@@ -15548,7 +13746,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 77632486291,
@@ -15562,7 +13760,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 899061362,
@@ -15576,7 +13774,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 60657624314,
@@ -15590,7 +13788,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 7443037376,
@@ -15604,7 +13802,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 66784514220,
@@ -15618,7 +13816,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 6127504341,
@@ -15632,7 +13830,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 10300211635,
@@ -15646,7 +13844,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 11609027477,
@@ -15660,7 +13858,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2913745229,
@@ -15674,7 +13872,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 81292279249,
@@ -15688,7 +13886,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 9388612396,
@@ -15702,7 +13900,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4111004245,
@@ -15716,7 +13914,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 7945898203,
@@ -15730,7 +13928,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 67001777234,
@@ -15744,7 +13942,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4611302202,
@@ -15758,7 +13956,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 68988346220,
@@ -15772,7 +13970,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 72607718368,
@@ -15786,7 +13984,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 60505193310,
@@ -15800,7 +13998,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1872970290,
@@ -15814,7 +14012,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 1019636297,
@@ -15828,7 +14026,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 89732375787,
@@ -15842,7 +14040,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 10801591422,
@@ -15856,7 +14054,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 98370170153,
@@ -15870,7 +14068,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 59689110268,
@@ -15884,7 +14082,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 1289418209,
@@ -15898,7 +14096,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 87213001353,
@@ -15912,7 +14110,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4979302343,
@@ -15926,7 +14124,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60175867348,
@@ -15940,7 +14138,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7213907301,
@@ -15954,7 +14152,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 1499762240,
@@ -15968,7 +14166,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 62314046331,
@@ -15982,7 +14180,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 62503024335,
@@ -15996,7 +14194,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8599053221,
@@ -16010,7 +14208,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 15030639683,
@@ -16024,7 +14222,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 39879283287,
@@ -16038,7 +14236,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 88189163353,
@@ -16052,7 +14250,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 1060675242,
@@ -16066,7 +14264,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 2427263214,
@@ -16080,7 +14278,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6618873673,
@@ -16094,7 +14292,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1317058658,
@@ -16108,7 +14306,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1342227255,
@@ -16122,7 +14320,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1657842290,
@@ -16136,7 +14334,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 83020667291,
@@ -16150,7 +14348,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 1094018244,
@@ -16164,7 +14362,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 87149443249,
@@ -16178,7 +14376,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6269247233,
@@ -16192,7 +14390,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 60291401325,
@@ -16206,7 +14404,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3572573246,
@@ -16220,7 +14418,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3934558232,
@@ -16234,7 +14432,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3322936295,
@@ -16248,7 +14446,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1569323348,
@@ -16262,7 +14460,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2388362237,
@@ -16276,7 +14474,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62930960370,
@@ -16290,7 +14488,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 58449752272,
@@ -16304,7 +14502,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 37528904287,
@@ -16318,7 +14516,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 82162468549,
@@ -16332,7 +14530,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 4195879345,
@@ -16346,7 +14544,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 18011578200,
@@ -16360,7 +14558,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 66194156368,
@@ -16374,7 +14572,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7497496280,
@@ -16388,7 +14586,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6206518302,
@@ -16402,7 +14600,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 55681301320,
@@ -16416,7 +14614,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 7239196313,
@@ -16430,7 +14628,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 2569807303,
@@ -16444,7 +14642,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61246626390,
@@ -16458,7 +14656,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 60689448325,
@@ -16472,7 +14670,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 96377437234,
@@ -16486,7 +14684,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 77740548200,
@@ -16500,7 +14698,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 36833983291,
@@ -16514,7 +14712,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6600959398,
@@ -16528,7 +14726,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 682267210,
@@ -16542,7 +14740,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 71224386272,
@@ -16556,7 +14754,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7277351282,
@@ -16570,7 +14768,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 63266950313,
@@ -16584,7 +14782,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3462435213,
@@ -16598,7 +14796,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7646555312,
@@ -16612,7 +14810,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Compras"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 60435329308,
@@ -16626,7 +14824,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6386230302,
@@ -16640,7 +14838,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3199325246,
@@ -16654,7 +14852,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 18996779253,
@@ -16668,7 +14866,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 93899475291,
@@ -16682,7 +14880,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1582591300,
@@ -16696,7 +14894,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 51532247672,
@@ -16710,7 +14908,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 65634810353,
@@ -16724,7 +14922,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 61454745304,
@@ -16738,7 +14936,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 1621229343,
@@ -16752,7 +14950,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 2129278507,
@@ -16766,7 +14964,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 4172475329,
@@ -16780,7 +14978,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 488816270,
@@ -16794,7 +14992,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 61311242309,
@@ -16808,7 +15006,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62296385338,
@@ -16822,7 +15020,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 974380229,
@@ -16836,7 +15034,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62751139361,
@@ -16850,7 +15048,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7340264205,
@@ -16864,7 +15062,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 717331245,
@@ -16878,7 +15076,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61638187339,
@@ -16892,7 +15090,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 15703805627,
@@ -16906,7 +15104,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7427472209,
@@ -16920,7 +15118,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 81062990315,
@@ -16934,7 +15132,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 2156284709,
@@ -16948,7 +15146,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Controle de qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 84344318234,
@@ -16962,7 +15160,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 60173710379,
@@ -16976,7 +15174,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 70848211200,
@@ -16990,7 +15188,7 @@ window.PAREX_DATA = {
       "status": "FOLGA DE CAMPO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 97975559253,
@@ -17004,7 +15202,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 222393246,
@@ -17018,7 +15216,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 378421298,
@@ -17032,7 +15230,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 62448288364,
@@ -17046,7 +15244,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 4527764225,
@@ -17060,7 +15258,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1363117254,
@@ -17074,7 +15272,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3021137113,
@@ -17088,7 +15286,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2914708238,
@@ -17102,7 +15300,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1269826271,
@@ -17116,7 +15314,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 5891799260,
@@ -17130,7 +15328,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3892709203,
@@ -17144,7 +15342,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 6907295377,
@@ -17158,7 +15356,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 2668786282,
@@ -17172,7 +15370,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5322339485,
@@ -17186,7 +15384,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4954668247,
@@ -17200,7 +15398,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 61191486397,
@@ -17214,7 +15412,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 66347840197,
@@ -17228,7 +15426,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3281030556,
@@ -17242,7 +15440,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Tubulação"
+      "profileKey": "R9::Tubulação"
     },
     {
       "id": 61589430379,
@@ -17256,7 +15454,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 12676250230,
@@ -17270,7 +15468,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Civil"
+      "profileKey": "R9::Civil"
     },
     {
       "id": 4228751202,
@@ -17284,7 +15482,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 95551395200,
@@ -17298,7 +15496,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61509637303,
@@ -17312,7 +15510,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 69389799104,
@@ -17326,7 +15524,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 69132275234,
@@ -17340,7 +15538,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 1189798255,
@@ -17354,7 +15552,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 5744764232,
@@ -17368,7 +15566,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 61877645362,
@@ -17382,7 +15580,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4319604296,
@@ -17396,7 +15594,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 10021100250,
@@ -17410,7 +15608,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 61401307272,
@@ -17424,7 +15622,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 91187370215,
@@ -17438,7 +15636,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8107094220,
@@ -17452,7 +15650,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 7741411233,
@@ -17466,7 +15664,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7657578262,
@@ -17480,7 +15678,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 5634999316,
@@ -17494,7 +15692,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 1967595283,
@@ -17508,7 +15706,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 10705870367,
@@ -17522,7 +15720,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 14429448469,
@@ -17536,7 +15734,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61573186350,
@@ -17550,7 +15748,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2992318280,
@@ -17564,7 +15762,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 786517514,
@@ -17578,7 +15776,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 59380896204,
@@ -17592,7 +15790,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1400823285,
@@ -17606,7 +15804,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62187273350,
@@ -17620,7 +15818,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 6916203501,
@@ -17634,7 +15832,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 96035030106,
@@ -17648,7 +15846,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 1468309200,
@@ -17662,7 +15860,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 79508359153,
@@ -17676,7 +15874,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 3370175304,
@@ -17690,7 +15888,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 83220992234,
@@ -17704,7 +15902,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 1169909370,
@@ -17718,7 +15916,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 3265354385,
@@ -17732,7 +15930,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 14245513403,
@@ -17746,7 +15944,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 7224782246,
@@ -17760,7 +15958,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 65761243253,
@@ -17774,7 +15972,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 782697259,
@@ -17788,7 +15986,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 2981607227,
@@ -17802,7 +16000,7 @@ window.PAREX_DATA = {
       "status": "INSS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 3812933276,
@@ -17816,7 +16014,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8567004284,
@@ -17830,7 +16028,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "APOIO/GESTÃO",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4645254200,
@@ -17844,7 +16042,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 7849635680,
@@ -17858,7 +16056,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Controle da qualidade"
+      "profileKey": "R9::Controle de qualidade"
     },
     {
       "id": 4244014101,
@@ -17872,7 +16070,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 4009143282,
@@ -17886,7 +16084,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61860800300,
@@ -17900,7 +16098,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 60246150351,
@@ -17914,7 +16112,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Gerenciamento Produção"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3340372209,
@@ -17928,7 +16126,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 5323804289,
@@ -17942,7 +16140,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 8849311290,
@@ -17956,7 +16154,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 2893384250,
@@ -17970,7 +16168,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 54463351200,
@@ -17984,7 +16182,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4524213228,
@@ -17998,7 +16196,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 3440126382,
@@ -18012,7 +16210,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 1085359247,
@@ -18026,7 +16224,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 30338638253,
@@ -18040,7 +16238,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 48786640291,
@@ -18054,7 +16252,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 91293901172,
@@ -18068,7 +16266,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 84219904204,
@@ -18082,7 +16280,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 2913374301,
@@ -18096,7 +16294,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 501752200,
@@ -18110,7 +16308,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 46322957287,
@@ -18124,7 +16322,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 88439496320,
@@ -18138,7 +16336,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 76685497220,
@@ -18152,7 +16350,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 6105893264,
@@ -18166,7 +16364,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 507092678,
@@ -18180,7 +16378,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 70002250250,
@@ -18194,7 +16392,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 68472374220,
@@ -18208,7 +16406,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 4418467262,
@@ -18222,7 +16420,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::RH / DP"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 55597483234,
@@ -18236,7 +16434,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 89566599234,
@@ -18250,7 +16448,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3054298256,
@@ -18264,7 +16462,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 70934879125,
@@ -18278,7 +16476,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 62249788324,
@@ -18292,7 +16490,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 7645548240,
@@ -18306,7 +16504,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 918276390,
@@ -18320,7 +16518,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 8369723179,
@@ -18334,7 +16532,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 914281224,
@@ -18348,7 +16546,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5246501108,
@@ -18362,7 +16560,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 79307035253,
@@ -18376,7 +16574,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 61150267330,
@@ -18390,7 +16588,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7784195257,
@@ -18404,7 +16602,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 61877657379,
@@ -18418,7 +16616,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 5661538235,
@@ -18432,7 +16630,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2343350337,
@@ -18446,7 +16644,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 9365461316,
@@ -18460,7 +16658,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2112174339,
@@ -18474,7 +16672,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 497187388,
@@ -18488,7 +16686,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 90618742204,
@@ -18502,7 +16700,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5421333264,
@@ -18516,7 +16714,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 2721238205,
@@ -18530,7 +16728,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Topografia"
+      "profileKey": "R9::Topografia"
     },
     {
       "id": 61643662325,
@@ -18544,7 +16742,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 14373786682,
@@ -18558,7 +16756,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Planejamento"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 6301023250,
@@ -18572,7 +16770,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "FIXO FILIAL",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 7297053317,
@@ -18586,7 +16784,7 @@ window.PAREX_DATA = {
       "status": "FOLGA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 99679647315,
@@ -18600,7 +16798,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 32,
@@ -18614,7 +16812,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 9816614162,
@@ -18628,7 +16826,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 62468805330,
@@ -18642,7 +16840,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 7166410205,
@@ -18656,7 +16854,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 8372941262,
@@ -18670,7 +16868,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4066902359,
@@ -18684,7 +16882,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Pintura"
+      "profileKey": "R9::Pintura"
     },
     {
       "id": 6604848388,
@@ -18698,7 +16896,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 66197295253,
@@ -18712,7 +16910,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::SSMA"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 4426891280,
@@ -18726,7 +16924,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3620888299,
@@ -18740,7 +16938,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3937710248,
@@ -18754,7 +16952,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2430313278,
@@ -18768,7 +16966,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 18493198714,
@@ -18782,7 +16980,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 4804684352,
@@ -18796,7 +16994,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 61244113344,
@@ -18810,7 +17008,7 @@ window.PAREX_DATA = {
       "status": "EM PROCESSO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Elétrica"
+      "profileKey": "R9::Elétrica"
     },
     {
       "id": 96537175291,
@@ -18824,7 +17022,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 2703800274,
@@ -18838,7 +17036,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Almoxarifado"
+      "profileKey": "R9::Almoxarifado / Expedição"
     },
     {
       "id": 7680361274,
@@ -18852,7 +17050,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Fabricação"
+      "profileKey": "R9::Fabricação"
     },
     {
       "id": 2098880243,
@@ -18866,7 +17064,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 763202274,
@@ -18880,7 +17078,7 @@ window.PAREX_DATA = {
       "status": "FALTA",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 5585874292,
@@ -18894,7 +17092,7 @@ window.PAREX_DATA = {
       "status": "FÉRIAS",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Serviços gerais"
+      "profileKey": "R9::Serviços gerais"
     },
     {
       "id": 84453850115,
@@ -18908,7 +17106,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 2524462323,
@@ -18922,7 +17120,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 3416787242,
@@ -18936,7 +17134,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Solda"
+      "profileKey": "R9::Solda"
     },
     {
       "id": 2810563233,
@@ -18950,7 +17148,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 3322996271,
@@ -18964,7 +17162,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 7861734242,
@@ -18978,7 +17176,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Rigging (Elevação e movimentação de carga)"
+      "profileKey": "R9::Rigging (Elevação e movimentação de carga)"
     },
     {
       "id": 60757129331,
@@ -18992,7 +17190,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE TURNO",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     },
     {
       "id": 6540151209,
@@ -19006,7 +17204,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Estrutura metálica"
+      "profileKey": "R9::Estrutura metálica"
     },
     {
       "id": 92553893787,
@@ -19020,7 +17218,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "MOTORISTA VIGIA",
       "turno": "DIA",
-      "profileKey": "ADM::Transporte / Manutenção"
+      "profileKey": "R9::Manutenção"
     },
     {
       "id": 87338351287,
@@ -19034,7 +17232,7 @@ window.PAREX_DATA = {
       "status": "PRESENTE",
       "local": "",
       "turno": "DIA",
-      "profileKey": "OP::Montagem de equipamentos"
+      "profileKey": "R9::Montagem de equipamentos"
     }
   ]
 };
